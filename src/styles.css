@@ -311,6 +311,65 @@ ion-toast { --background: #f1eff5; --color: #17171d; --border-radius: 14px; --ma
 @media (max-width: 350px) { .main-shell { padding-left: 14px; padding-right: 14px; } .event-icon { display: none; } .calendar-toolbar h2 { font-size: 21px; } .view-switch { min-width: 134px; width: 134px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
 @media (prefers-reduced-transparency: reduce) { .mobile-tabs { background: #1c1c1e; backdrop-filter: none; -webkit-backdrop-filter: none; } }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.interest-intro { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.interest-intro .section-intro { padding-bottom: 8px; }
+.interest-intro .section-intro p { margin-bottom: 15px; }
+.interest-add { display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; gap: 7px; min-height: 46px; padding: 12px 17px; border-radius: 12px; background: var(--accent); color: #271516; font-size: 14px; font-weight: 650; }
+.interest-add ion-icon { font-size: 19px; }
+.interest-sync { margin-bottom: 12px; }
+.interest-sync strong { display: block; font-size: 14px; }
+.interest-sync p { margin: 5px 0; font-size: 13px; }
+.interest-sync button { font-size: 13px; }
+.interest-privacy { color: var(--muted); font-size: 12px; line-height: 1.65; margin: 0 0 26px; }
+.interest-form { padding: 22px; margin-bottom: 28px; border: 1px solid #70504d; border-radius: 18px; background: var(--surface); scroll-margin-top: 20px; }
+.interest-form h3 { font-size: 22px; margin-bottom: 22px; }
+.interest-form label { display: block; font-size: 13px; font-weight: 600; margin: 0 0 18px; }
+.interest-form label > span { font-weight: 400; color: var(--muted); }
+.interest-form input, .interest-form select, .interest-form textarea { display: block; width: 100%; min-height: 46px; border: 1px solid #48484b; background: #111113; color: var(--ion-text-color); border-radius: 10px; font-size: 16px; font-weight: 400; padding: 11px 12px; margin-top: 8px; }
+.interest-form textarea { resize: vertical; line-height: 1.5; }
+.interest-form-actions { display: flex; gap: 12px; }
+.interest-list-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 15px; margin-bottom: 15px; }
+.interest-list-heading h2 { margin-bottom: 0; font-size: 21px; }
+.interest-list-heading > span { font-size: 12px; color: var(--muted); }
+.interest-filter { margin-bottom: 18px; }
+.interest-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.interest-card { display: flex; flex-direction: column; padding: 22px; border: 1px solid var(--line); background: var(--surface); border-radius: 18px; min-width: 0; }
+.interest-card.is-paused { background: #171719; }
+.interest-card-heading { display: flex; flex-wrap: wrap; gap: 10px 15px; align-items: flex-start; margin-bottom: 14px; }
+.interest-card-heading > div { flex: 1; min-width: 140px; }
+.interest-kind { display: block; font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+.interest-card h3 { font-size: 21px; line-height: 1.3; overflow-wrap: anywhere; margin-bottom: 0; }
+.interest-status { display: inline-flex; width: fit-content; max-width: 100%; border-radius: 7px; font-size: 11px; font-weight: 600; padding: 5px 8px; line-height: 1.4; background: #34313e; color: #d7d0ea; }
+.interest-status.status-active { background: #26372e; color: #b2ddbe; }
+.interest-status.status-paused { background: #303033; color: #c7c7cc; }
+.interest-status.status-needs_details, .interest-status.status-blocked { background: #3c3126; color: #e7c694; }
+.interest-notes { margin: 0 0 12px; font-size: 14px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; color: #d1d1d6; }
+.interest-source { display: inline-flex; align-items: center; gap: 5px; width: fit-content; font-size: 13px; padding: 5px 0; margin-bottom: 8px; }
+.interest-progress { border-top: 1px solid var(--line); padding-top: 13px; margin-top: 3px; margin-bottom: 15px; }
+.interest-progress p { color: var(--muted); font-size: 12px; line-height: 1.6; margin-bottom: 6px; overflow-wrap: anywhere; }
+.interest-progress small { color: var(--muted); font-size: 11px; line-height: 1.5; }
+.interest-results { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin: 0 0 14px; }
+.interest-results button { display: flex; width: 100%; text-align: left; align-items: center; gap: 10px; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 13px; }
+.interest-results button:last-child { border-bottom: 0; }
+.interest-results button:hover { background: var(--surface-raised); }
+.interest-results span { font-size: 11px; color: var(--muted); }
+.interest-results strong { display: block; color: var(--accent); font-size: 13px; line-height: 1.4; overflow-wrap: anywhere; margin-top: 5px; }
+.interest-results ion-icon { color: var(--accent); }
+.interest-card-actions { display: flex; gap: 8px; margin-top: auto; padding-top: 5px; }
+.interest-card-actions .subtle-button { gap: 5px; min-height: 44px; }
+@media (max-width: 1000px) { .interest-list { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 767px) {
+  .mobile-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .mobile-tabs span { font-size: 10px; }
+  .interest-intro { flex-direction: column; gap: 0; margin-bottom: 22px; }
+  .interest-intro .interest-add { width: 100%; }
+  .interest-form, .interest-card { padding: 19px; }
+  .interest-sync { padding: 14px; }
+  .interest-list-heading { flex-wrap: wrap; gap: 7px; }
+  .interest-form-actions .interest-add { flex: 1; }
+}
+@media (prefers-contrast: more) { .interest-card, .interest-form { border-color: #636366; } }
 
 /* Private-sync settings share the same form and grouped-section language. */
 .sync-settings label { display: block; font-size: 14px; font-weight: 500; line-height: 1.5; color: #d1d1d6; margin-bottom: 18px; }

@@ -2,7 +2,10 @@ export interface Entry { id: string; name: string; kind: string; description: st
 export interface NightEvent { id: string; title: string; venueId: string; venueName: string; start: string; end?: string; url: string; ticketUrl?: string; priceText?: string; tags: string[]; status: 'confirmed' | 'needs_verification'; sourceId: string; checkedAt: string }
 export interface Source { id?: string; name?: string; status?: string; checkedAt?: string; url?: string; message?: string; [key: string]: unknown }
 export interface Personal { attendance: 'visited' | 'not_visited' | 'unknown'; rating: number | null; notes: string; liked: string; disliked: string; favorite: boolean; watch: boolean; updatedAt: string }
-export interface Backup { version: 1; exportedAt: string; history: Record<string, Personal>; savedEventIds: string[] }
+export type SearchInterestKind = 'anything' | 'artist' | 'venue' | 'event_series' | 'activity' | 'organizer';
+export interface SearchInterestResult { inputUpdatedAt: string; status: 'active' | 'needs_details' | 'blocked'; checkedAt: string; message: string; catalogIds: string[]; eventIds: string[] }
+export interface SearchInterest { id: string; name: string; kind: SearchInterestKind; sourceUrl: string; notes: string; enabled: boolean; createdAt: string; updatedAt: string; result?: SearchInterestResult }
+export interface Backup { version: 1; exportedAt: string; history: Record<string, Personal>; savedEventIds: string[]; searchInterests?: Record<string, SearchInterest> }
 export const ZONE = 'America/Chicago';
 export const STORE = 'nash-after-dark.personal.v1';
 export const emptyPersonal = (): Personal => ({ attendance: 'unknown', rating: null, notes: '', liked: '', disliked: '', favorite: false, watch: false, updatedAt: '' });
@@ -10,6 +13,36 @@ export const emptyBackup = (): Backup => ({ version: 1, exportedAt: '', history:
 export function safeUrl(value: unknown): string { try { const u = new URL(String(value)); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } }
 const string = (v: unknown) => typeof v === 'string' ? v : '';
 const strings = (v: unknown) => Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [];
+const reservedKey = (value: string) => ['__proto__', 'constructor', 'prototype'].includes(value);
+const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);
+const boundedText = (value: unknown, max: number): value is string => typeof value === 'string' && value.length <= max && !value.includes('\0');
+const timestamp = (value: unknown): value is string => typeof value === 'string' && value.length <= 40 && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
+const resultIds = (value: unknown): value is string[] => Array.isArray(value) && value.length <= 100 && value.every(id => boundedText(id, 160) && id.trim().length > 0 && !/[\u0000-\u001f\u007f]/.test(id));
+export function parseSearchInterests(value: unknown): Record<string, SearchInterest> {
+  if (!record(value) || Object.keys(value).length > 500) throw new Error('The backup contains invalid search interests. Nothing was imported.');
+  const interests: Record<string, SearchInterest> = {};
+  for (const [id, raw] of Object.entries(value)) {
+    const invalid = () => new Error(`Invalid search interest ${id}. Nothing was imported.`);
+    if (!/^[a-zA-Z0-9][a-zA-Z0-9:_-]{0,159}$/.test(id) || reservedKey(id) || !record(raw) || raw.id !== id) throw invalid();
+    if (!boundedText(raw.name, 200) || !raw.name.trim() || !['anything', 'artist', 'venue', 'event_series', 'activity', 'organizer'].includes(String(raw.kind)) || !boundedText(raw.notes, 2000) || !boundedText(raw.sourceUrl, 2048) || typeof raw.enabled !== 'boolean' || !timestamp(raw.createdAt) || !timestamp(raw.updatedAt)) throw invalid();
+    if (raw.sourceUrl) {
+      try { const url = new URL(raw.sourceUrl); if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password) throw invalid(); }
+      catch { throw invalid(); }
+    }
+    let result: SearchInterestResult | undefined;
+    if (raw.result !== undefined) {
+      const r = raw.result;
+      if (!record(r) || !timestamp(r.inputUpdatedAt) || !timestamp(r.checkedAt) || !['active', 'needs_details', 'blocked'].includes(String(r.status)) || !boundedText(r.message, 1000) || !r.message.trim() || !resultIds(r.catalogIds) || !resultIds(r.eventIds)) throw invalid();
+      result = { inputUpdatedAt: r.inputUpdatedAt, status: r.status as SearchInterestResult['status'], checkedAt: r.checkedAt, message: r.message, catalogIds: [...r.catalogIds], eventIds: [...r.eventIds] };
+    }
+    interests[id] = { id, name: raw.name, kind: raw.kind as SearchInterestKind, sourceUrl: raw.sourceUrl, notes: raw.notes, enabled: raw.enabled, createdAt: raw.createdAt, updatedAt: raw.updatedAt, ...(result ? { result } : {}) };
+  }
+  return interests;
+}
+export function searchInterestStatus(interest: SearchInterest): 'paused' | 'pending' | SearchInterestResult['status'] {
+  if (!interest.enabled) return 'paused';
+  return interest.result?.inputUpdatedAt === interest.updatedAt ? interest.result.status : 'pending';
+}
 export function parseCatalog(value: unknown): Entry[] {
   if (!value || typeof value !== 'object' || !Array.isArray((value as { entries?: unknown }).entries)) throw new Error('The place guide could not be read.');
   return (value as { entries: Record<string, unknown>[] }).entries.filter(x => x && x.inScope !== false && typeof x.id === 'string' && typeof x.name === 'string').map(x => ({ id: string(x.id), name: string(x.name), kind: string(x.kind), description: string(x.description), area: string(x.area), address: string(x.address), officialUrl: safeUrl(x.officialUrl), tags: strings(x.tags), identityStatus: string(x.identityStatus), sourceCheckedAt: string(x.sourceCheckedAt), relatedIds: strings(x.relatedIds) }));
@@ -34,7 +67,7 @@ export function parseBackup(value: unknown): Backup {
     history[id] = { attendance: r.attendance as Personal['attendance'], rating: r.rating as number | null, notes: string(r.notes), liked: string(r.liked), disliked: string(r.disliked), favorite: r.favorite, watch: r.watch, updatedAt: string(r.updatedAt) };
   }
   if (b.savedEventIds.some(x => typeof x !== 'string')) throw new Error('The backup contains invalid saved events.');
-  return { version: 1, exportedAt: string(b.exportedAt), history, savedEventIds: [...new Set(b.savedEventIds as string[])] };
+  return { version: 1, exportedAt: string(b.exportedAt), history, savedEventIds: [...new Set(b.savedEventIds as string[])], ...(b.searchInterests === undefined ? {} : { searchInterests: parseSearchInterests(b.searchInterests) }) };
 }
 export function readPersonal(): Backup { const raw = localStorage.getItem(STORE); return raw ? parseBackup(JSON.parse(raw)) : emptyBackup(); }
 export function dayKey(value: string | Date): string { return new Intl.DateTimeFormat('en-CA', { timeZone: ZONE, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(value)); }

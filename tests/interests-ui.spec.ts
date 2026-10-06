@@ -1,0 +1,92 @@
+import { test, expect, type Page } from '@playwright/test';
+import { readFile } from 'node:fs/promises';
+
+// Separate temporary Edge contexts only; no user profile, owner account, or live writes.
+test.use({ baseURL: process.env.UI_BASE_URL || 'http://127.0.0.1:5173', channel: process.env.UI_BROWSER_CHANNEL || 'msedge', headless: true });
+test.setTimeout(60_000);
+const key = 'nash-after-dark.personal.v1';
+const navigate = (page: Page, label: string) => page.locator('.sidebar:visible, .mobile-tabs:visible').getByRole('button', { name: label, exact: true }).click();
+const readInterests = (page: Page) => page.evaluate(k => JSON.parse(localStorage.getItem(k) || '{}').searchInterests, key);
+
+for (const [device, viewport] of Object.entries({ phone: { width: 390, height: 844 }, desktop: { width: 1440, height: 1000 } })) {
+  test(`search interests create/edit/pause/reload and backup merge on ${device}`, async ({ page, context }) => {
+    const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+    await page.setViewportSize(viewport);
+    await page.goto('./'); await navigate(page, 'Search list');
+    await expect(page.getByRole('heading', { name: 'Search list', exact: true })).toBeVisible();
+    await expect(page.locator('.interest-sync')).toContainText('Saved on this device only');
+    await expect(page.locator('.interest-sync')).toContainText('Sign in to your owner account');
+    await page.getByRole('button', { name: 'Add an interest', exact: true }).click();
+    const form = page.getByRole('form', { name: 'Add a search interest' });
+    await form.getByLabel('Name', { exact: true }).fill('Synthetic Commander nights');
+    await form.getByLabel('Type', { exact: true }).selectOption('activity');
+    await form.getByLabel('Official link', { exact: false }).fill('https://example.com/commander');
+    await form.getByLabel('What to look for', { exact: false }).fill('Synthetic private note: casual tables on weeknights.');
+    await form.getByRole('button', { name: 'Save interest', exact: true }).click();
+    const card = page.getByRole('article', { name: 'Synthetic Commander nights', exact: true });
+    await expect(card).toContainText('Pending research');
+    await expect(card).toContainText('Synthetic private note');
+    const records = await readInterests(page); const id = Object.keys(records)[0];
+    expect(records[id].enabled).toBe(true); expect(records[id].kind).toBe('activity');
+    expect(records[id].sourceUrl).toBe('https://example.com/commander');
+    await page.screenshot({ path: `test-results/interests-${device}.png` });
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth || document.querySelector('.main-shell')!.getBoundingClientRect().right > window.innerWidth + 1);
+    expect(overflow).toBe(false);
+    const other = await context.newPage(); await other.setViewportSize(viewport); await other.goto('./'); await navigate(other, 'Search list');
+    await expect(other.getByRole('article', { name: 'Synthetic Commander nights' })).toBeVisible();
+    await card.getByRole('button', { name: 'Pause Synthetic Commander nights', exact: true }).click();
+    await expect(card.locator('.interest-status')).toHaveText('Paused');
+    await expect(other.locator('.interest-status')).toHaveText('Paused');
+    await card.getByRole('button', { name: 'Resume Synthetic Commander nights', exact: true }).click();
+    await expect(card.locator('.interest-status')).toHaveText('Pending research');
+    await card.getByRole('button', { name: 'Edit Synthetic Commander nights', exact: true }).click();
+    await page.getByRole('form', { name: 'Edit search interest' }).getByLabel('Name', { exact: true }).fill('Synthetic Commander and drafts');
+    await page.getByRole('button', { name: 'Save changes', exact: true }).click();
+    expect((await readInterests(page))[id].updatedAt).not.toBe(records[id].updatedAt);
+    await page.reload(); await navigate(page, 'Search list');
+    await expect(page.getByRole('article', { name: 'Synthetic Commander and drafts' })).toBeVisible();
+    await page.getByLabel('Filter your search interests').fill('no matches'); await expect(page.locator('.interest-card')).toHaveCount(0);
+    await page.getByLabel('Filter your search interests').fill('drafts'); await expect(page.locator('.interest-card')).toHaveCount(1);
+    await navigate(page, 'Settings');
+    const legacy = { version: 1, exportedAt: '2026-10-05T12:00:00Z', history: {}, savedEventIds: [] };
+    await page.locator('input[type="file"]').setInputFiles({ name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(legacy)) });
+    await expect(page.locator('.import-preview')).toContainText('0 search interests');
+    await page.getByRole('button', { name: 'Merge this backup', exact: true }).click();
+    expect((await readInterests(page))[id].name).toBe('Synthetic Commander and drafts');
+    const downloading = page.waitForEvent('download'); await page.getByRole('button', { name: 'Export backup', exact: true }).click();
+    const download = await downloading;
+    const backup = JSON.parse(await readFile((await download.path())!, 'utf8'));
+    expect(backup.searchInterests[id].notes).toContain('Synthetic private note');
+    expect(errors).toEqual([]); await other.close();
+  });
+}
+
+test('research feedback links reach guide/calendar and edits return to pending', async ({ page }) => {
+  const date = '2026-10-05T12:00:00Z';
+  const event = { id: 'synthetic-event', title: 'Synthetic Commander tournament', venueId: 'synthetic-store', venueName: 'Synthetic game store', start: '2099-10-15T19:00:00-05:00', url: 'https://example.com/event', sourceId: 'synthetic-source', tags: ['mtg'], status: 'confirmed', checkedAt: date };
+  await page.route('**/data/events.json', route => route.fulfill({ json: { events: [event], sources: [], checkedAt: date } }));
+  await page.route('**/data/catalog.json', route => route.fulfill({ json: { entries: [{ id: 'synthetic-store', name: 'Synthetic game store', kind: 'venue', tags: ['mtg'], identityStatus: 'identified' }] } }));
+  await page.goto('./'); await navigate(page, 'Settings');
+  const interest = { id: 'synthetic-interest', name: 'Synthetic Commander', kind: 'activity', sourceUrl: '', notes: '', enabled: true, createdAt: date, updatedAt: date, result: { inputUpdatedAt: date, status: 'active', checkedAt: date, message: 'Verified a store and an upcoming event.', catalogIds: ['synthetic-store', 'missing-store'], eventIds: ['synthetic-event', 'missing-event'] } };
+  const backup = { version: 1, exportedAt: date, history: {}, savedEventIds: [], searchInterests: { [interest.id]: interest } };
+  await page.locator('input[type="file"]').setInputFiles({ name: 'feedback.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(backup)) });
+  await expect(page.locator('.import-preview')).toContainText('1 search interests');
+  await page.getByRole('button', { name: 'Merge this backup', exact: true }).click();
+  await navigate(page, 'Search list');
+  const card = page.getByRole('article', { name: interest.name });
+  await expect(card.locator('.interest-status')).toHaveText('In daily search');
+  await expect(card).toContainText('Last checked');
+  await expect(card).toContainText('Some linked listings are outside');
+  await card.getByRole('button', { name: 'In the guide Synthetic game store' }).click();
+  await expect(page.locator('.detail-title')).toHaveText('Synthetic game store');
+  await page.getByRole('button', { name: 'Close details' }).click();
+  await card.getByRole('button', { name: 'On the calendar Synthetic Commander tournament' }).click();
+  await expect(page.locator('.detail-title')).toHaveText(event.title);
+  await page.getByRole('button', { name: 'Close details' }).click();
+  await card.getByRole('button', { name: 'Edit Synthetic Commander', exact: true }).click();
+  await page.getByRole('form', { name: 'Edit search interest' }).getByLabel('What to look for', { exact: false }).fill('Prefer casual nights.');
+  await page.getByRole('button', { name: 'Save changes', exact: true }).click();
+  await expect(card.locator('.interest-status')).toHaveText('Pending research');
+  await expect(card).toContainText('Previous check');
+  await expect(card.locator('.interest-results')).toHaveCount(0);
+});

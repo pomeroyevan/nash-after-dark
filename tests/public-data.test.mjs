@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 
 const catalog = JSON.parse(readFileSync(new URL('../public/data/catalog.json', import.meta.url), 'utf8'));
 const calendar = JSON.parse(readFileSync(new URL('../public/data/events.json', import.meta.url), 'utf8'));
-const forbidden = new Set(['history', 'personal', 'attendance', 'rating', 'liked', 'disliked', 'sentiment', 'raw_labels', 'base_neighborhoods', 'personal_history']);
+const forbidden = new Set(['history', 'personal', 'attendance', 'rating', 'liked', 'disliked', 'sentiment', 'raw_labels', 'base_neighborhoods', 'personal_history', 'searchInterests', 'inputUpdatedAt']);
 function checkKeys(value) {
   if (!value || typeof value !== 'object') return;
   for (const [key, child] of Object.entries(value)) {
@@ -38,7 +38,7 @@ test('every listed event links to a known venue and source with an explicit time
 });
 
 test('private workspace artifacts cannot appear at production paths', () => {
-  for (const path of ['private', 'intake', 'research', 'GUIDE.md', 'SOURCES.md', 'data/personal-history.json', 'data/preferences.json']) {
+  for (const path of ['private', 'intake', 'research', 'GUIDE.md', 'SOURCES.md', 'data/personal-history.json', 'data/preferences.json', 'private/search-inbox.json', 'private/search-result.json']) {
     assert.equal(existsSync(new URL('../public/' + path, import.meta.url)), false, `Private public path: ${path}`);
     assert.equal(existsSync(new URL('../dist/' + path, import.meta.url)), false, `Private build path: ${path}`);
   }

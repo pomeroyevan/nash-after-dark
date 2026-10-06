@@ -15,9 +15,17 @@ export interface SyncState {
 }
 export const RECOVERY_PREFIX = 'nash-after-dark.account.v1.';
 const errorText = (error: unknown) => error instanceof Error ? error.message : String(error);
-const sameData = (a: Backup, b: Backup) => JSON.stringify([Object.entries(a.history).sort(), [...a.savedEventIds].sort()]) === JSON.stringify([Object.entries(b.history).sort(), [...b.savedEventIds].sort()]);
+const sameData = (a: Backup, b: Backup) => JSON.stringify([Object.entries(a.history).sort(), [...a.savedEventIds].sort(), Object.entries(a.searchInterests || {}).sort()]) === JSON.stringify([Object.entries(b.history).sort(), [...b.savedEventIds].sort(), Object.entries(b.searchInterests || {}).sort()]);
 export function mergeBackup(current: Backup, incoming: Backup): Backup {
-  return parseBackup({ ...current, history: { ...current.history, ...incoming.history }, savedEventIds: [...new Set([...current.savedEventIds, ...incoming.savedEventIds])] });
+  const searchInterests = { ...current.searchInterests };
+  for (const [id, interest] of Object.entries(incoming.searchInterests || {})) {
+    const previous = searchInterests[id];
+    // An older backup may lack the worker's result for the same unchanged input.
+    const unchanged = previous && (['id', 'name', 'kind', 'sourceUrl', 'notes', 'enabled', 'createdAt', 'updatedAt'] as const).every(key => previous[key] === interest[key]);
+    const result = interest.result || (unchanged ? previous.result : undefined);
+    searchInterests[id] = { ...interest, ...(result ? { result } : {}) };
+  }
+  return parseBackup({ ...current, history: { ...current.history, ...incoming.history }, savedEventIds: [...new Set([...current.savedEventIds, ...incoming.savedEventIds])], ...(current.searchInterests !== undefined || incoming.searchInterests !== undefined ? { searchInterests } : {}) });
 }
 function cloudRecord(value: { revision: unknown; payload: unknown }): CloudRecord {
   const revision = Number(value.revision);

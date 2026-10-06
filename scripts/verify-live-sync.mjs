@@ -4,6 +4,7 @@ import { chromium, expect } from '@playwright/test';
 import { createClient } from '@supabase/supabase-js';
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { randomBytes, randomUUID } from 'node:crypto';
+import { applyResult, createManagementClient, pullInterests } from './search-interests.mjs';
 
 const config = JSON.parse(await readFile('public/data/sync-config.json', 'utf8'));
 const serviceKey = process.env.NASH_SUPABASE_SERVICE_ROLE_KEY;
@@ -99,7 +100,79 @@ try {
   if (successful.error || !successful.data?.[0]?.applied || stale.error || stale.data?.[0]?.applied !== false) throw new Error('Compare-and-swap failed.');
   console.log('PASS: anonymous rejection, account isolation, direct-write rejection, stale revision rejected.');
 
-  await a.getByRole('button', { name: 'Close details' }).click(); await nav(a, 'Settings');
+  if (managementToken) {
+    // Exercise the actual worker SQL with its owner selection restricted to this
+    // synthetic fixture. It cannot read or change the real owner's row.
+    const manage = createManagementClient({ token: managementToken });
+    const fixtureQuery = (query, options) => {
+      if (!query.includes("where u.email_confirmed_at is not null") || !query.includes("<> 'temporary_nash_sync_verification'")) throw new Error('Worker fixture scope cannot be applied.');
+      return manage(query.replace('where u.email_confirmed_at is not null', `where s.user_id = '${accounts[0].id}'::uuid and u.email_confirmed_at is not null`)
+        .replace("<> 'temporary_nash_sync_verification'", "= 'temporary_nash_sync_verification'"), options);
+    };
+    const stamp = new Date().toISOString();
+    const interest = { id: 'synthetic-search', name: 'Synthetic event search', kind: 'activity', sourceUrl: 'https://example.com/events', notes: 'Synthetic private preference', enabled: true, createdAt: stamp, updatedAt: stamp };
+    let current = await first.from('nash_private_state').select('revision,payload').single();
+    const saved = await first.rpc('save_nash_private_state', { p_owner: accounts[0].id, p_expected_revision: current.data.revision, p_payload: { ...current.data.payload, searchInterests: { [interest.id]: interest } } });
+    if (saved.error || !saved.data?.[0]?.applied) throw new Error('Search interest save failed.');
+    const inbox = await pullInterests({ query: fixtureQuery });
+    if (Object.keys(inbox).some(key => !['version', 'pulledAt', 'revision', 'searchInterests'].includes(key)) || inbox.searchInterests[interest.id]?.notes !== interest.notes) throw new Error('Private inbox projection failed.');
+    const patch = { id: interest.id, expectedUpdatedAt: stamp, result: { inputUpdatedAt: stamp, status: 'active', checkedAt: new Date().toISOString(), message: 'Synthetic research completed.', catalogIds: ['cobra'], eventIds: [] } };
+    await applyResult({ query: fixtureQuery, patch });
+    current = await first.from('nash_private_state').select('revision,payload').single();
+    if (current.data.payload.history.cobra.notes !== noteB || current.data.payload.searchInterests[interest.id]?.result?.status !== 'active') throw new Error('Worker changed unrelated history or lost its result.');
+    const legacy = { ...current.data.payload }; delete legacy.searchInterests;
+    const oldClient = await first.rpc('save_nash_private_state', { p_owner: accounts[0].id, p_expected_revision: current.data.revision, p_payload: legacy });
+    if (oldClient.error || !oldClient.data?.[0]?.applied || oldClient.data[0].payload.searchInterests[interest.id]?.result?.status !== 'active') throw new Error('Legacy client erased the search list.');
+    const malformed = await first.rpc('save_nash_private_state', { p_owner: accounts[0].id, p_expected_revision: oldClient.data[0].revision, p_payload: { ...legacy, searchInterests: [] } });
+    if (!malformed.error) throw new Error('Malformed search list accepted by RPC.');
+    const pausedPayload = structuredClone(oldClient.data[0].payload);
+    pausedPayload.searchInterests[interest.id].enabled = false;
+    const paused = await first.rpc('save_nash_private_state', { p_owner: accounts[0].id, p_expected_revision: oldClient.data[0].revision, p_payload: pausedPayload });
+    if (paused.error || !paused.data?.[0]?.applied) throw new Error('Synthetic pause failed.');
+    let blockedPause = false;
+    try { await applyResult({ query: fixtureQuery, patch }); } catch (error) { blockedPause = /paused/.test(error.message); }
+    if (!blockedPause) throw new Error('Worker updated a paused request.');
+    const editedPayload = structuredClone(paused.data[0].payload);
+    editedPayload.searchInterests[interest.id].enabled = true;
+    editedPayload.searchInterests[interest.id].updatedAt = new Date(Date.parse(stamp) + 1).toISOString();
+    editedPayload.searchInterests[interest.id].notes = 'Newer synthetic instruction';
+    const edited = await first.rpc('save_nash_private_state', { p_owner: accounts[0].id, p_expected_revision: paused.data[0].revision, p_payload: editedPayload });
+    if (edited.error || !edited.data?.[0]?.applied) throw new Error('Synthetic edit failed.');
+    let blockedEdit = false;
+    try { await applyResult({ query: fixtureQuery, patch }); } catch (error) { blockedEdit = /edited/.test(error.message); }
+    if (!blockedEdit) throw new Error('Worker overwrote an edited request.');
+    console.log('PASS: real private inbox projection, worker result preserving history, legacy save preservation, malformed list rejection, paused/edited input protection.');
+
+    await a.reload(); await nav(a, 'Settings'); await ready(a);
+    await nav(a, 'Search list');
+    await a.getByRole('button', { name: 'Add an interest', exact: true }).click();
+    await a.getByLabel('Name', { exact: true }).fill('Synthetic phone interest');
+    await a.getByLabel('Type', { exact: true }).selectOption('artist');
+    await a.getByLabel('What to look for (optional, private)', { exact: true }).fill('Synthetic phone criteria');
+    await a.getByRole('button', { name: 'Save interest', exact: true }).click();
+    await expect(a.getByRole('article', { name: 'Synthetic phone interest', exact: true })).toBeVisible();
+    await nav(a, 'Settings'); await ready(a);
+    await b.reload(); await nav(b, 'Settings'); await ready(b); await nav(b, 'Search list');
+    const cardB = b.getByRole('article', { name: 'Synthetic phone interest', exact: true });
+    await expect(cardB).toBeVisible();
+    await expect(cardB.getByText('Pending research', { exact: true })).toBeVisible();
+    const phoneInbox = await pullInterests({ query: fixtureQuery });
+    const phoneInterest = Object.values(phoneInbox.searchInterests).find(item => item.name === 'Synthetic phone interest');
+    if (!phoneInterest || phoneInterest.notes !== 'Synthetic phone criteria') throw new Error('Phone interest did not reach the job inbox.');
+    await applyResult({ query: fixtureQuery, patch: { id: phoneInterest.id, expectedUpdatedAt: phoneInterest.updatedAt, result: { inputUpdatedAt: phoneInterest.updatedAt, status: 'active', checkedAt: new Date().toISOString(), message: 'Synthetic phone research completed.', catalogIds: ['cobra'], eventIds: [] } } });
+    await a.reload(); await nav(a, 'Settings'); await ready(a); await nav(a, 'Search list');
+    const cardA = a.getByRole('article', { name: 'Synthetic phone interest', exact: true });
+    await expect(cardA.getByText('In daily search', { exact: true })).toBeVisible();
+    await expect(cardA.getByText('Synthetic phone research completed.', { exact: true })).toBeVisible();
+    await cardA.getByRole('button', { name: /In the guide.*Cobra Nashville/ }).click();
+    await expect(a.getByLabel('Anything else to remember')).toHaveValue(noteB);
+    await a.getByRole('button', { name: 'Close details' }).click();
+    await nav(a, 'Settings');
+    console.log('PASS: phone interest creation, second-device sync, job pickup, result returned to phone, linked guide preserving history.');
+  }
+
+  if (!managementToken) await a.getByRole('button', { name: 'Close details' }).click();
+  await nav(a, 'Settings');
   await a.getByRole('button', { name: 'Sign out', exact: true }).click();
   await expect(a.getByRole('button', { name: 'Sign in', exact: true })).toBeVisible();
   await nav(a, 'My places');

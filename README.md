@@ -24,6 +24,12 @@ The original owner's dictated history is seeded privately on account creation. R
 
 The existing daily chat automation checks sources at 9 a.m. Nashville time and may publish verified public calendar updates to `pomeroyevan/nash-after-dark`, as authorized on October 5, 2026. It needs the local Codex host available. See `docs/DEPLOYMENT.md` for release and verification instructions.
 
+## Add things to search for
+
+Open **Search list** and add an artist, venue, event series, organizer or activity. An official link and private details help resolve it. Edit or pause items there. Pending research, last-check results and links into the guide/calendar show what has actually been checked.
+
+Sign into the confirmed owner account and finish syncing to send additions to the daily job. Device-only items stay on that device until explicitly merged in Settings. Every daily run reads the current private list, prioritizes additions/edits, and rechecks enabled interests. It researches official sources, adds reviewed public facts and returns a private status. It does not instantly invent dates or guarantee access to blocked sources. See `docs/SEARCH-INTERESTS.md` for the worker contract.
+
 ## Private sync
 
 Supabase Auth handles email/password sessions. PostgreSQL row-level security limits each account to its own history; the save RPC uses revisions to reject stale writes. Account-scoped local drafts preserve unsynced work, and conflicts offer both versions before any replacement. Only the client-safe publishable key is in `public/data/sync-config.json`. Database passwords, service keys, the owner email and seed are never in the public repository.

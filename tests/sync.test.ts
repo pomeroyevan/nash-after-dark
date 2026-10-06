@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { SyncEngine, mergeBackup, parseSyncConfig, RECOVERY_PREFIX, type CloudRecord, type SyncTransport } from '../src/sync.ts';
-import { emptyBackup, emptyPersonal, STORE, type Backup } from '../src/model.ts';
+import { emptyBackup, emptyPersonal, searchInterestStatus, STORE, type Backup, type SearchInterest } from '../src/model.ts';
 
 class MemoryStorage {
   values = new Map<string, string>(); fail = false;
@@ -149,4 +149,54 @@ test('public config rejects secret/service keys and insecure endpoints', () => {
   assert.throws(() => parseSyncConfig({ url: 'http://project.supabase.co', publishableKey: 'sb_publishable_test' }), /secure/);
   const key = `header.${Buffer.from(JSON.stringify({ role: 'service_role' })).toString('base64url')}.signature`;
   assert.throws(() => parseSyncConfig({ url: 'https://project.supabase.co', publishableKey: key }), /publishable/);
+});
+
+const interest = (overrides: Partial<SearchInterest> = {}): SearchInterest => ({ id: 'draft-nights', name: 'Magic draft nights', kind: 'activity', sourceUrl: '', notes: '', enabled: true, createdAt: '2026-10-05T21:00:00.000Z', updatedAt: '2026-10-05T21:00:00.000Z', ...overrides });
+const setInterest = (value: SearchInterest) => (data: Backup): Backup => ({ ...data, searchInterests: { ...data.searchInterests, [value.id]: value } });
+
+test('interest-only offline edits recover and upload instead of comparing equal to a legacy cloud record', async () => {
+  const storage = new MemoryStorage(), remote = server();
+  const engine = new SyncEngine(storage, 'same-tab');
+  engine.connect('alice', { ...remote.transport, async save() { throw new Error('offline'); } }); await engine.whenIdle();
+  engine.mutate(setInterest(interest())); await engine.whenIdle();
+  assert.equal(engine.getSnapshot().dirty, true);
+  const restored = new SyncEngine(storage, 'same-tab'); restored.connect('alice', remote.transport); await restored.whenIdle();
+  assert.deepEqual(remote.records.get('alice')!.data.searchInterests?.['draft-nights'], interest());
+  assert.equal(restored.getSnapshot().phase, 'synced');
+  assert.equal(remote.saves.length, 1);
+});
+
+test('a worker result arriving during an input edit cannot silently overwrite either version', async () => {
+  const original = interest();
+  const seed = setInterest(original)(emptyBackup());
+  const storage = new MemoryStorage(), remote = server({ alice: { revision: 1, data: seed } });
+  const engine = new SyncEngine(storage, 'phone'); engine.connect('alice', remote.transport); await engine.whenIdle();
+  const checked = interest({ result: { inputUpdatedAt: original.updatedAt, status: 'active', checkedAt: '2026-10-06T14:00:00.000Z', message: 'Draft found.', catalogIds: ['game-cave'], eventIds: ['draft:2026-10-09'] } });
+  remote.records.set('alice', { revision: 2, data: setInterest(checked)(seed) });
+  const edited = interest({ name: 'Commander', updatedAt: '2026-10-06T14:01:00.000Z' });
+  engine.mutate(setInterest(edited)); await engine.whenIdle();
+  assert.equal(engine.getSnapshot().phase, 'conflict');
+  assert.deepEqual(engine.getSnapshot().data.searchInterests?.['draft-nights'], edited);
+  assert.deepEqual(engine.getSnapshot().conflict!.data.searchInterests?.['draft-nights'], checked);
+  assert.deepEqual(remote.records.get('alice')!.data.searchInterests?.['draft-nights'], checked);
+  engine.keepDraft(); await engine.whenIdle();
+  assert.equal(searchInterestStatus(remote.records.get('alice')!.data.searchInterests!['draft-nights']), 'pending');
+  assert.deepEqual(engine.getSnapshot().archives[0].data.searchInterests?.['draft-nights'], checked);
+});
+
+test('worker-result-only changes count as differences during conflict refresh and are archived on use-cloud', async () => {
+  const original = interest();
+  const seed = setInterest(original)(emptyBackup());
+  const remote = server({ alice: { revision: 1, data: seed } });
+  const engine = new SyncEngine(new MemoryStorage(), 'phone');
+  engine.connect('alice', { ...remote.transport, async save() { throw new Error('offline'); } }); await engine.whenIdle();
+  const checked = interest({ result: { inputUpdatedAt: original.updatedAt, status: 'blocked', checkedAt: '2026-10-06T14:00:00.000Z', message: 'Source unavailable.', catalogIds: [], eventIds: [] } });
+  engine.mutate(setInterest(checked)); await engine.whenIdle();
+  remote.records.set('alice', { revision: 2, data: seed });
+  engine.refresh(); await engine.whenIdle();
+  assert.equal(engine.getSnapshot().phase, 'conflict');
+  assert.deepEqual(engine.getSnapshot().data.searchInterests?.['draft-nights'], checked);
+  engine.useCloud();
+  assert.deepEqual(engine.getSnapshot().archives[0].data.searchInterests?.['draft-nights'], checked);
+  assert.deepEqual(engine.getSnapshot().data.searchInterests?.['draft-nights'], original);
 });
