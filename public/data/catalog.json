@@ -1249,6 +1249,156 @@
       "scopeNote": ""
     },
     {
+      "id": "rivergate-tuesday-adult-night",
+      "name": "Rivergate Tuesday Adult Night",
+      "kind": "event_series",
+      "description": "Mid-Week Adult Night: Tuesdays, 7–10 p.m. Central, ages 18+. Admission and rental prices are unverified. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades. Standing weekly schedule; check for closures or special-event changes.",
+      "area": "Madison — travel check",
+      "address": "119 Gleaves St., Madison, TN 37115",
+      "officialUrl": "https://www.rivergateskatecenter.com/",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "rivergate-skate-center"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rivergateskatecenter.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "rivergate-sunday-adult-night",
+      "name": "Rivergate Sunday Adult Night",
+      "kind": "event_series",
+      "description": "Sundays, 8–11:30 p.m. Central, ages 21+. $11 admission plus $4 skate rental. ID required; everyone pays, no children. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades. Standing weekly schedule; check for closures or special-event changes.",
+      "area": "Madison — travel check",
+      "address": "119 Gleaves St., Madison, TN 37115",
+      "officialUrl": "https://www.rivergateskatecenter.com/",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "rivergate-skate-center"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rivergateskatecenter.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "brentwood-thursday-adult-night",
+      "name": "Brentwood Thursday Adult Skate Night",
+      "kind": "event_series",
+      "description": "Adult / Advanced Skate Night: Thursdays, 7–10 p.m. Central, ages 18+. $11 admission plus $4 skate rental. Hard-plastic-shell, buckle-style rollerblades and outdoor skates are prohibited. Smooth indoor hockey-style inline skates are allowed; inline rental availability is unverified. Standing weekly schedule; check for closures or special-event changes.",
+      "area": "Brentwood — travel check",
+      "address": "402 Wilson Pike Circle, Brentwood, TN 37027",
+      "officialUrl": "https://www.skatecenterbrentwood.com/",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "brentwood-skate-center"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.skatecenterbrentwood.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/6b29ba_50465b673dd848e5861683bd4911452f~mv2.png",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/6b29ba_28c3431a58374a8fa5222430262267b6~mv2.jpg",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "rivergate-skate-center",
+      "name": "Rivergate Skate Center",
+      "kind": "venue",
+      "description": "Roller-skating rink with Tuesday 18+ and Sunday 21+ adult nights. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades.",
+      "area": "Madison — travel check",
+      "address": "119 Gleaves St., Madison, TN 37115",
+      "officialUrl": "https://www.rivergateskatecenter.com/",
+      "tags": [
+        "skating",
+        "rollerblading"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "rivergate-tuesday-adult-night",
+        "rivergate-sunday-adult-night"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rivergateskatecenter.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "brentwood-skate-center",
+      "name": "Brentwood Skate Center",
+      "kind": "venue",
+      "description": "Roller-skating rink with Thursday 18+ Adult / Advanced Skate Night. Hard-plastic-shell, buckle-style rollerblades and outdoor skates are prohibited. Smooth indoor hockey-style inline skates are allowed; inline rental availability is unverified.",
+      "area": "Brentwood — travel check",
+      "address": "402 Wilson Pike Circle, Brentwood, TN 37027",
+      "officialUrl": "https://www.skatecenterbrentwood.com/",
+      "tags": [
+        "skating",
+        "rollerblading"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "brentwood-thursday-adult-night"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.skatecenterbrentwood.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/6b29ba_50465b673dd848e5861683bd4911452f~mv2.png",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/6b29ba_28c3431a58374a8fa5222430262267b6~mv2.jpg",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
       "id": "potluck-teahouse",
       "name": "Potluck Teahouse",
       "kind": "teahouse_and_pottery_studio",

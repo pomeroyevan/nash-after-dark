@@ -66,6 +66,11 @@ tags = {
     "night-we-met": ["electronic", "dancing"],
     "bourbon-street": ["live music", "blues"],
     "wave-country": ["outdoors", "seasonal"],
+    "rivergate-skate-center": ["skating", "rollerblading"],
+    "rivergate-tuesday-adult-night": ["skating", "rollerblading", "adult night"],
+    "rivergate-sunday-adult-night": ["skating", "rollerblading", "adult night"],
+    "brentwood-skate-center": ["skating", "rollerblading"],
+    "brentwood-thursday-adult-night": ["skating", "rollerblading", "adult night"],
 }
 
 # Explicit public copy for records whose research contains private matching history.
@@ -117,6 +122,11 @@ relationships = {
     "basement-east-emo-acid":["basement-east"],
     "cannery-hall":["crimewave"],
     "crimewave":["cannery-hall"],
+    "rivergate-skate-center":["rivergate-tuesday-adult-night", "rivergate-sunday-adult-night"],
+    "rivergate-tuesday-adult-night":["rivergate-skate-center"],
+    "rivergate-sunday-adult-night":["rivergate-skate-center"],
+    "brentwood-skate-center":["brentwood-thursday-adult-night"],
+    "brentwood-thursday-adult-night":["brentwood-skate-center"],
 }
 
 all_ids = list(records) + [ident for ident in research if ident not in records]

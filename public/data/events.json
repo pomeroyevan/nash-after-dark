@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-06T00:51:59.662Z",
+  "checkedAt": "2026-10-06T01:18:57.259Z",
   "timezone": "America/Chicago",
   "window": {
     "start": "2026-10-05T00:00:00-05:00",
@@ -373,6 +373,54 @@
       "message": "Manual verification required; no tested automatic schedule adapter. An empty event list is not proof of no events."
     },
     {
+      "id": "rivergate-tuesday-adult-night",
+      "name": "Rivergate Tuesday Adult Night",
+      "url": "https://www.rivergateskatecenter.com/",
+      "status": "partial",
+      "lastSuccessAt": "2026-10-05",
+      "message": "Current official weekly schedule reviewed; two provisional dates within 14 days. Check closures and inline-skate rules. No tested automatic adapter.",
+      "lastAttemptAt": "2026-10-06T01:18:57.259Z",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "rivergate-sunday-adult-night",
+      "name": "Rivergate Sunday Adult Night",
+      "url": "https://www.rivergateskatecenter.com/",
+      "status": "partial",
+      "lastSuccessAt": "2026-10-05",
+      "message": "Current official weekly schedule reviewed; two provisional dates within 14 days. Check closures and inline-skate rules. No tested automatic adapter.",
+      "lastAttemptAt": "2026-10-06T01:18:57.259Z",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "brentwood-thursday-adult-night",
+      "name": "Brentwood Thursday Adult Skate Night",
+      "url": "https://www.skatecenterbrentwood.com/",
+      "status": "partial",
+      "lastSuccessAt": "2026-10-05",
+      "message": "Current official weekly schedule reviewed; two provisional dates within 14 days. Check closures and inline-skate rules. No tested automatic adapter.",
+      "lastAttemptAt": "2026-10-06T01:18:57.259Z",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "rivergate-skate-center",
+      "name": "Rivergate Skate Center",
+      "url": "https://www.rivergateskatecenter.com/",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "message": "Official schedule and available policies reviewed; see linked adult-night series. Manual checks required.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "brentwood-skate-center",
+      "name": "Brentwood Skate Center",
+      "url": "https://www.skatecenterbrentwood.com/",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "message": "Official schedule and available policies reviewed; see linked adult-night series. Manual checks required.",
+      "checkedAt": "2026-10-05"
+    },
+    {
       "id": "potluck-teahouse",
       "name": "Potluck Teahouse",
       "url": "https://www.potlucktea.com/",
@@ -612,6 +660,30 @@
       "ticketUrl": "https://seetickets.us/event/honky-tonk-tuesday-with-the-cowpokes-ft-special-guests/697977",
       "priceText": "$10.00-$175.00",
       "doors": "2026-10-06T18:30:00-05:00"
+    },
+    {
+      "id": "curated-rivergate-tuesday-adult-night-2026-10-06",
+      "title": "Rivergate Tuesday Adult Night",
+      "venueId": "rivergate-skate-center",
+      "venueName": "Rivergate Skate Center",
+      "sourceId": "rivergate-tuesday-adult-night",
+      "start": "2026-10-06T19:00:00-05:00",
+      "end": "2026-10-06T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.rivergateskatecenter.com/",
+      "priceText": "18+. Admission/rental price unverified. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades. Provisional date from the weekly schedule; check for changes.",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-05",
+      "notes": [
+        "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days.",
+        "Dated official snapshot; not automatically reverified."
+      ],
+      "provenance": "verified-snapshot"
     },
     {
       "id": "eastside-bowl:afe527fe791fa58371f3",
@@ -929,6 +1001,30 @@
         "Uses visible calendar clock; known JSON-LD clock and recurrence conflicts require date-specific verification.",
         "Admission not established; plugin price=0 is not proof of free admission."
       ]
+    },
+    {
+      "id": "curated-brentwood-thursday-adult-night-2026-10-08",
+      "title": "Brentwood Thursday Adult Skate Night",
+      "venueId": "brentwood-skate-center",
+      "venueName": "Brentwood Skate Center",
+      "sourceId": "brentwood-thursday-adult-night",
+      "start": "2026-10-08T19:00:00-05:00",
+      "end": "2026-10-08T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.skatecenterbrentwood.com/",
+      "priceText": "18+ Advanced Skate Night. $11 admission + $4 skate rental. Hard-plastic-shell, buckle-style rollerblades and outdoor skates are prohibited. Smooth indoor hockey-style inline skates are allowed; inline rental availability is unverified. Provisional date from the weekly schedule; check for changes.",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-05",
+      "notes": [
+        "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days.",
+        "Dated official snapshot; not automatically reverified."
+      ],
+      "provenance": "verified-snapshot"
     },
     {
       "id": "eastside-bowl:fa3006dc5f1445a7895d",
@@ -1568,6 +1664,30 @@
       ]
     },
     {
+      "id": "curated-rivergate-sunday-adult-night-2026-10-11",
+      "title": "Rivergate Sunday Adult Night",
+      "venueId": "rivergate-skate-center",
+      "venueName": "Rivergate Skate Center",
+      "sourceId": "rivergate-sunday-adult-night",
+      "start": "2026-10-11T20:00:00-05:00",
+      "end": "2026-10-11T23:30:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.rivergateskatecenter.com/",
+      "priceText": "21+; ID required, no children, everyone pays. $11 admission + $4 skate rental. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades. Provisional date from the weekly schedule; check for changes.",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-05",
+      "notes": [
+        "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days.",
+        "Dated official snapshot; not automatically reverified."
+      ],
+      "provenance": "verified-snapshot"
+    },
+    {
       "id": "five-spot:27728",
       "title": "Sunday KARAOKE!",
       "venueId": "five-spot",
@@ -1820,6 +1940,30 @@
         "Uses visible calendar clock; known JSON-LD clock and recurrence conflicts require date-specific verification.",
         "Admission not established; plugin price=0 is not proof of free admission."
       ]
+    },
+    {
+      "id": "curated-rivergate-tuesday-adult-night-2026-10-13",
+      "title": "Rivergate Tuesday Adult Night",
+      "venueId": "rivergate-skate-center",
+      "venueName": "Rivergate Skate Center",
+      "sourceId": "rivergate-tuesday-adult-night",
+      "start": "2026-10-13T19:00:00-05:00",
+      "end": "2026-10-13T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.rivergateskatecenter.com/",
+      "priceText": "18+. Admission/rental price unverified. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades. Provisional date from the weekly schedule; check for changes.",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-05",
+      "notes": [
+        "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days.",
+        "Dated official snapshot; not automatically reverified."
+      ],
+      "provenance": "verified-snapshot"
     },
     {
       "id": "eastside-bowl:16317b23c0c1c18bfb1f",
@@ -2171,6 +2315,30 @@
         "Uses visible calendar clock; known JSON-LD clock and recurrence conflicts require date-specific verification.",
         "Admission not established; plugin price=0 is not proof of free admission."
       ]
+    },
+    {
+      "id": "curated-brentwood-thursday-adult-night-2026-10-15",
+      "title": "Brentwood Thursday Adult Skate Night",
+      "venueId": "brentwood-skate-center",
+      "venueName": "Brentwood Skate Center",
+      "sourceId": "brentwood-thursday-adult-night",
+      "start": "2026-10-15T19:00:00-05:00",
+      "end": "2026-10-15T22:00:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.skatecenterbrentwood.com/",
+      "priceText": "18+ Advanced Skate Night. $11 admission + $4 skate rental. Hard-plastic-shell, buckle-style rollerblades and outdoor skates are prohibited. Smooth indoor hockey-style inline skates are allowed; inline rental availability is unverified. Provisional date from the weekly schedule; check for changes.",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-05",
+      "notes": [
+        "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days.",
+        "Dated official snapshot; not automatically reverified."
+      ],
+      "provenance": "verified-snapshot"
     },
     {
       "id": "eastside-bowl:ab41afab7767392daaa1",
@@ -2816,6 +2984,30 @@
       "notes": [
         "End time omitted: visible late-set duration conflicts with reservation metadata."
       ]
+    },
+    {
+      "id": "curated-rivergate-sunday-adult-night-2026-10-18",
+      "title": "Rivergate Sunday Adult Night",
+      "venueId": "rivergate-skate-center",
+      "venueName": "Rivergate Skate Center",
+      "sourceId": "rivergate-sunday-adult-night",
+      "start": "2026-10-18T20:00:00-05:00",
+      "end": "2026-10-18T23:30:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.rivergateskatecenter.com/",
+      "priceText": "21+; ID required, no children, everyone pays. $11 admission + $4 skate rental. Inline-skate permission and inline rentals are unverified; check with the rink before bringing rollerblades. Provisional date from the weekly schedule; check for changes.",
+      "tags": [
+        "skating",
+        "rollerblading",
+        "adult night"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-05",
+      "notes": [
+        "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days.",
+        "Dated official snapshot; not automatically reverified."
+      ],
+      "provenance": "verified-snapshot"
     },
     {
       "id": "five-spot:27730",
