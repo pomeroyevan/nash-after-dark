@@ -1,0 +1,4382 @@
+{
+  "artists": [
+    {
+      "id": "greta-van-fleet",
+      "name": "Greta Van Fleet",
+      "summary": "Michigan rock quartet with soaring vocals, guitar-led songs and an elaborate stage aesthetic.",
+      "genres": [
+        "Rock",
+        "Hard rock"
+      ],
+      "origin": "Frankenmuth, Michigan",
+      "sections": [
+        {
+          "title": "Who they are",
+          "body": "Formed in 2012, the band pairs vocalist Josh Kiszka with guitarist Jake Kiszka, bassist and keyboardist Sam Kiszka, and drummer Danny Wagner. Their sound draws on classic rock; From the Fires won the Grammy for Best Rock Album. They recorded Starcatcher at Nashville’s RCA studios with producer Dave Cobb.",
+          "sourceUrls": [
+            "https://www.universal-music.de/greta-van-fleet/biografie"
+          ]
+        },
+        {
+          "title": "Stage style",
+          "body": "Vogue’s 2023 profile documents custom suits and jumpsuits, embroidery, beads, rhinestones and theatrical makeup, including work with designer Amber Doyle. That describes the performers’ visual world at that time; no audience dress code is established by that article.",
+          "sourceUrls": [
+            "https://www.vogue.com/article/greta-van-fleet-starcatcher-2023"
+          ]
+        },
+        {
+          "title": "Nashville listing",
+          "body": "The Basement East lists October 10 and 17 shows as sold out. Its ticket instructions specify will-call collection and matching purchaser identification; a guest must arrive with the purchaser. Check the official listing for any availability changes.",
+          "sourceUrls": [
+            "https://www.thebasementnashville.com/tm-event/greta-van-fleet-2/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://gretavanfleet.com/"
+        },
+        {
+          "label": "Listen — official music hub",
+          "url": "https://gretavanfleet.lnk.to/complete"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://i.ticketweb.com/i/00/13/04/53/74_Original.jpg?v=30",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/greta-van-fleet-2/",
+          "alt": "Official Greta Van Fleet show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:38.257Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.universal-music.de/greta-van-fleet/biografie",
+          "label": "Universal Music artist biography",
+          "checkedAt": "2026-10-06T02:30:33.805Z"
+        },
+        {
+          "url": "https://www.vogue.com/article/greta-van-fleet-starcatcher-2023",
+          "label": "Vogue: Greta Van Fleet’s 2023 stage style",
+          "checkedAt": "2026-10-06T02:30:34.343Z"
+        },
+        {
+          "url": "https://gretavanfleet.com/",
+          "label": "Greta Van Fleet official website",
+          "checkedAt": "2026-10-06T02:30:33.054Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/greta-van-fleet-2/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:38.257Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14329134",
+        "basement-east:14329144"
+      ],
+      "eventTitles": [
+        "SOLD OUT! Greta Van Fleet"
+      ],
+      "checkedAt": "2026-10-06T02:30:34.343Z"
+    },
+    {
+      "id": "willi-carlisle",
+      "name": "Willi Carlisle",
+      "summary": "A folksinger whose character-driven songs mix traditional roots, humor and a wide musical range.",
+      "genres": [
+        "Folk",
+        "Americana",
+        "Old-time"
+      ],
+      "sections": [
+        {
+          "title": "Sound and stories",
+          "body": "Carlisle builds songs around people, community and the odd corners of everyday life. His official biography describes an expanding palette that includes old-time, Americana, Cajun music, funk and experimentation. The emphasis is storytelling and folk traditions rather than one fixed acoustic formula.",
+          "sourceUrls": [
+            "https://www.willicarlisle.com/about"
+          ]
+        },
+        {
+          "title": "This chapter",
+          "body": "The Universal Bubba is a 17-track double album made with first-time producer Tyler Childers and his band in a makeshift New Orleans studio. The project gives Carlisle room to change instrumentation and stretch the folk framework. The Nashville tour listing includes Dylan Earl as support.",
+          "sourceUrls": [
+            "https://www.willicarlisle.com/about",
+            "https://www.thebasementnashville.com/tm-event/willi-carlisle-the-universal-bubba-tour/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://www.willicarlisle.com/"
+        },
+        {
+          "label": "Watch official performances",
+          "url": "https://www.willicarlisle.com/videos"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://static.wixstatic.com/media/8a29c9_9d09039558b34ce0b64f0d3298f07d09~mv2.png/v1/crop/x_27,y_0,w_1698,h_1825/fill/w_508,h_546,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Willi%20Portrait-02.png",
+          "sourceUrl": "https://www.willicarlisle.com/about",
+          "alt": "Willi Carlisle portrait published in his official biography.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:30:33.720Z"
+        },
+        {
+          "url": "https://i.ticketweb.com/i/00/12/96/41/94_Original.jpg?v=11",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/willi-carlisle-the-universal-bubba-tour/",
+          "alt": "Official Willi Carlisle show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:38.660Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.willicarlisle.com/about",
+          "label": "Willi Carlisle official biography",
+          "checkedAt": "2026-10-06T02:30:33.720Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/willi-carlisle-the-universal-bubba-tour/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:38.660Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14248144"
+      ],
+      "eventTitles": [
+        "Willi Carlisle – The Universal Bubba Tour w/ Dylan Earl"
+      ],
+      "checkedAt": "2026-10-06T02:30:33.720Z"
+    },
+    {
+      "id": "finn-wolfhard",
+      "name": "Finn Wolfhard",
+      "summary": "Canadian actor and musician making scrappy indie rock and power pop.",
+      "genres": [
+        "Indie rock",
+        "Power pop",
+        "Lo-fi rock"
+      ],
+      "origin": "Canada",
+      "sections": [
+        {
+          "title": "Musical background",
+          "body": "Wolfhard played in Calpurnia and The Aubreys before his solo work. His 2025 album Happy Birthday favors concise, handmade-sounding guitar songs. Kai Slater contributes production, and the record combines loose garage-band energy with bright power-pop melodies.",
+          "sourceUrls": [
+            "https://music.apple.com/us/album/happy-birthday/1797418266"
+          ]
+        },
+        {
+          "title": "Starting point",
+          "body": "Listen to Happy Birthday for the DIY side of his music: intimate textures, rough edges and jangly hooks. The Nashville event is billed as The Common Side Effects Tour with Malcy and is currently labeled sold out by The Basement East.",
+          "sourceUrls": [
+            "https://music.apple.com/us/album/happy-birthday/1797418266",
+            "https://www.thebasementnashville.com/tm-event/finn-wolfhard-the-common-side-effects-tour-w-malcy/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Listen — Happy Birthday",
+          "url": "https://music.apple.com/us/album/happy-birthday/1797418266"
+        },
+        {
+          "label": "Official release hub",
+          "url": "https://finnwolfhard.ffm.to/happybirthday"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://i.ticketweb.com/i/00/13/48/68/13_Original.jpg?v=14",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/finn-wolfhard-the-common-side-effects-tour-w-malcy/",
+          "alt": "Official Finn Wolfhard show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:38.250Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://music.apple.com/us/album/happy-birthday/1797418266",
+          "label": "Apple Music: Happy Birthday album notes",
+          "checkedAt": "2026-10-06T02:37:19.000Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/finn-wolfhard-the-common-side-effects-tour-w-malcy/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:38.250Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14891393"
+      ],
+      "eventTitles": [
+        "SOLD OUT! Finn Wolfhard – The Common Side Effects Tour w/ Malcy"
+      ],
+      "checkedAt": "2026-10-06T02:37:19.000Z"
+    },
+    {
+      "id": "russian-circles",
+      "name": "Russian Circles",
+      "summary": "An instrumental trio moving from patient, spacious passages to dense, heavy guitar music.",
+      "genres": [
+        "Instrumental rock",
+        "Post-metal",
+        "Post-rock"
+      ],
+      "origin": "Chicago, Illinois",
+      "sections": [
+        {
+          "title": "Who they are",
+          "body": "Mike Sullivan plays guitar, Dave Turncrantz drums, and Brian Cook bass and keyboards. The Chicago-formed trio writes instrumental music with repetition, gradual builds and sharp changes in weight and volume. Their official biography places them in a broad lineage of heavy rock, progressive music and Midwestern underground bands.",
+          "sourceUrls": [
+            "https://russiancircles.com/band"
+          ]
+        },
+        {
+          "title": "What the bill suggests",
+          "body": "Expect the instruments to carry the narrative: recurring riffs, texture and dynamic shifts take the place of a lead singer. Pelican supports the Nashville show, pairing two Chicago-rooted instrumental bands. The official listing marks this Basement East event 18 and up.",
+          "sourceUrls": [
+            "https://russiancircles.com/band",
+            "https://www.thebasementnashville.com/tm-event/russian-circles-w-pelican/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://russiancircles.com/"
+        },
+        {
+          "label": "Listen — Bandcamp",
+          "url": "https://russiancircles.bandcamp.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://i.ticketweb.com/i/00/12/93/14/74_Original.jpg?v=10",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/russian-circles-w-pelican/",
+          "alt": "Official Russian Circles with Pelican show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:37.941Z"
+        },
+        {
+          "url": "https://images.zoogletools.com/s:bzglfiles/u/158639/fb2a981b6a482d95782707d70918bfc63526db0e/original/valhalla-rc.jpg/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+          "sourceUrl": "https://russiancircles.com/band",
+          "alt": "Russian Circles band image published with their official biography.",
+          "kind": "artist",
+          "credit": "Simon Kallas (official band page credit)",
+          "checkedAt": "2026-10-06T02:30:35.505Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://russiancircles.com/band",
+          "label": "Russian Circles official band biography",
+          "checkedAt": "2026-10-06T02:30:35.505Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/russian-circles-w-pelican/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:37.941Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14212684"
+      ],
+      "eventTitles": [
+        "Russian Circles w/ Pelican"
+      ],
+      "checkedAt": "2026-10-06T02:30:35.505Z"
+    },
+    {
+      "id": "pelican",
+      "name": "Pelican",
+      "summary": "Chicago instrumental heavy rock shaped by post-hardcore, space rock and melodic guitar interplay.",
+      "genres": [
+        "Instrumental rock",
+        "Post-metal",
+        "Post-hardcore"
+      ],
+      "origin": "Chicago, Illinois",
+      "sections": [
+        {
+          "title": "Sound and roots",
+          "body": "The quartet’s roots include the mixed-genre, all-ages shows at Chicago’s Fireside Bowl. Their own album notes connect the music to post-hardcore, space rock, indie rock and metal. Two guitars weave melodies over bass and drums, with atmosphere and momentum sharing space with the heavy parts.",
+          "sourceUrls": [
+            "https://pelican.bandcamp.com/album/flickering-resonance"
+          ]
+        },
+        {
+          "title": "A useful first listen",
+          "body": "Flickering Resonance, released in 2025, reunited founding guitarist Laurent Schroeder-Lebec with Trevor Shelley de Brauw and brothers Bryan and Larry Herweg. It is a useful entry point to the band’s melodic side. Pelican is the named support act on the Russian Circles Nashville bill.",
+          "sourceUrls": [
+            "https://pelican.bandcamp.com/album/flickering-resonance",
+            "https://www.thebasementnashville.com/tm-event/russian-circles-w-pelican/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Listen — Flickering Resonance",
+          "url": "https://pelican.bandcamp.com/album/flickering-resonance"
+        },
+        {
+          "label": "Official Bandcamp",
+          "url": "https://pelican.bandcamp.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://f4.bcbits.com/img/a1616533897_5.jpg",
+          "sourceUrl": "https://pelican.bandcamp.com/album/flickering-resonance",
+          "alt": "Flickering Resonance album artwork from Pelican’s official Bandcamp.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:30:35.799Z"
+        },
+        {
+          "url": "https://i.ticketweb.com/i/00/12/93/14/74_Original.jpg?v=10",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/russian-circles-w-pelican/",
+          "alt": "Official Russian Circles with Pelican show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:37.941Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pelican.bandcamp.com/album/flickering-resonance",
+          "label": "Pelican official Bandcamp: Flickering Resonance",
+          "checkedAt": "2026-10-06T02:30:35.799Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/russian-circles-w-pelican/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:37.941Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14212684"
+      ],
+      "eventTitles": [
+        "Russian Circles w/ Pelican"
+      ],
+      "checkedAt": "2026-10-06T02:30:35.799Z"
+    },
+    {
+      "id": "mind-enterprises",
+      "name": "Mind Enterprises",
+      "summary": "Synth-powered Italo disco with hypnotic rhythms and a deliberately playful retro look.",
+      "genres": [
+        "Italo disco",
+        "Electronic",
+        "Disco"
+      ],
+      "origin": "Turin, Italy",
+      "sections": [
+        {
+          "title": "Sound",
+          "body": "Mind Enterprises is the musical world of Turin-raised producer Andrea Tirone, working with collaborator Roberto Conigliaro. The official biography emphasizes disco basslines, repeating drum patterns and expansive keyboards. The appeal is groove and repetition, with a strong connection to 1980s Italo sounds.",
+          "sourceUrls": [
+            "https://mindenterprises.co.uk/pages/about"
+          ]
+        },
+        {
+          "title": "Visual aesthetic",
+          "body": "The act explicitly uses retro athletic clothing, tongue-in-cheek 1980s references and humorous commentary on consumerism. That styling belongs to the performers’ presentation. The source does not establish a dress code for fans. Fred Fancy is the named support on the Nashville listing.",
+          "sourceUrls": [
+            "https://mindenterprises.co.uk/pages/about",
+            "https://www.thebasementnashville.com/tm-event/mind-enterprises/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://mindenterprises.co.uk/"
+        },
+        {
+          "label": "Watch — official YouTube",
+          "url": "https://www.youtube.com/channel/UCpE50CyHDRADlphWnusZcFg"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://i.ticketweb.com/i/00/13/56/41/33_Original.jpg?v=11",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/mind-enterprises/",
+          "alt": "Official Mind Enterprises show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:41.015Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://mindenterprises.co.uk/pages/about",
+          "label": "Mind Enterprises official biography",
+          "checkedAt": "2026-10-06T02:30:35.716Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/mind-enterprises/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:41.015Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14957843"
+      ],
+      "eventTitles": [
+        "Mind Enterprises w/ Fred Fancy"
+      ],
+      "checkedAt": "2026-10-06T02:30:35.716Z"
+    },
+    {
+      "id": "olivia-obrien",
+      "name": "Olivia O’Brien",
+      "summary": "Pop and indie-pop songwriting built around candid emotions and relationships.",
+      "genres": [
+        "Pop",
+        "Indie pop"
+      ],
+      "sections": [
+        {
+          "title": "Musical path",
+          "body": "O’Brien became widely known through her collaboration with gnash and later songs including Josslyn. Her official biography describes a shift toward a more textured, indie-leaning sound around the 2024 project everywhere i go, there i am. Personal experience and direct emotional writing remain central.",
+          "sourceUrls": [
+            "https://www.oliviaobrienmusic.com/about"
+          ]
+        },
+        {
+          "title": "The Nashville show",
+          "body": "The current booking is The PIXIE Tour, with Maya Donovan listed as support. PIXIE is the current album focus on her official site. Her music links are a better guide to the sound than assuming every song follows the style of her early breakout singles.",
+          "sourceUrls": [
+            "https://www.oliviaobrienmusic.com/about",
+            "https://www.thebasementnashville.com/tm-event/olivia-obrien-presents-the-pixie-tour/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://www.oliviaobrienmusic.com/"
+        },
+        {
+          "label": "Listen — PIXIE",
+          "url": "https://music.apple.com/us/album/pixie/1896423803"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://i.ticketweb.com/i/00/13/61/94/03_Original.jpg?v=18",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/olivia-obrien-presents-the-pixie-tour/",
+          "alt": "Official Olivia O’Brien show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:41.038Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.oliviaobrienmusic.com/about",
+          "label": "Olivia O’Brien official biography",
+          "checkedAt": "2026-10-06T02:30:37.449Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/olivia-obrien-presents-the-pixie-tour/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:41.038Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:15019633"
+      ],
+      "eventTitles": [
+        "Olivia O’Brien Presents: The PIXIE Tour w/ Maya Donovan"
+      ],
+      "checkedAt": "2026-10-06T02:30:37.449Z"
+    },
+    {
+      "id": "ax-and-the-hatchetmen",
+      "name": "Ax and the Hatchetmen",
+      "summary": "A Chicago six-piece that adds trumpet and saxophone to upbeat indie and alternative rock.",
+      "genres": [
+        "Indie rock",
+        "Alternative rock"
+      ],
+      "origin": "Chicago, Illinois",
+      "sections": [
+        {
+          "title": "What makes the sound",
+          "body": "Led by singer and guitarist Axel Ellis, the band brings guitars, bass and drums together with a horn section. Its members met while studying jazz, and formed the group in 2018. The official press biography describes a loose, energetic approach drawing on music across generations.",
+          "sourceUrls": [
+            "https://grandstandhq.com/artists/ax-and-the-hatchetmen/"
+          ]
+        },
+        {
+          "title": "Where to start",
+          "body": "The album So Much To Tell You and the official Blurry Lights release link provide a starting point for their guitar-and-horns mix. The Nashville date is part of The Late Checkout Tour 2026, with The Hails appearing as the named support act.",
+          "sourceUrls": [
+            "https://grandstandhq.com/artists/ax-and-the-hatchetmen/",
+            "https://www.thebasementnashville.com/tm-event/ax-and-the-hatchetmen-the-late-checkout-tour-2026-w-the-hails/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://axandthehatchetmen.com/"
+        },
+        {
+          "label": "Listen — Blurry Lights",
+          "url": "https://axandthehatchetmen.lnk.to/blurrylights"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://i.ticketweb.com/i/00/13/51/72/23_Original.jpg?v=14",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/ax-and-the-hatchetmen-the-late-checkout-tour-2026-w-the-hails/",
+          "alt": "Official Ax and the Hatchetmen with The Hails show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:41.123Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://grandstandhq.com/artists/ax-and-the-hatchetmen/",
+          "label": "Grandstand: Ax and the Hatchetmen official press biography",
+          "checkedAt": "2026-10-06T02:30:37.565Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/ax-and-the-hatchetmen-the-late-checkout-tour-2026-w-the-hails/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:41.123Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14921703"
+      ],
+      "eventTitles": [
+        "Ax and the Hatchetmen: The Late Checkout Tour 2026 w/ The Hails"
+      ],
+      "checkedAt": "2026-10-06T02:30:37.565Z"
+    },
+    {
+      "id": "the-hails",
+      "name": "The Hails",
+      "summary": "Florida-rooted indie rock with collaborative songwriting and a concept-driven visual identity.",
+      "genres": [
+        "Indie rock"
+      ],
+      "origin": "Gainesville, Florida",
+      "sections": [
+        {
+          "title": "Background and sound",
+          "body": "The band came out of the University of Florida’s college indie scene. Vocalist Robbie Kingsley, guitarist and keyboardist Franco Solari, guitarist Dylan McCue and drummer Zach Levy develop songs together. Their Duckpond material tackles dissatisfaction with work, rising living costs and making a life through art.",
+          "sourceUrls": [
+            "https://www.bighassle.com/the-hails"
+          ]
+        },
+        {
+          "title": "Visual concept",
+          "body": "For Duckpond’s videos, the group portrays 1930s bowling-alley pinsetters, tying the visuals to labor and obsolescence. This is an album concept rather than a fan dress rule. The Hails appears on the Ax and the Hatchetmen bill at The Basement East.",
+          "sourceUrls": [
+            "https://www.bighassle.com/the-hails",
+            "https://www.thebasementnashville.com/tm-event/ax-and-the-hatchetmen-the-late-checkout-tour-2026-w-the-hails/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://www.thehailsofficial.com/"
+        },
+        {
+          "label": "Listen — Apple Music",
+          "url": "https://music.apple.com/us/artist/the-hails/1257472077"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/5fc956d1fcc9f4470e9a5790/20ab1388-c042-4665-8e76-19f43c68e03d/The-Hails_Andreo-Otiniano1web.jpg",
+          "sourceUrl": "https://www.bighassle.com/the-hails",
+          "alt": "The Hails press photo published by Big Hassle.",
+          "kind": "artist",
+          "credit": "Andreo Otiniano (credit in official press image filename)",
+          "checkedAt": "2026-10-06T02:30:37.754Z"
+        },
+        {
+          "url": "https://i.ticketweb.com/i/00/13/51/72/23_Original.jpg?v=14",
+          "sourceUrl": "https://www.thebasementnashville.com/tm-event/ax-and-the-hatchetmen-the-late-checkout-tour-2026-w-the-hails/",
+          "alt": "Official Ax and the Hatchetmen with The Hails show image published by The Basement East.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:28:41.123Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bighassle.com/the-hails",
+          "label": "Big Hassle: The Hails official press biography",
+          "checkedAt": "2026-10-06T02:30:37.754Z"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/ax-and-the-hatchetmen-the-late-checkout-tour-2026-w-the-hails/",
+          "label": "The Basement East official event listing",
+          "checkedAt": "2026-10-06T02:28:41.123Z"
+        }
+      ],
+      "eventIds": [
+        "basement-east:14921703"
+      ],
+      "eventTitles": [
+        "Ax and the Hatchetmen: The Late Checkout Tour 2026 w/ The Hails"
+      ],
+      "checkedAt": "2026-10-06T02:30:37.754Z"
+    },
+    {
+      "id": "eyehategod",
+      "name": "EYEHATEGOD",
+      "summary": "New Orleans sludge metal combining heavy riffs, punk abrasion and raw vocals.",
+      "genres": [
+        "Sludge metal",
+        "Sludge punk"
+      ],
+      "origin": "New Orleans, Louisiana",
+      "sections": [
+        {
+          "title": "Sound and history",
+          "body": "Formed in 1988, EYEHATEGOD is associated with guitarist Jimmy Bower and vocalist Michael IX Williams. The label describes a collision of heavy Sabbath-influenced riffs and punk aggression. Their music is abrasive and weighty, with a long history in the New Orleans underground metal scene.",
+          "sourceUrls": [
+            "https://www.sonymusic.ca/press_release/eyehategod-return-to-century-media-records-new-album-a-history-of-nomadic-behavior-to-be-released-in-spring-2021"
+          ]
+        },
+        {
+          "title": "Nashville bill",
+          "body": "Cobra lists EYEHATEGOD alongside BLAST!, LUICIDAL and EVIL ARMY for October 7. This is a multi-band heavy-music show, listed as 18 and up. The venue’s exact bill is preserved here; BL’AST! has its own artist profile to keep the support act’s identity distinct.",
+          "sourceUrls": [
+            "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Label artist background",
+          "url": "https://www.sonymusic.ca/press_release/eyehategod-return-to-century-media-records-new-album-a-history-of-nomadic-behavior-to-be-released-in-spring-2021"
+        },
+        {
+          "label": "Listen — official Bandcamp",
+          "url": "https://eyehategodnola.bandcamp.com/album/eyehategod-2"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cobranashville.com/wp-content/uploads/2026/08/Untitled_Artwork-4.jpeg",
+          "sourceUrl": "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/",
+          "alt": "Official EYEHATEGOD, BL’AST!, LUICIDAL and EVIL ARMY show image published by Cobra Nashville.",
+          "kind": "flyer",
+          "checkedAt": "2026-10-06T02:28:44.257Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sonymusic.ca/press_release/eyehategod-return-to-century-media-records-new-album-a-history-of-nomadic-behavior-to-be-released-in-spring-2021",
+          "label": "Sony Music / Century Media: EYEHATEGOD biography",
+          "checkedAt": "2026-10-06T02:30:37.784Z"
+        },
+        {
+          "url": "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/",
+          "label": "Cobra Nashville official event listing",
+          "checkedAt": "2026-10-06T02:28:44.257Z"
+        }
+      ],
+      "eventIds": [
+        "cobra:13918"
+      ],
+      "eventTitles": [
+        "Venue: EYEHATEGOD | BLAST! | LUICIDAL | EVIL ARMY"
+      ],
+      "checkedAt": "2026-10-06T02:30:37.784Z"
+    },
+    {
+      "id": "blast-hardcore",
+      "name": "BL’AST!",
+      "summary": "Santa Cruz hardcore with forceful playing and roots in the 1980s SST scene.",
+      "genres": [
+        "Hardcore punk"
+      ],
+      "origin": "Santa Cruz, California",
+      "sections": [
+        {
+          "title": "The right BL’AST!",
+          "body": "This is the Santa Cruz hardcore band formed in 1982. Its early records include The Power of Expression, It’s In My Blood and Take the Manic Ride. Southern Lord’s history emphasizes intense performances and musicianship that pushed beyond a simple, rigid hardcore template.",
+          "sourceUrls": [
+            "https://southernlord.com/band/blast/"
+          ]
+        },
+        {
+          "title": "How it connects to this show",
+          "body": "Cobra spells the name BLAST! on its October 7 bill with EYEHATEGOD, LUICIDAL and EVIL ARMY. Contemporary tour coverage identifies the support as BL’AST!, corroborating the match to the hardcore band. The label page includes a listening section for exploring the recorded sound.",
+          "sourceUrls": [
+            "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/",
+            "https://www.theprp.com/2026/08/11/news/eyehategod-blast-luicidal-evil-army-etc-set-for-fall-u-s-tour/",
+            "https://southernlord.com/band/blast/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official label profile and listening",
+          "url": "https://southernlord.com/band/blast/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cobranashville.com/wp-content/uploads/2026/08/Untitled_Artwork-4.jpeg",
+          "sourceUrl": "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/",
+          "alt": "Official EYEHATEGOD, BL’AST!, LUICIDAL and EVIL ARMY show image published by Cobra Nashville.",
+          "kind": "flyer",
+          "checkedAt": "2026-10-06T02:28:44.257Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://southernlord.com/band/blast/",
+          "label": "Southern Lord: BL’AST! official label biography",
+          "checkedAt": "2026-10-06T02:37:19.000Z"
+        },
+        {
+          "url": "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/",
+          "label": "Cobra Nashville official event listing",
+          "checkedAt": "2026-10-06T02:28:44.257Z"
+        },
+        {
+          "url": "https://www.theprp.com/2026/08/11/news/eyehategod-blast-luicidal-evil-army-etc-set-for-fall-u-s-tour/",
+          "label": "Theprp: fall tour lineup corroboration",
+          "checkedAt": "2026-10-06T02:37:19.000Z"
+        }
+      ],
+      "eventIds": [
+        "cobra:13918"
+      ],
+      "eventTitles": [
+        "Venue: EYEHATEGOD | BLAST! | LUICIDAL | EVIL ARMY"
+      ],
+      "checkedAt": "2026-10-06T02:37:19.000Z"
+    },
+    {
+      "id": "regi-wooten",
+      "name": "Regi Wooten",
+      "summary": "A Nashville guitar player and educator whose music connects funk, jazz, blues, rock and soul.",
+      "genres": [
+        "Funk",
+        "Jazz",
+        "Blues",
+        "Soul"
+      ],
+      "sections": [
+        {
+          "title": "Who he is",
+          "body": "The eldest Wooten brother plays guitar and sings. Known as the Teacher, Regi is associated with an unusually broad guitar vocabulary, from chord work and strumming to tapping and percussive slapping. His official family biography places that approach within decades of playing and teaching.",
+          "sourceUrls": [
+            "https://www.thewootenbrothers.com/brothers"
+          ]
+        },
+        {
+          "title": "At Rudy’s",
+          "body": "A guitar-led session with collaborators and improvisation. The booking does not confirm Victor Wooten or the full Wooten Brothers lineup.",
+          "sourceUrls": [
+            "https://www.rudysjazzroom.com/calendar"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official biography",
+          "url": "https://www.thewootenbrothers.com/brothers"
+        },
+        {
+          "label": "Watch — Regi Wooten YouTube",
+          "url": "https://www.youtube.com/c/RegiWooten"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/64fb6d23b444d8298d40a058/5cc13e4a-270e-4ff6-9f07-d9402f2a12e3/regi_700.jpg",
+          "sourceUrl": "https://www.thewootenbrothers.com/brothers",
+          "alt": "Regi Wooten portrait from The Wooten Brothers’ official website.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:30:39.118Z"
+        },
+        {
+          "url": "https://rudysjazzroom.com/bandimages/regiwooten2021_rudysjazzroom.jpg",
+          "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+          "alt": "Regi Wooten image published by Rudy’s Jazz Room.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.thewootenbrothers.com/brothers",
+          "label": "The Wooten Brothers official biographies",
+          "checkedAt": "2026-10-06T02:30:39.118Z"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/calendar",
+          "label": "Rudy’s Jazz Room official calendar",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "eventIds": [
+        "rudys-jazz-room:9489eb8120c88b6349f8",
+        "rudys-jazz-room:2808cb8378c9c4990175"
+      ],
+      "eventTitles": [
+        "Regi Wooten & Friends"
+      ],
+      "checkedAt": "2026-10-06T02:31:55.397Z"
+    },
+    {
+      "id": "pat-coil",
+      "name": "Pat Coil",
+      "summary": "A pianist and composer working across contemporary acoustic jazz, hard bop, ballads and Latin jazz.",
+      "genres": [
+        "Jazz",
+        "Contemporary jazz",
+        "Hard bop"
+      ],
+      "sections": [
+        {
+          "title": "Music to start with",
+          "body": "Coil’s discography foregrounds original compositions and small-group interplay. Music For Humans, Bird House and True North offer different ensemble settings. His own descriptions range from energetic hard bop and Latin-jazz rhythms to reflective ballads and acoustic trio writing.",
+          "sourceUrls": [
+            "https://www.patcoil.com/music"
+          ]
+        },
+        {
+          "title": "Different local lineups",
+          "body": "October 9: Music For Humans with Pat Bergeson, Evan Cobb, Adam Nitti and Wes Little. October 16: a separate Blair Jazz Trio lineup.",
+          "sourceUrls": [
+            "https://www.rudysjazzroom.com/calendar"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://www.patcoil.com/"
+        },
+        {
+          "label": "Listen — Music For Humans",
+          "url": "https://patcoil.bandcamp.com/album/music-for-humans"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://rudysjazzroom.com/bandimages/PatCoiMusicForHumans-weslittle-patbergeson-adamnitti-evancobb.jpg",
+          "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+          "alt": "Pat Coil’s Music For Humans show image published by Rudy’s Jazz Room.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.patcoil.com/music",
+          "label": "Pat Coil official discography",
+          "checkedAt": "2026-10-06T02:30:39.104Z"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/calendar",
+          "label": "Rudy’s Jazz Room official calendar",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "eventIds": [
+        "rudys-jazz-room:447e17701ec9fa7bc270",
+        "rudys-jazz-room:eeb2eedd7987b6033187"
+      ],
+      "eventTitles": [
+        "Pat Coil's \"Music For Humans\" feat. Pat Bergeson, Evan Cobb, Adam Nitti & Wes Little",
+        "The Blair Jazz Trio w/ Pat Coil, Dan Hitchcock, Rob Linton & Marc Widenhofer"
+      ],
+      "checkedAt": "2026-10-06T02:31:55.397Z"
+    },
+    {
+      "id": "giovanni-rodriguez-12-manos",
+      "name": "Giovanni Rodriguez & 12 Manos",
+      "summary": "Percussion-led Latin music with a documented dance-floor setup at Rudy’s.",
+      "genres": [
+        "Salsa",
+        "Bachata",
+        "Latin"
+      ],
+      "sections": [
+        {
+          "title": "The bandleader",
+          "body": "Nashville musician Giovanni Rodriguez is a multi-instrumentalist, composer, arranger and percussion session player. His publicist identifies him as leader of 12 Manos, the Music City Latin Orchestra and Music City Soul Breakers. The linked Esperanza release is a collaboration with Marcela Pinilla featuring Victor Wooten.",
+          "sourceUrls": [
+            "https://www.fluxpublicrelations.com/giovanni-rodriguez"
+          ]
+        },
+        {
+          "title": "The room and music",
+          "body": "Salsa, bachata and Latin rhythms; front seating is cleared for dancing. General admission does not guarantee a seat.",
+          "sourceUrls": [
+            "https://www.rudysjazzroom.com/calendar"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Artist biography",
+          "url": "https://www.fluxpublicrelations.com/giovanni-rodriguez"
+        },
+        {
+          "label": "Listen — Esperanza",
+          "url": "https://ampl.ink/prQ55"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://rudysjazzroom.com/bandimages/giovanni2021_MCRO.jpg",
+          "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+          "alt": "Giovanni Rodriguez & 12 Manos image published by Rudy’s Jazz Room.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.fluxpublicrelations.com/giovanni-rodriguez",
+          "label": "Flux Public Relations: Giovanni Rodriguez biography",
+          "checkedAt": "2026-10-06T02:30:40.205Z"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/calendar",
+          "label": "Rudy’s Jazz Room official calendar",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "eventIds": [
+        "rudys-jazz-room:024bc2e8dc825aa71eea",
+        "rudys-jazz-room:617b3b1ea2063d8ba118",
+        "rudys-jazz-room:001fdd31de5d458720d0"
+      ],
+      "eventTitles": [
+        "Giovanni Rodriguez & 12 Manos"
+      ],
+      "checkedAt": "2026-10-06T02:31:55.397Z"
+    },
+    {
+      "id": "don-aliquo",
+      "name": "Don Aliquo",
+      "summary": "A Nashville saxophonist, composer and educator with Pittsburgh roots and a broad small-group jazz catalog.",
+      "genres": [
+        "Jazz",
+        "Modern jazz"
+      ],
+      "origin": "Pittsburgh, Pennsylvania",
+      "sections": [
+        {
+          "title": "Background",
+          "body": "Aliquo grew up around Pittsburgh jazz, learning from his father, saxophonist Don Aliquo Sr., before building his own performing and recording career. His work includes original compositions, collaborations and small-group recordings. Tenor saxophone and bass clarinet are part of his recorded musical palette.",
+          "sourceUrls": [
+            "https://www.donaliquo.com/about"
+          ]
+        },
+        {
+          "title": "Listening context",
+          "body": "His catalog bridges jazz tradition and contemporary writing, including the piano-less quartet project Growth. Upcoming bookings include a quartet and a Marc Payne collaboration; check each event’s lineup.",
+          "sourceUrls": [
+            "https://www.donaliquo.com/about",
+            "https://www.rudysjazzroom.com/calendar"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://www.donaliquo.com/"
+        },
+        {
+          "label": "Watch — official performances",
+          "url": "https://www.donaliquo.com/performing"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6a0b77ee517ab73c02c6fa65/1781201326137-20QGCGKKMKV891ETB3XR/Don+Pic.jpg",
+          "sourceUrl": "https://www.donaliquo.com/about",
+          "alt": "Don Aliquo portrait from his official biography.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:30:41.395Z"
+        },
+        {
+          "url": "https://rudysjazzroom.com/bandimages/DonAliquo2023.jpg",
+          "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+          "alt": "Don Aliquo image published by Rudy’s Jazz Room.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.donaliquo.com/about",
+          "label": "Don Aliquo official biography",
+          "checkedAt": "2026-10-06T02:30:41.395Z"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/calendar",
+          "label": "Rudy’s Jazz Room official calendar",
+          "checkedAt": "2026-10-06T02:31:55.397Z"
+        }
+      ],
+      "eventIds": [
+        "rudys-jazz-room:426a233ca37974ac17e6",
+        "rudys-jazz-room:e5a66471bfc8c2b51d25"
+      ],
+      "eventTitles": [
+        "Don Aliquo Quartet w/ Marc Payne, Jack Aylor & Ryan Brasley",
+        "Legend Meets Brilliance feat. Don Aliquo & Marc Payne"
+      ],
+      "checkedAt": "2026-10-06T02:31:55.397Z"
+    },
+    {
+      "id": "guthrie-trapp",
+      "name": "Guthrie Trapp",
+      "summary": "A Nashville guitarist whose instrumental playing crosses country, blues, jazz, rock and soul.",
+      "genres": [
+        "Instrumental",
+        "Country",
+        "Blues",
+        "Jazz",
+        "Americana"
+      ],
+      "sections": [
+        {
+          "title": "Musical background",
+          "body": "Trapp is a guitarist, composer, session musician and educator. After moving to Nashville, his work included Don Kelley’s band at Robert’s Western World and touring with Patty Loveless and Jerry Douglas. Those connections describe his career, not promised guests at the current show.",
+          "sourceUrls": [
+            "https://guthrietrapp.com/about/"
+          ]
+        },
+        {
+          "title": "What to listen for",
+          "body": "His music draws on country phrasing, blues, jazz, rock, soul and Americana. The guitar moves between those styles rather than staying inside one genre. The 5 Spot explicitly labels the Guthrie Trapp Trio booking as instrumental music; In Stereo is an official release to explore beforehand.",
+          "sourceUrls": [
+            "https://guthrietrapp.com/about/",
+            "https://the5spotnashville.com/shows/27176/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official website",
+          "url": "https://guthrietrapp.com/"
+        },
+        {
+          "label": "Listen — In Stereo",
+          "url": "https://guthrietrapp.com/in-stereo-available-now/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://guthrietrapp.com/wp-content/uploads/2026/07/guthrie-biography.jpg",
+          "sourceUrl": "https://guthrietrapp.com/about/",
+          "alt": "Guthrie Trapp biography photo from his official website.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:30:41.322Z"
+        },
+        {
+          "url": "https://the5spotnashville.com/wp-content/uploads/2026/07/flyer-7c83df49.webp",
+          "sourceUrl": "https://the5spotnashville.com/shows/27176/",
+          "alt": "Official Guthrie Trapp Trio show image published by The 5 Spot.",
+          "kind": "flyer",
+          "checkedAt": "2026-10-06T02:28:56.118Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://guthrietrapp.com/about/",
+          "label": "Guthrie Trapp official biography",
+          "checkedAt": "2026-10-06T02:30:41.322Z"
+        },
+        {
+          "url": "https://the5spotnashville.com/shows/27176/",
+          "label": "The 5 Spot official event listing",
+          "checkedAt": "2026-10-06T02:28:56.118Z"
+        }
+      ],
+      "eventIds": [
+        "five-spot:27176"
+      ],
+      "eventTitles": [
+        "Guthrie Trapp Trio"
+      ],
+      "checkedAt": "2026-10-06T02:30:41.322Z"
+    },
+    {
+      "id": "aj-and-the-jiggawatts",
+      "name": "AJ & The Jiggawatts",
+      "summary": "Nashville funk and soul with horns, a hard rhythmic drive and gritty vocals.",
+      "genres": [
+        "Funk",
+        "Soul",
+        "Deep funk"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound",
+          "body": "The official Bandcamp release describes a horn-backed funk group with forceful rhythms and rough-edged vocals. Wrong Step supplies an uptempo, call-and-response entry point; its paired track, Karma Is A Bitch, leans into deep funk. These recordings offer a concrete preview of the band’s musical approach.",
+          "sourceUrls": [
+            "https://ajandthejiggawatts.bandcamp.com/album/wrong-step-b-w-karma-is-a-bitch"
+          ]
+        },
+        {
+          "title": "Local connection",
+          "body": "The group is based in Nashville and has releases associated with Colemine and Money Mouse Records. The 5 Spot lists AJ & The Jiggawatts by name. The artwork here is the actual Bandcamp single image; no custom show flyer was verified for that booking.",
+          "sourceUrls": [
+            "https://ajandthejiggawatts.bandcamp.com/album/wrong-step-b-w-karma-is-a-bitch",
+            "https://the5spotnashville.com/shows/27846/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Listen — official Bandcamp",
+          "url": "https://ajandthejiggawatts.bandcamp.com/album/wrong-step-b-w-karma-is-a-bitch"
+        },
+        {
+          "label": "Artist catalog",
+          "url": "https://ajandthejiggawatts.bandcamp.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://f4.bcbits.com/img/a0486633173_5.jpg",
+          "sourceUrl": "https://ajandthejiggawatts.bandcamp.com/album/wrong-step-b-w-karma-is-a-bitch",
+          "alt": "Wrong Step b/w Karma Is A Bitch single artwork from AJ & The Jiggawatts’ official Bandcamp.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:30:42.194Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ajandthejiggawatts.bandcamp.com/album/wrong-step-b-w-karma-is-a-bitch",
+          "label": "Official Bandcamp / Colemine: Wrong Step b/w Karma Is A Bitch",
+          "checkedAt": "2026-10-06T02:30:42.194Z"
+        },
+        {
+          "url": "https://the5spotnashville.com/shows/27846/",
+          "label": "The 5 Spot official event listing",
+          "checkedAt": "2026-10-06T02:28:55.661Z"
+        }
+      ],
+      "eventIds": [
+        "five-spot:27846"
+      ],
+      "eventTitles": [
+        "AJ & The Jiggawatts"
+      ],
+      "checkedAt": "2026-10-06T02:30:42.194Z"
+    },
+    {
+      "id": "bizz-and-everyday-people",
+      "name": "Bizz and Everyday People",
+      "summary": "A Nashville band built around the contrasting voices of Wendell “Bizz” Bigsby-Church and Katrice Donaldson.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Founded in 2011, the group centers on co-founders Wendell Bigsby-Church and Katrice Donaldson. The venue describes his voice as smoky and her range as moving from soft passages to forceful lead vocals. Guitar, keyboards, bass, drums and saxophone support the two singers. Their background includes performing and backing other artists; the biography emphasizes a broad repertoire without identifying one fixed genre for every show.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/bizz-and-everyday-people"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/bizz-and-everyday-people"
+        },
+        {
+          "label": "Venue-linked artist website",
+          "url": "http://bizzandeverydaypeople.com"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "https://www.facebook.com/BizzandEverydayPeople/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_100.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/bizz-and-everyday-people",
+          "alt": "Bizz and Everyday People artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.907Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/bizz-and-everyday-people",
+          "label": "Bourbon Street official artist profile: Bizz and Everyday People",
+          "checkedAt": "2026-10-06T02:42:51.907Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.907Z",
+      "eventTitles": [
+        "Bizz and Everyday People"
+      ],
+      "eventIds": [
+        "bourbon-street:4508_1",
+        "bourbon-street:4518_1"
+      ]
+    },
+    {
+      "id": "gil-gann-and-friends",
+      "name": "Gil Gann & Friends",
+      "summary": "Blues, soul, R&B and country from a Nashville singer and guitarist.",
+      "genres": [
+        "Blues",
+        "Soul",
+        "R&B",
+        "Country"
+      ],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Gann’s official press kit describes music rooted in blues, soul, R&B and country, combining vocal delivery with experienced ensemble playing. Bourbon Street’s artist page identifies his local booking as Gil Gann & Friends. His artist-controlled Bandcamp includes full albums Country Blue and Day To Day Livin, giving a more concrete starting point than relying on the venue’s short tagline.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gil-gann-friends",
+            "https://gilgann.com/epk",
+            "https://gilgannentertainment.bandcamp.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gil-gann-friends"
+        },
+        {
+          "label": "Official website",
+          "url": "https://gilgann.com/"
+        },
+        {
+          "label": "Listen — Bandcamp",
+          "url": "https://gilgannentertainment.bandcamp.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_104.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gil-gann-friends",
+          "alt": "Gil Gann & Friends artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.062Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gil-gann-friends",
+          "label": "Bourbon Street official artist profile: Gil Gann & Friends",
+          "checkedAt": "2026-10-06T02:42:51.062Z"
+        },
+        {
+          "url": "https://gilgann.com/epk",
+          "label": "Gil Gann official electronic press kit",
+          "checkedAt": "2026-10-06T02:45:11.000Z"
+        },
+        {
+          "url": "https://gilgannentertainment.bandcamp.com/",
+          "label": "Gil Gann official Bandcamp",
+          "checkedAt": "2026-10-06T02:44:36.283Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:45:11.000Z",
+      "eventTitles": [
+        "Gil Gann & Friends"
+      ],
+      "eventIds": [
+        "bourbon-street:4475_2",
+        "bourbon-street:4482_2",
+        "bourbon-street:4475_3",
+        "bourbon-street:4482_3",
+        "bourbon-street:4475_4",
+        "bourbon-street:4482_4",
+        "bourbon-street:4475_5",
+        "bourbon-street:4482_5",
+        "bourbon-street:4475_6",
+        "bourbon-street:4482_6",
+        "bourbon-street:4475_7",
+        "bourbon-street:4482_7",
+        "bourbon-street:4475_8",
+        "bourbon-street:4482_8",
+        "bourbon-street:4475_9",
+        "bourbon-street:4482_9",
+        "bourbon-street:4536_1",
+        "bourbon-street:4540_1",
+        "bourbon-street:4536_2",
+        "bourbon-street:4540_2",
+        "bourbon-street:4536_3",
+        "bourbon-street:4540_3",
+        "bourbon-street:4540_4"
+      ]
+    },
+    {
+      "id": "kenneth-wright-and-friends",
+      "name": "Kenneth Wright & Friends",
+      "summary": "A named recurring Bourbon Street act; a detailed artist biography remains unverified.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "What is verified",
+          "body": "Kenneth Wright & Friends appears regularly on the Bourbon Street calendar. The venue supplies the act’s name, promotional photograph and Facebook link, but no detailed biography. Instrumentation, repertoire and genre remain unverified.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/kenneth-wright-friends"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/kenneth-wright-friends"
+        },
+        {
+          "label": "Venue-linked artist Facebook",
+          "url": "https://www.facebook.com/kenneth.wright.1650"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_106.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/kenneth-wright-friends",
+          "alt": "Kenneth Wright & Friends artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.051Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/kenneth-wright-friends",
+          "label": "Bourbon Street official artist profile: Kenneth Wright & Friends",
+          "checkedAt": "2026-10-06T02:42:51.051Z"
+        },
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/schedule",
+          "label": "Bourbon Street official bulk calendar: named NYE lineup",
+          "checkedAt": "2026-10-06T02:42:31.792Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.051Z",
+      "eventTitles": [
+        "Kenneth Wright & Friends",
+        "1- NYE - Kenneth Wright & Friends - 11:30-2:30"
+      ],
+      "eventIds": [
+        "bourbon-street:4472_2",
+        "bourbon-street:4479_2",
+        "bourbon-street:4483_2",
+        "bourbon-street:4472_3",
+        "bourbon-street:4479_3",
+        "bourbon-street:4483_3",
+        "bourbon-street:4472_4",
+        "bourbon-street:4479_4",
+        "bourbon-street:4483_4",
+        "bourbon-street:4472_5",
+        "bourbon-street:4479_5",
+        "bourbon-street:4483_5",
+        "bourbon-street:4472_6",
+        "bourbon-street:4479_6",
+        "bourbon-street:4483_6",
+        "bourbon-street:4472_7",
+        "bourbon-street:4479_7",
+        "bourbon-street:4483_7",
+        "bourbon-street:4472_8",
+        "bourbon-street:4479_8",
+        "bourbon-street:4483_8",
+        "bourbon-street:4479_9",
+        "bourbon-street:4483_9",
+        "bourbon-street:4534_1",
+        "bourbon-street:4538_1",
+        "bourbon-street:4541_1",
+        "bourbon-street:4534_2",
+        "bourbon-street:4538_2",
+        "bourbon-street:4541_2",
+        "bourbon-street:4534_3",
+        "bourbon-street:4538_3",
+        "bourbon-street:4541_3",
+        "bourbon-street:4534_4",
+        "bourbon-street:4538_4",
+        "bourbon-street:4541_4",
+        "bourbon-street:4554_1"
+      ]
+    },
+    {
+      "id": "big-shoes-band",
+      "name": "Big Shoes Band",
+      "summary": "A Nashville blues band that developed from a Little Feat tribute into an originals-and-covers project.",
+      "genres": [
+        "Blues",
+        "Blues rock"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Big Shoes began by recreating early Little Feat material, then developed its own identity and original songs. The venue biography describes progressive blues with influences including B.B. King, Ray Charles, the Allman Brothers, Bonnie Raitt and the Neville Brothers. Its personnel bring extensive recording and touring experience. Shoes Blues and Step On It document that transition; the older biography is useful for musical background, not a guarantee of the current lineup.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-shoes-band"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-shoes-band"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "https://www.facebook.com/BigShoesMusic/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_107.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-shoes-band",
+          "alt": "Big Shoes: Shoes Blues promotional cover artwork on the official venue artist page.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:42:51.550Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-shoes-band",
+          "label": "Bourbon Street official artist profile: Big Shoes Band",
+          "checkedAt": "2026-10-06T02:42:51.550Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.550Z",
+      "eventTitles": [
+        "Big Shoes Band"
+      ],
+      "eventIds": [
+        "bourbon-street:4491_1",
+        "bourbon-street:4492_1",
+        "bourbon-street:4526_1"
+      ]
+    },
+    {
+      "id": "the-corey-mac-show",
+      "name": "The Corey Mac Show",
+      "summary": "A local performer with both band-show bookings and a separately billed open blues jam.",
+      "genres": [
+        "Blues"
+      ],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Bourbon Street maintains separate listings for The Corey Mac Show and Open Jam with the Corey Mac Show, both linking to the same artist page on Facebook. The Tennessee Blues Society also identifies Corey Mac as the host of the venue’s Monday blues jam. These are related bookings with different formats; a regular show listing should not be treated as an invitation to join the jam.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-corey-mac-show",
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/open-jam-with-the-corey-mac-show",
+            "https://tennesseebluessociety.com/nashville-area-blues-jams"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-corey-mac-show"
+        },
+        {
+          "label": "Official venue open-jam page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/open-jam-with-the-corey-mac-show"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "https://www.facebook.com/CoreyMacBlues/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_114.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-corey-mac-show",
+          "alt": "The Corey Mac Show artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:52.128Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-corey-mac-show",
+          "label": "Bourbon Street official artist profile: The Corey Mac Show",
+          "checkedAt": "2026-10-06T02:42:52.128Z"
+        },
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/open-jam-with-the-corey-mac-show",
+          "label": "Bourbon Street official artist profile: Open Jam with the Corey Mac Show",
+          "checkedAt": "2026-10-06T02:42:49.807Z"
+        },
+        {
+          "url": "https://tennesseebluessociety.com/nashville-area-blues-jams",
+          "label": "Tennessee Blues Society: Nashville open blues jams",
+          "checkedAt": "2026-10-06T02:45:11.000Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:45:11.000Z",
+      "eventTitles": [
+        "Open Jam with the Corey Mac Show",
+        "The Corey Mac Show"
+      ],
+      "eventIds": [
+        "bourbon-street:4486_1",
+        "bourbon-street:4486_2",
+        "bourbon-street:4486_3",
+        "bourbon-street:4486_4",
+        "bourbon-street:4486_5",
+        "bourbon-street:4514_1",
+        "bourbon-street:4486_6",
+        "bourbon-street:4486_7",
+        "bourbon-street:4486_8",
+        "bourbon-street:4486_9",
+        "bourbon-street:4548_1",
+        "bourbon-street:4542_1",
+        "bourbon-street:4542_2",
+        "bourbon-street:4542_3",
+        "bourbon-street:4558_1"
+      ]
+    },
+    {
+      "id": "stacy-mitchhart-band",
+      "name": "Stacy Mitchhart Band",
+      "summary": "Guitar-led, blues-based music with R&B, gospel, jazz, Latin and rock influences.",
+      "genres": [
+        "Blues",
+        "R&B",
+        "Jazz",
+        "Rock"
+      ],
+      "origin": "Cincinnati, Ohio",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Mitchhart moved to Nashville in 1996 and became a house-band performer at Bourbon Street. His venue biography traces his approach to blues guitar, soul singers and gospel, with influences including B.B. King, Bobby “Blue” Bland and Wes Montgomery. He describes his own music as blues-based while incorporating jazz, Latin and rock ideas. Guitar tone, strong vocals and showmanship are the clearest guide to his musical identity.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/stacy-mitchhart-band"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/stacy-mitchhart-band"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_118.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/stacy-mitchhart-band",
+          "alt": "Stacy Mitchhart Band artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:50.463Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/stacy-mitchhart-band",
+          "label": "Bourbon Street official artist profile: Stacy Mitchhart Band",
+          "checkedAt": "2026-10-06T02:42:50.463Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:50.463Z",
+      "eventTitles": [
+        "Stacy Mitchhart Band"
+      ],
+      "eventIds": [
+        "bourbon-street:4493_1",
+        "bourbon-street:4474_2",
+        "bourbon-street:4497_1",
+        "bourbon-street:4484_2",
+        "bourbon-street:4493_2",
+        "bourbon-street:4474_3",
+        "bourbon-street:4484_3",
+        "bourbon-street:4493_3",
+        "bourbon-street:4474_4",
+        "bourbon-street:4484_4",
+        "bourbon-street:4493_4",
+        "bourbon-street:4474_5",
+        "bourbon-street:4484_5",
+        "bourbon-street:4493_5",
+        "bourbon-street:4474_6",
+        "bourbon-street:4484_6",
+        "bourbon-street:4493_6",
+        "bourbon-street:4474_7",
+        "bourbon-street:4510_1",
+        "bourbon-street:4484_7",
+        "bourbon-street:4493_7",
+        "bourbon-street:4474_8",
+        "bourbon-street:4484_8",
+        "bourbon-street:4493_8",
+        "bourbon-street:4484_9",
+        "bourbon-street:4531_1",
+        "bourbon-street:4532_1",
+        "bourbon-street:4533_1",
+        "bourbon-street:4531_2",
+        "bourbon-street:4532_2",
+        "bourbon-street:4545_1",
+        "bourbon-street:4533_2",
+        "bourbon-street:4531_3",
+        "bourbon-street:4532_3",
+        "bourbon-street:4533_3",
+        "bourbon-street:4531_4",
+        "bourbon-street:4533_4",
+        "bourbon-street:4531_5"
+      ]
+    },
+    {
+      "id": "piper-and-the-hard-times",
+      "name": "Piper and the Hard Times",
+      "summary": "Nashville blues-based music with R&B, soul and rock, led by vocalist Al “Piper” Green.",
+      "genres": [
+        "Blues",
+        "R&B",
+        "Soul",
+        "Rock"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "The band’s official press kit describes blues-based songs with strong grooves, melodic hooks and room for improvisation. Al “Piper” Green, Steve Eagon and Dave Colella form its longstanding core. The group won the band division of the International Blues Challenge in January 2024. Its Revelation recordings are a starting point for the mix of blues, R&B, soul and rock.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/piper-and-the-hard-times",
+            "https://www.piperandthehardtimes.com/press-kit"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/piper-and-the-hard-times"
+        },
+        {
+          "label": "Official website and videos",
+          "url": "https://www.piperandthehardtimes.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_120.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/piper-and-the-hard-times",
+          "alt": "Piper and the Hard Times artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.718Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/piper-and-the-hard-times",
+          "label": "Bourbon Street official artist profile: Piper and the Hard Times",
+          "checkedAt": "2026-10-06T02:42:51.718Z"
+        },
+        {
+          "url": "https://www.piperandthehardtimes.com/press-kit",
+          "label": "Piper & The Hard Times official press kit",
+          "checkedAt": "2026-10-06T02:44:32.416Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:44:32.416Z",
+      "eventTitles": [
+        "Piper and the Hard Times"
+      ],
+      "eventIds": [
+        "bourbon-street:4505_1",
+        "bourbon-street:4549_1"
+      ]
+    },
+    {
+      "id": "tyrone-smith-super-t",
+      "name": "Tyrone Smith “Super T”",
+      "summary": "A dance-and-show-band performer whose repertoire spans R&B, soul, disco and classic hits.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Disco",
+        "Oldies"
+      ],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Super T is Tyrone Smith of the Tyrone Smith Revue. The booking profile describes a Southern show-band tradition with a horn section and repertoire spanning Motown, soul, classic rock, oldies and contemporary hits. It emphasizes animated performance and dance music. That identifies the act’s musical approach; the exact size of the ensemble or setlist at Bourbon Street is not specified.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/tyrone-smith-super-t",
+            "https://ramentertainment.com/the-tyrone-smith-revue"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/tyrone-smith-super-t"
+        },
+        {
+          "label": "Artist booking profile and audio",
+          "url": "https://ramentertainment.com/the-tyrone-smith-revue"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_126.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/tyrone-smith-super-t",
+          "alt": "Tyrone Smith “Super T” artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.898Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/tyrone-smith-super-t",
+          "label": "Bourbon Street official artist profile: Tyrone Smith “Super T”",
+          "checkedAt": "2026-10-06T02:42:51.898Z"
+        },
+        {
+          "url": "https://ramentertainment.com/the-tyrone-smith-revue",
+          "label": "RAM Entertainment: The Tyrone Smith Revue",
+          "checkedAt": "2026-10-06T02:45:11.000Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:45:11.000Z",
+      "eventTitles": [
+        "Tyrone Smith “Super T”"
+      ],
+      "eventIds": [
+        "bourbon-street:4506_1",
+        "bourbon-street:4520_1",
+        "bourbon-street:4553_1"
+      ]
+    },
+    {
+      "id": "jeff-woods",
+      "name": "Jeff Woods",
+      "summary": "An East Tennessee singer-songwriter whose music connects soul, R&B, blues, rock and Americana.",
+      "genres": [
+        "Soul",
+        "R&B",
+        "Blues",
+        "Rock",
+        "Americana"
+      ],
+      "origin": "East Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Woods grew up in East Tennessee and developed his voice around music associated with Motown, Muscle Shoals and Memphis as well as his Bristol roots. The venue biography describes him as a singer-songwriter moving across soul, rock, R&B, blues and Americana. His album The Count explores retro soul with blues elements, while Roots & Redemption and a Nashville live collection provide other entry points.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jeff-woods"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jeff-woods"
+        },
+        {
+          "label": "Artist YouTube",
+          "url": "http://YouTube.com/jeffwoodsmusic"
+        },
+        {
+          "label": "Artist Instagram",
+          "url": "http://Instagram.com/jeffwoodsmusic"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_128.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jeff-woods",
+          "alt": "Jeff Woods artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:52.244Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jeff-woods",
+          "label": "Bourbon Street official artist profile: Jeff Woods",
+          "checkedAt": "2026-10-06T02:42:52.244Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:52.244Z",
+      "eventTitles": [
+        "Jeff Woods"
+      ],
+      "eventIds": [
+        "bourbon-street:4519_1"
+      ]
+    },
+    {
+      "id": "super-honk",
+      "name": "Super Honk",
+      "summary": "A Nashville blues group built around harmonica, guitar, bass and drums.",
+      "genres": [
+        "Blues"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "The venue describes Super Honk as a blues band paying tribute to earlier figures including Muddy Waters and Robert Johnson. Its listed lineup combines Joe Collier on harmonica and vocals, Josh Cobb on drums, Brent Little on bass and vocals, and Pete Mroz on guitar and vocals. That points to a traditional electric-band setup. The published personnel are background information; current show details should be checked separately.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/super-honk"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/super-honk"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "https://www.facebook.com/superhonk/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_129.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/super-honk",
+          "alt": "Super Honk artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:52.070Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/super-honk",
+          "label": "Bourbon Street official artist profile: Super Honk",
+          "checkedAt": "2026-10-06T02:42:52.070Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:52.070Z",
+      "eventTitles": [
+        "Super Honk"
+      ],
+      "eventIds": [
+        "bourbon-street:4515_1"
+      ]
+    },
+    {
+      "id": "juju-winfield-and-the-league",
+      "name": "Juju Winfield & the League",
+      "summary": "A regularly listed Bourbon Street act led by Juju Winfield; detailed repertoire information is still limited.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "What is verified",
+          "body": "The Bourbon Street calendar identifies this act as Juju Winfield & the League and supplies an official artist photo. A historical Black Rabbit listing independently documents Winfield performing as a singer in Nashville. Neither checked venue biography gives a detailed description of the League’s current lineup or genre, so those parts of the profile remain open.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/juju-winfield-the-league",
+            "https://www.blackrabbittn.com/event/2022/8/4/juju-winfield"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/juju-winfield-the-league"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_158.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/juju-winfield-the-league",
+          "alt": "Juju Winfield & the League artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:49.884Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/juju-winfield-the-league",
+          "label": "Bourbon Street official artist profile: Juju Winfield & the League",
+          "checkedAt": "2026-10-06T02:42:49.884Z"
+        },
+        {
+          "url": "https://www.blackrabbittn.com/event/2022/8/4/juju-winfield",
+          "label": "Black Rabbit: historical Juju Winfield artist listing",
+          "checkedAt": "2026-10-06T02:45:23.000Z"
+        },
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/schedule",
+          "label": "Bourbon Street official bulk calendar: named NYE lineup",
+          "checkedAt": "2026-10-06T02:42:31.792Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:45:23.000Z",
+      "eventTitles": [
+        "Juju Winfield & the League",
+        "2 - NYE - Juju Winfield & the League - 3:00-6:00"
+      ],
+      "eventIds": [
+        "bourbon-street:4485_1",
+        "bourbon-street:4473_2",
+        "bourbon-street:4485_2",
+        "bourbon-street:4473_3",
+        "bourbon-street:4485_3",
+        "bourbon-street:4473_4",
+        "bourbon-street:4485_4",
+        "bourbon-street:4473_5",
+        "bourbon-street:4485_5",
+        "bourbon-street:4473_6",
+        "bourbon-street:4485_6",
+        "bourbon-street:4473_7",
+        "bourbon-street:4485_7",
+        "bourbon-street:4473_8",
+        "bourbon-street:4485_8",
+        "bourbon-street:4485_9",
+        "bourbon-street:4535_1",
+        "bourbon-street:4543_1",
+        "bourbon-street:4535_2",
+        "bourbon-street:4550_1",
+        "bourbon-street:4543_2",
+        "bourbon-street:4535_3",
+        "bourbon-street:4543_3",
+        "bourbon-street:4535_4",
+        "bourbon-street:4543_4",
+        "bourbon-street:4555_1"
+      ]
+    },
+    {
+      "id": "alex-kramer-band",
+      "name": "Alex Kramer Band",
+      "summary": "A Nashville guitarist and producer leading his own band after extensive work as a backing musician.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Kramer studied music in Memphis and developed a career as a sideman before working in Los Angeles and returning to Nashville. His venue biography describes experience across pop, R&B, hip-hop and gospel sessions, along with production work through AK Productions. Those are career credits rather than a fixed description of his own band’s set. The Bourbon Street booking is specifically Alex Kramer Band.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/alex-kramer-band"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/alex-kramer-band"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "http://facebook.com/alexkramermusic"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_166.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/alex-kramer-band",
+          "alt": "Alex Kramer Band artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:50.183Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/alex-kramer-band",
+          "label": "Bourbon Street official artist profile: Alex Kramer Band",
+          "checkedAt": "2026-10-06T02:42:50.183Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:50.183Z",
+      "eventTitles": [
+        "Alex Kramer Band"
+      ],
+      "eventIds": [
+        "bourbon-street:4488_1",
+        "bourbon-street:4489_1",
+        "bourbon-street:4489_2",
+        "bourbon-street:4489_3",
+        "bourbon-street:4490_1",
+        "bourbon-street:4490_2",
+        "bourbon-street:4490_3",
+        "bourbon-street:4525_1",
+        "bourbon-street:4525_2",
+        "bourbon-street:4525_3"
+      ]
+    },
+    {
+      "id": "the-secret-ingredient",
+      "name": "The Secret Ingredient",
+      "summary": "A joint vocal performance by April Rucker and Sarina-Joi Crowe.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "April Rucker and Sarina-Joi Crowe perform together as The Secret Ingredient. The paired lead voices define this booking. The official venue biography does not specify the backing lineup, repertoire or genre.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-secret-ingredient"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-secret-ingredient"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_167.png",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-secret-ingredient",
+          "alt": "The Secret Ingredient artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.204Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/the-secret-ingredient",
+          "label": "Bourbon Street official artist profile: The Secret Ingredient",
+          "checkedAt": "2026-10-06T02:42:51.204Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.204Z",
+      "eventTitles": [
+        "The Secret Ingredient"
+      ],
+      "eventIds": [
+        "bourbon-street:4499_1"
+      ]
+    },
+    {
+      "id": "scotty-chapman",
+      "name": "Scotty Chapman",
+      "summary": "Rock songwriting and guitar music drawing on classic rock, blues, funk and psychedelic rock.",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Funk",
+        "Psychedelic rock"
+      ],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "A 3rd and Lindsley artist description presents Chapman’s solo project as rock music that draws on blues, funk and psychedelia. It names classic influences such as Led Zeppelin, the Rolling Stones and Jimi Hendrix alongside contemporary players including Marcus King and Gary Clark Jr. Bourbon Street’s separate listing confirms the Scotty Chapman booking. The older 3rd and Lindsley event supplies musical background, not an additional future date.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/scotty-chapman",
+            "https://www.3rdandlindsley.com/tm-event/scotty-chapman-with-loose-lips-ivan-pulley-band/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/scotty-chapman"
+        },
+        {
+          "label": "Venue-linked artist YouTube",
+          "url": "http://youtube.com/@scottychapman5070"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_190.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/scotty-chapman",
+          "alt": "Scotty Chapman artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:52.023Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/scotty-chapman",
+          "label": "Bourbon Street official artist profile: Scotty Chapman",
+          "checkedAt": "2026-10-06T02:42:52.023Z"
+        },
+        {
+          "url": "https://www.3rdandlindsley.com/tm-event/scotty-chapman-with-loose-lips-ivan-pulley-band/",
+          "label": "3rd and Lindsley: Scotty Chapman and Loose Lips artist biographies",
+          "checkedAt": "2026-10-06T02:44:35.514Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:44:35.514Z",
+      "eventTitles": [
+        "Scotty Chapman"
+      ],
+      "eventIds": [
+        "bourbon-street:4513_1"
+      ]
+    },
+    {
+      "id": "ger-bassman-hoffman",
+      "name": "Ger “Bassman” Hoffman",
+      "summary": "A Nashville bassist, writer and producer with roots in Detroit and Flint jazz, blues and R&B.",
+      "genres": [
+        "Jazz",
+        "Blues",
+        "R&B"
+      ],
+      "origin": "Flint, Michigan",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Hoffman grew up around the jazz, blues and R&B traditions of Flint and Detroit, then moved to Nashville in 1998. His venue biography describes both touring work and Nashville recording sessions across several musical styles, including country. The bass is central to his professional background. Bourbon Street presents his own recurring appearances alongside that broader career as a performer, writer and producer.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ger-bassman-hoffman"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ger-bassman-hoffman"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_191.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ger-bassman-hoffman",
+          "alt": "Ger “Bassman” Hoffman artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:49.996Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ger-bassman-hoffman",
+          "label": "Bourbon Street official artist profile: Ger \"Bassman\" Hoffman",
+          "checkedAt": "2026-10-06T02:42:49.996Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:49.996Z",
+      "eventTitles": [
+        "Ger \"Bassman\" Hoffman"
+      ],
+      "eventIds": [
+        "bourbon-street:4487_1",
+        "bourbon-street:4495_1",
+        "bourbon-street:4476_2",
+        "bourbon-street:4487_2",
+        "bourbon-street:4495_2",
+        "bourbon-street:4476_3",
+        "bourbon-street:4487_3",
+        "bourbon-street:4495_3",
+        "bourbon-street:4476_4",
+        "bourbon-street:4487_4",
+        "bourbon-street:4495_4",
+        "bourbon-street:4476_5",
+        "bourbon-street:4487_5",
+        "bourbon-street:4495_5",
+        "bourbon-street:4476_6",
+        "bourbon-street:4487_6",
+        "bourbon-street:4495_6",
+        "bourbon-street:4476_7",
+        "bourbon-street:4487_7",
+        "bourbon-street:4495_7",
+        "bourbon-street:4476_8",
+        "bourbon-street:4487_8",
+        "bourbon-street:4495_8",
+        "bourbon-street:4476_9",
+        "bourbon-street:4527_1",
+        "bourbon-street:4528_1",
+        "bourbon-street:4529_1",
+        "bourbon-street:4527_2",
+        "bourbon-street:4528_2",
+        "bourbon-street:4529_2",
+        "bourbon-street:4527_3",
+        "bourbon-street:4528_3",
+        "bourbon-street:4529_3",
+        "bourbon-street:4527_4",
+        "bourbon-street:4528_4",
+        "bourbon-street:4527_5",
+        "bourbon-street:4528_5"
+      ]
+    },
+    {
+      "id": "gian-cage",
+      "name": "Gian Cage",
+      "summary": "A locally listed artist with a blues profile under Gian Cage & The G.C.B.",
+      "genres": [
+        "Blues"
+      ],
+      "sections": [
+        {
+          "title": "What is verified",
+          "body": "Bourbon Street lists Gian Cage by name and provides an artist photograph. An artist profile for Gian Cage & The G.C.B. identifies blues and Goodlettsville, Tennessee. That supplies a genre reference, but the checked pages do not explain the lineup, instruments or whether the full G.C.B. ensemble appears at this particular booking. Those details remain unverified.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gian-cage",
+            "https://legacy.reverbnation.com/giancagethegcb"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gian-cage"
+        },
+        {
+          "label": "Artist ReverbNation",
+          "url": "https://www.reverbnation.com/giancagethegcb"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_192.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gian-cage",
+          "alt": "Gian Cage illustrated promotional portrait on the official venue artist page.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:42:51.220Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/gian-cage",
+          "label": "Bourbon Street official artist profile: Gian Cage",
+          "checkedAt": "2026-10-06T02:42:51.220Z"
+        },
+        {
+          "url": "https://legacy.reverbnation.com/giancagethegcb",
+          "label": "Gian Cage & The G.C.B.: artist profile on ReverbNation",
+          "checkedAt": "2026-10-06T02:44:36.972Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:44:36.972Z",
+      "eventTitles": [
+        "Gian Cage"
+      ],
+      "eventIds": [
+        "bourbon-street:4498_1"
+      ]
+    },
+    {
+      "id": "herschel-bailey-band",
+      "name": "Herschel Bailey Band",
+      "summary": "A Nashville band led by Herschel Bailey, with verified ties to the DeFord Bailey family’s musical legacy.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "What is verified",
+          "body": "The official Bourbon Street page confirms the band’s name and photograph but gives no substantive music biography. NewsChannel 5 reported the Herschel Bailey Band’s participation in a DeFord Bailey street-naming celebration and identified the family connection. A detailed current lineup, repertoire and genre description remain unverified; this profile preserves the confirmed local identity and current venue booking.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/herschel-bailey-band",
+            "https://www.newschannel5.com/talk-of-the-town/deford-baileys-legacy-lives-on"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/herschel-bailey-band"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_193.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/herschel-bailey-band",
+          "alt": "Herschel Bailey Band artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:52.227Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/herschel-bailey-band",
+          "label": "Bourbon Street official artist profile: Herschel Bailey Band",
+          "checkedAt": "2026-10-06T02:42:52.227Z"
+        },
+        {
+          "url": "https://www.newschannel5.com/talk-of-the-town/deford-baileys-legacy-lives-on",
+          "label": "NewsChannel 5: DeFord Bailey family event",
+          "checkedAt": "2026-10-06T02:45:23.000Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:45:23.000Z",
+      "eventTitles": [
+        "Herschel Bailey Band"
+      ],
+      "eventIds": [
+        "bourbon-street:4512_1"
+      ]
+    },
+    {
+      "id": "jannelle-means",
+      "name": "Jannelle Means",
+      "summary": "A Chattanooga-born Nashville vocalist with gospel roots and soul and funk influences.",
+      "genres": [
+        "Gospel",
+        "Soul",
+        "Funk"
+      ],
+      "origin": "Chattanooga, Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Means began singing in church and school, later developing a Nashville career as a band vocalist, recording singer and performer. Her venue biography names influences ranging from Karen Clark-Sheard and Chaka Khan to Etta James and the Isley Brothers. She leads her own band and has collaborated with other local ensembles. The source emphasizes a flexible vocal approach shaped by gospel, soul and funk rather than one narrow repertoire.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jannelle-means"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jannelle-means"
+        },
+        {
+          "label": "Artist Instagram",
+          "url": "http://instagram.com/jannellesingsandloves"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_197.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jannelle-means",
+          "alt": "Jannelle Means artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.864Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/jannelle-means",
+          "label": "Bourbon Street official artist profile: Jannelle Means",
+          "checkedAt": "2026-10-06T02:42:51.864Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.864Z",
+      "eventTitles": [
+        "Jannelle Means"
+      ],
+      "eventIds": [
+        "bourbon-street:4507_1",
+        "bourbon-street:4517_1"
+      ]
+    },
+    {
+      "id": "loose-lips",
+      "name": "Loose Lips",
+      "summary": "A Nashville rock ’n’ roll, blues and soul band with regular local-club appearances.",
+      "genres": [
+        "Rock",
+        "Blues",
+        "Soul"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Bourbon Street identifies Loose Lips as a local Nashville band and describes its regular local-club circuit. A 3rd and Lindsley artist biography explicitly characterizes the music as rock ’n’ roll, blues and soul, with an energetic live approach. That establishes the musical identity without assuming a particular setlist. The linked Instagram is supplied by the official Bourbon Street artist page.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/loose-lips",
+            "https://www.3rdandlindsley.com/tm-event/scotty-chapman-with-loose-lips-ivan-pulley-band/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/loose-lips"
+        },
+        {
+          "label": "Artist Instagram",
+          "url": "https://instagram.com/looselipsofficial"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_204.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/loose-lips",
+          "alt": "Loose Lips artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:50.903Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/loose-lips",
+          "label": "Bourbon Street official artist profile: Loose Lips",
+          "checkedAt": "2026-10-06T02:42:50.903Z"
+        },
+        {
+          "url": "https://www.3rdandlindsley.com/tm-event/scotty-chapman-with-loose-lips-ivan-pulley-band/",
+          "label": "3rd and Lindsley: Scotty Chapman and Loose Lips artist biographies",
+          "checkedAt": "2026-10-06T02:44:35.514Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:44:35.514Z",
+      "eventTitles": [
+        "Loose Lips"
+      ],
+      "eventIds": [
+        "bourbon-street:4477_2",
+        "bourbon-street:4477_3",
+        "bourbon-street:4477_4",
+        "bourbon-street:4477_5",
+        "bourbon-street:4477_6",
+        "bourbon-street:4477_7",
+        "bourbon-street:4477_8",
+        "bourbon-street:4477_9",
+        "bourbon-street:4537_1",
+        "bourbon-street:4537_2",
+        "bourbon-street:4537_3"
+      ]
+    },
+    {
+      "id": "meg-williams",
+      "name": "Meg Williams",
+      "summary": "A Nashville guitarist, singer and songwriter working in blues and blues rock.",
+      "genres": [
+        "Blues",
+        "Blues rock"
+      ],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Williams performs with a full band, in solo or duo settings, and as a guitarist for other artists. She represented the Kentucky Blues Society at the 2019 International Blues Challenge and directed the International Women in Blues Showcase house band. Her album Take Me As I Am: The Muscle Shoals Sessions was recorded at FAME Studios with Nola Blue Records. The current booking does not specify which ensemble configuration will appear.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/meg-williams"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/meg-williams"
+        },
+        {
+          "label": "Official website",
+          "url": "http://megwilliamsmusic.com"
+        },
+        {
+          "label": "Artist YouTube",
+          "url": "http://youtube.com/megwilliamsmusic"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_208.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/meg-williams",
+          "alt": "Meg Williams artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:50.303Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/meg-williams",
+          "label": "Bourbon Street official artist profile: Meg Williams",
+          "checkedAt": "2026-10-06T02:42:50.303Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:50.303Z",
+      "eventTitles": [
+        "Meg Williams"
+      ],
+      "eventIds": [
+        "bourbon-street:4494_1",
+        "bourbon-street:4494_2",
+        "bourbon-street:4494_3",
+        "bourbon-street:4494_4",
+        "bourbon-street:4494_5",
+        "bourbon-street:4494_6",
+        "bourbon-street:4494_7",
+        "bourbon-street:4494_8",
+        "bourbon-street:4530_1",
+        "bourbon-street:4547_1",
+        "bourbon-street:4530_2",
+        "bourbon-street:4530_3",
+        "bourbon-street:4530_4",
+        "bourbon-street:4530_5"
+      ]
+    },
+    {
+      "id": "nashville-soundz",
+      "name": "Nashville Soundz",
+      "summary": "A Nashville dance band with a wide songbook of well-known songs across eras.",
+      "genres": [],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "The band’s official site presents Nashville Soundz as a live dance band and provides performance videos plus an extensive song list. The published repertoire includes songs associated with Aretha Franklin, Etta James, Chic, Dua Lipa and many other artists. The list describes available repertoire; it does not promise specific songs at a Bourbon Street show.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/nashville-soundz",
+            "https://www.thenashvillesoundz.com/",
+            "https://www.thenashvillesoundz.com/music"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/nashville-soundz"
+        },
+        {
+          "label": "Official website and videos",
+          "url": "https://www.thenashvillesoundz.com/"
+        },
+        {
+          "label": "Official song list",
+          "url": "https://www.thenashvillesoundz.com/music"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_210.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/nashville-soundz",
+          "alt": "Nashville Soundz band logo on the official venue artist page.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:42:51.723Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/nashville-soundz",
+          "label": "Bourbon Street official artist profile: Nashville Soundz",
+          "checkedAt": "2026-10-06T02:42:51.723Z"
+        },
+        {
+          "url": "https://www.thenashvillesoundz.com/",
+          "label": "The Nashville Soundz official website",
+          "checkedAt": "2026-10-06T02:44:33.644Z"
+        },
+        {
+          "url": "https://www.thenashvillesoundz.com/music",
+          "label": "The Nashville Soundz official song list",
+          "checkedAt": "2026-10-06T02:44:35.014Z"
+        },
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/schedule",
+          "label": "Bourbon Street official bulk calendar: named NYE lineup",
+          "checkedAt": "2026-10-06T02:42:31.792Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:44:35.014Z",
+      "eventTitles": [
+        "Nashville Soundz",
+        "4 - NYE - Nashville Soundz - 10:00-2:00"
+      ],
+      "eventIds": [
+        "bourbon-street:4502_1",
+        "bourbon-street:4516_1",
+        "bourbon-street:4551_1",
+        "bourbon-street:4557_1"
+      ]
+    },
+    {
+      "id": "sam-mccrary-and-the-mix",
+      "name": "Sam McCrary & the Mix",
+      "summary": "A vocal-led band whose official venue biography describes its style as funk fusion.",
+      "genres": [
+        "Funk fusion"
+      ],
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "McCrary started forming bands in high school and developed the Mix by bringing together musicians from different styles. The venue biography describes the result as funk fusion, with the ensemble supporting his vocals. The official band site is linked from Bourbon Street’s artist page.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sam-mccrary-the-mix"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sam-mccrary-the-mix"
+        },
+        {
+          "label": "Official artist website",
+          "url": "https://www.samandthemix.com"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "https://www.facebook.com/SamMccraryAndTheMix/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_223.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sam-mccrary-the-mix",
+          "alt": "Sam McCrary & the Mix artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.671Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sam-mccrary-the-mix",
+          "label": "Bourbon Street official artist profile: Sam McCrary & the Mix",
+          "checkedAt": "2026-10-06T02:42:51.671Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.671Z",
+      "eventTitles": [
+        "Sam McCrary & the Mix"
+      ],
+      "eventIds": [
+        "bourbon-street:4503_1",
+        "bourbon-street:4504_1",
+        "bourbon-street:4511_1",
+        "bourbon-street:4546_1"
+      ]
+    },
+    {
+      "id": "sweet-lizzy-project",
+      "name": "Sweet Lizzy Project",
+      "summary": "A Cuban-born, Nashville-based band combining anthemic rock and pop-rock.",
+      "genres": [
+        "Rock",
+        "Pop rock"
+      ],
+      "origin": "Havana, Cuba",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Sweet Lizzy Project developed in Havana before relocating to Nashville in 2017. Its booking biography centers on singer Lisset Diaz and guitarist, producer and songwriter Miguel Comas. The band blends modern pop-rock presentation with classic-rock influences and appeared in PBS’s Havana Time Machine alongside the Mavericks and other musicians. Technicolor is one recorded entry point; the biography’s older album count and personnel are not treated as current.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sweet-lizzy-project",
+            "https://www.midwoodentertainment.com/artists/sweet-lizzy-project"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sweet-lizzy-project"
+        },
+        {
+          "label": "Official website",
+          "url": "https://www.sweetlizzyproject.com/"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "http://facebook.com/sweet.lizzy.project"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_242.jpg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sweet-lizzy-project",
+          "alt": "Sweet Lizzy Project branded promotional photo montage on the official venue artist page.",
+          "kind": "artwork",
+          "checkedAt": "2026-10-06T02:42:51.543Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/sweet-lizzy-project",
+          "label": "Bourbon Street official artist profile: Sweet Lizzy Project",
+          "checkedAt": "2026-10-06T02:42:51.543Z"
+        },
+        {
+          "url": "https://www.midwoodentertainment.com/artists/sweet-lizzy-project",
+          "label": "Midwood Entertainment: Sweet Lizzy Project official artist biography",
+          "checkedAt": "2026-10-06T02:44:34.918Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:44:34.918Z",
+      "eventTitles": [
+        "Sweet Lizzy Project"
+      ],
+      "eventIds": [
+        "bourbon-street:4500_1",
+        "bourbon-street:4509_1",
+        "bourbon-street:4544_1"
+      ]
+    },
+    {
+      "id": "big-monti",
+      "name": "Big Monti",
+      "summary": "A Portland-born blues rocker who brought decades of touring experience to Nashville.",
+      "genres": [
+        "Blues",
+        "Blues rock"
+      ],
+      "origin": "Portland, Oregon",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "Big Monti built his career around blues and blues rock, spending substantial time performing between Portland and Amsterdam before making Nashville his base in 2016. The venue biography names appearances alongside artists including Albert King, John Lee Hooker and Johnny Winter, and notes his 2018 Oregon Music Hall of Fame induction. Those are career milestones; his current local booking is the Big Monti act listed on the calendar.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-monti"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-monti"
+        },
+        {
+          "label": "Official website",
+          "url": "http://bigmonti.com"
+        },
+        {
+          "label": "Artist Facebook",
+          "url": "http://facebook.com/bigmontiamundson"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_243.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-monti",
+          "alt": "Big Monti artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.349Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/big-monti",
+          "label": "Bourbon Street official artist profile: Big Monti",
+          "checkedAt": "2026-10-06T02:42:51.349Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:42:51.349Z",
+      "eventTitles": [
+        "Big Monti"
+      ],
+      "eventIds": [
+        "bourbon-street:4480_2",
+        "bourbon-street:4480_3",
+        "bourbon-street:4480_4",
+        "bourbon-street:4480_5",
+        "bourbon-street:4480_6",
+        "bourbon-street:4480_7",
+        "bourbon-street:4480_8",
+        "bourbon-street:4480_9",
+        "bourbon-street:4539_1",
+        "bourbon-street:4539_2",
+        "bourbon-street:4539_3",
+        "bourbon-street:4539_4"
+      ]
+    },
+    {
+      "id": "ping-rose-and-the-anti-heroes",
+      "name": "Ping Rose + Anti Heroes",
+      "summary": "A Memphis-rooted singer and guitarist with alternative, blues and jazz influences.",
+      "genres": [
+        "Alternative",
+        "Blues",
+        "Jazz"
+      ],
+      "origin": "Memphis, Tennessee",
+      "sections": [
+        {
+          "title": "About the music",
+          "body": "An archived Black Rabbit artist biography identifies Ping Rose as a Memphis singer and guitarist who taught music, performed on cruise ships and later worked in Nashville. It describes both his band, the Anti-Heroes, and solo acoustic work, with alternative, blues and jazz influences. Victory Amplification’s artist profile independently names Ping Rose + Anti-Heroes. These sources establish musical identity; the archived Black Rabbit date is not a new occurrence.",
+          "sourceUrls": [
+            "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ping-rose-anti-heroes-",
+            "https://www.blackrabbittn.com/event/2022/1/7/ping-rose-and-the-anti-heroes",
+            "https://www.victoryamps.com/artist/ping-rose/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist page",
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ping-rose-anti-heroes-"
+        },
+        {
+          "label": "Official artist link hub",
+          "url": "https://linktr.ee/pingroseplays"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/uploaded/artist/Art_246.jpeg",
+          "sourceUrl": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ping-rose-anti-heroes-",
+          "alt": "Ping Rose + Anti Heroes artist image published by Bourbon Street Blues and Boogie Bar.",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:42:51.526Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/artist/view/ping-rose-anti-heroes-",
+          "label": "Bourbon Street official artist profile: Ping Rose + Anti Heroes",
+          "checkedAt": "2026-10-06T02:42:51.526Z"
+        },
+        {
+          "url": "https://www.blackrabbittn.com/event/2022/1/7/ping-rose-and-the-anti-heroes",
+          "label": "Black Rabbit: Ping Rose and the Anti-Heroes biography",
+          "checkedAt": "2026-10-06T02:45:23.000Z"
+        },
+        {
+          "url": "https://www.victoryamps.com/artist/ping-rose/",
+          "label": "Victory Amplification: Ping Rose artist profile",
+          "checkedAt": "2026-10-06T02:45:11.000Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:45:23.000Z",
+      "eventTitles": [
+        "Ping Rose + Anti Heroes"
+      ],
+      "eventIds": [
+        "bourbon-street:4501_1",
+        "bourbon-street:4552_1"
+      ]
+    },
+    {
+      "id": "gable-burnett",
+      "name": "Gable Burnett",
+      "summary": "Gable Burnett is a contemporary country singer whose own artist biography emphasizes the connection between classic country twang and current country songwriting.",
+      "genres": [
+        "Country"
+      ],
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Gable Burnett is a contemporary country singer whose own artist biography emphasizes the connection between classic country twang and current country songwriting. Her public music links also use the shorter artist name Gable. The official site points listeners to her single Sugar Town and to the artist pages linked from her biography. Her published biography is brief, so detailed career history and a fuller description of the live set remain unverified.",
+          "sourceUrls": [
+            "https://gableburnett.com/about/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official artist biography",
+          "url": "https://gableburnett.com/about/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://gableburnett.com/wp-content/uploads/meet-gable.jpg",
+          "sourceUrl": "https://gableburnett.com/about/",
+          "alt": "Gable Burnett official artist photograph",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:48:45.544Z"
+        },
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiYWVlYzVhN2ItNjZmMC00YjRjLWFhMzMtOWFkNzc4YjQ5YmI5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Unpublished",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gableburnett.com/about/",
+          "label": "Official artist biography",
+          "checkedAt": "2026-10-06T02:48:45.544Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:d4731113dffa8d8a85e6"
+      ]
+    },
+    {
+      "id": "grace-camera",
+      "name": "Grace Camera",
+      "summary": "Grace Camera is a Nashville vocalist and songwriter originally from the New York City area.",
+      "genres": [
+        "Pop",
+        "Soul",
+        "Jazz-influenced pop"
+      ],
+      "origin": "New York City area; based in Nashville",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Grace Camera is a Nashville vocalist and songwriter originally from the New York City area. Her music brings together pop and soul singing, jazz influences and conversational songwriting. Her background includes choir and vocal ensembles, arranging, and a Commercial Music degree with a songwriting emphasis from Belmont. Her artist press kit names Sara Bareilles, Tori Kelly and Sarah Vaughan among her influences. Blame is the debut single highlighted in her official press kit. Camera also plays piano, guitar and violin.",
+          "sourceUrls": [
+            "https://gracecamera.com/electronic-press-kit-epk"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official electronic press kit",
+          "url": "https://gracecamera.com/electronic-press-kit-epk"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.zoogletools.com/s:bzglfiles/u/1265092/f2540e63785b1715ca03d02c8f846dba2edbe475/original/img-grace-c-002.jpg/!!/b%3AW1sicmVzaXplIiwxODAwXSxbIm1heCJdLFsid2UiXV0%3D/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+          "sourceUrl": "https://gracecamera.com/electronic-press-kit-epk",
+          "alt": "Grace Camera official press photograph",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:47:02.297Z"
+        },
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiYWVlYzVhN2ItNjZmMC00YjRjLWFhMzMtOWFkNzc4YjQ5YmI5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Unpublished",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gracecamera.com/electronic-press-kit-epk",
+          "label": "Official electronic press kit",
+          "checkedAt": "2026-10-06T02:47:02.297Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:d4731113dffa8d8a85e6"
+      ]
+    },
+    {
+      "id": "eli-fox",
+      "name": "Eli Fox",
+      "summary": "Eli Fox is a Knoxville-born songwriter and multi-instrumentalist based in Nashville.",
+      "genres": [
+        "Americana",
+        "Folk",
+        "Country"
+      ],
+      "origin": "Knoxville, Tennessee; based in Nashville",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Eli Fox is a Knoxville-born songwriter and multi-instrumentalist based in Nashville. His roots include five-string banjo, the Knoxville band Subtle Clutch, and an interest in the storytelling of Woody Guthrie, Bob Dylan, Michael Hurley and James McMurtry. Alongside his own folk and country writing, he has toured as a utility musician playing pedal steel, fiddle and guitar. Qualified Country Gold, released in 2025, is a useful starting point. Fox’s biography says he played its instruments apart from bass and drums. His solo work and his supporting-musician work are separate parts of the same career.",
+          "sourceUrls": [
+            "https://www.elifoxmusic.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official artist biography and music",
+          "url": "https://www.elifoxmusic.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiYWVlYzVhN2ItNjZmMC00YjRjLWFhMzMtOWFkNzc4YjQ5YmI5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Unpublished",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.elifoxmusic.com/",
+          "label": "Official artist biography and music",
+          "checkedAt": "2026-10-06T02:48:18.010Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:d4731113dffa8d8a85e6"
+      ]
+    },
+    {
+      "id": "natalie-auell",
+      "name": "Natalie Auell",
+      "summary": "Natalie Auell is a Nashville singer-songwriter whose own Slaps profile identifies her music with pop and songwriting.",
+      "genres": [
+        "Pop",
+        "Singer-songwriter"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Natalie Auell is a Nashville singer-songwriter whose own Slaps profile identifies her music with pop and songwriting. The page introduces All My Loving as a groove-oriented pop love song and connects Slow Motion to her first EP of the same name. Those artist-authored notes provide a modest introduction; a detailed biography and the instrumentation of her current live show are not published there. Start with the artist’s own All My Loving and Slow Motion posts, then use the streaming and social links attached to that profile. The checked material supports a pop description without assigning a more specific scene or audience.",
+          "sourceUrls": [
+            "https://slaps.com/natalieauell"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Artist profile and song descriptions on Slaps",
+          "url": "https://slaps.com/natalieauell"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiYWVlYzVhN2ItNjZmMC00YjRjLWFhMzMtOWFkNzc4YjQ5YmI5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Unpublished",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://slaps.com/natalieauell",
+          "label": "Artist profile and song descriptions on Slaps",
+          "checkedAt": "2026-10-06T02:50:15.812Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:d4731113dffa8d8a85e6"
+      ]
+    },
+    {
+      "id": "the-cowpokes",
+      "name": "The Cowpokes",
+      "summary": "The Cowpokes are a Nashville country and western band built around two-step dancing and songs associated with the 1940s through the 1960s.",
+      "genres": [
+        "Country",
+        "Honky-tonk"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "The Cowpokes are a Nashville country and western band built around two-step dancing and songs associated with the 1940s through the 1960s. Their published artist biography describes fiddle, electric guitar, piano, bass, drums and pedal steel alongside original material. Repertoire references include Ray Price, Webb Pierce, Bob Wills, Merle Haggard and Buck Owens, placing the band in a traditional honky-tonk setting. The biography documents the group’s origins in 2016 and its connection to Honky Tonk Tuesday.",
+          "sourceUrls": [
+            "https://www.southgatehouse.com/tm-attraction/the-cowpokes/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official venue artist biography",
+          "url": "https://www.southgatehouse.com/tm-attraction/the-cowpokes/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNGJmN2U1NWEtZTZjNC00MTU5LWEyMjEtOWVkMjY5YTUzY2RlIiwiZWRpdHMiOnt9fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for Honky Tonk Tuesday with The Cowpokes ft. Special Guests",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.southgatehouse.com/tm-attraction/the-cowpokes/",
+          "label": "Official venue artist biography",
+          "checkedAt": "2026-10-06T02:48:18.172Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5cd8ee6b67f35f174e5a",
+        "eastside-bowl:b8b189523e4780a40beb"
+      ]
+    },
+    {
+      "id": "nathan-belt",
+      "name": "Nathan Belt",
+      "summary": "Nathan Belt is a Texas-born country singer and Nashville performer whose work centers on traditional country.",
+      "genres": [
+        "Country",
+        "Honky-tonk"
+      ],
+      "origin": "Texas; based in Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Nathan Belt is a Texas-born country singer and Nashville performer whose work centers on traditional country. He developed as a teenager on the North Texas Opry circuit, moved to Nashville after a publishing deal, and later formed Nathan Belt & the Buckles. His current artist site highlights classic country singing, honky-tonk appearances and recordings made with producer and songwriter Bryan Simpson. A Song In The Making is the six-song EP highlighted on his site. Its credited players include pedal steel, fiddle, acoustic and electric guitars, piano, bass and drums. The recorded arrangement is useful context, not a guarantee of this guest appearance’s lineup.",
+          "sourceUrls": [
+            "https://nathanbelt.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official artist biography and recordings",
+          "url": "https://nathanbelt.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNGJmN2U1NWEtZTZjNC00MTU5LWEyMjEtOWVkMjY5YTUzY2RlIiwiZWRpdHMiOnt9fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for Honky Tonk Tuesday with The Cowpokes ft. Special Guests",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://nathanbelt.com/",
+          "label": "Official artist biography and recordings",
+          "checkedAt": "2026-10-06T02:47:04.634Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5cd8ee6b67f35f174e5a"
+      ]
+    },
+    {
+      "id": "the-royal-hounds",
+      "name": "The Royal Hounds",
+      "summary": "The Royal Hounds are a Nashville roots-rock trio whose show places as much emphasis on physical performance and humor as on playing.",
+      "genres": [
+        "Roots rock",
+        "Rock and roll"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "The Royal Hounds are a Nashville roots-rock trio whose show places as much emphasis on physical performance and humor as on playing. Their official press kit identifies Scott Hinds on vocals and upright bass, Matheus Canteri on guitar and Nathan Place on drums. The band’s published history includes appearances with Wanda Jackson, Southern Culture on the Skids and The Tennessee Three. This is a band with a deliberately theatrical stage approach, rather than a generic name for the whole Honky Tonk Tuesday program. The trio’s own press kit is the source for its instrumentation and performance style.",
+          "sourceUrls": [
+            "https://theroyalhounds.com/presskit"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official band press kit",
+          "url": "https://theroyalhounds.com/presskit"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNGJmN2U1NWEtZTZjNC00MTU5LWEyMjEtOWVkMjY5YTUzY2RlIiwiZWRpdHMiOnt9fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for Honky Tonk Tuesday with The Cowpokes ft. Special Guests",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theroyalhounds.com/presskit",
+          "label": "Official band press kit",
+          "checkedAt": "2026-10-06T02:48:18.524Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5cd8ee6b67f35f174e5a"
+      ]
+    },
+    {
+      "id": "todd-day-wait",
+      "name": "Todd Day Wait",
+      "summary": "Todd Day Wait is a songwriter whose traditional country music draws on early American folk and blues.",
+      "genres": [
+        "Country",
+        "Folk",
+        "Blues"
+      ],
+      "origin": "Missouri; based in Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Todd Day Wait is a songwriter whose traditional country music draws on early American folk and blues. His festival biography traces a route from Missouri through California and New Orleans to Nashville, including years of travel and busking. Jimmie Rodgers, Willie Nelson, Wynn Stewart and Kris Kristofferson are useful reference points named by the biography for his approach to original songs. His filmed performances for GemsOnVHS and Western AF are useful introductions. The biography emphasizes songwriting rooted in the sounds of the 1920s through the 1960s; that does not determine the exact songs or band configuration for a particular guest set.",
+          "sourceUrls": [
+            "https://nnisf.org/en/artists/todd-day-wait/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Nashville Nights Festival artist biography",
+          "url": "https://nnisf.org/en/artists/todd-day-wait/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNGJmN2U1NWEtZTZjNC00MTU5LWEyMjEtOWVkMjY5YTUzY2RlIiwiZWRpdHMiOnt9fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for Honky Tonk Tuesday with The Cowpokes ft. Special Guests",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://nnisf.org/en/artists/todd-day-wait/",
+          "label": "Nashville Nights Festival artist biography",
+          "checkedAt": "2026-10-06T02:48:19.269Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:b8b189523e4780a40beb"
+      ]
+    },
+    {
+      "id": "sophie-hunter",
+      "name": "Sophie Hunter",
+      "summary": "Sophie Hunter is the Brooklyn artist whose recordings cross alternative pop and rap.",
+      "genres": [
+        "Alternative pop",
+        "Rap"
+      ],
+      "origin": "Brooklyn, New York",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Sophie Hunter is the Brooklyn artist whose recordings cross alternative pop and rap. Her publisher describes a self-taught creator working with playful lyrics, self-produced beats and a DIY approach. Independent releases include WAIL! and (go!), and her touring history includes shows with Prof and Sleigh Bells. This is the musician associated with the STEREOSCOPE tour, not the British theatre director of the same name. The publisher highlights Mic Check, Cha Cha and 2 Shots of Patron among her songs. Use its linked artist account to avoid namesake results when listening or checking future shows.",
+          "sourceUrls": [
+            "https://missinglinkmusic.com/RosterDetails/299/Sophie-Hunter"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Missing Link Music publisher biography",
+          "url": "https://missinglinkmusic.com/RosterDetails/299/Sophie-Hunter"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://missinglinkmusic.com/Public/Roster/Sophie%20Hunter.png",
+          "sourceUrl": "https://missinglinkmusic.com/RosterDetails/299/Sophie-Hunter",
+          "alt": "Sophie Hunter musician portrait from her publisher",
+          "kind": "artist",
+          "checkedAt": "2026-10-06T02:47:01.651Z"
+        },
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiOGE4MTdhNDItNDdmNi00YTZmLWIzMzktZDAyNTFjZjJjN2UwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Sophie Hunter",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://missinglinkmusic.com/RosterDetails/299/Sophie-Hunter",
+          "label": "Missing Link Music publisher biography",
+          "checkedAt": "2026-10-06T02:47:01.651Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:afe527fe791fa58371f3"
+      ]
+    },
+    {
+      "id": "rwake",
+      "name": "Rwake",
+      "summary": "Rwake grew out of Little Rock’s heavy-music scene and combines sludge weight with progressive structures, psychedelia and quieter acoustic passages.",
+      "genres": [
+        "Sludge metal",
+        "Progressive metal",
+        "Psychedelic metal"
+      ],
+      "origin": "Little Rock, Arkansas",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Rwake grew out of Little Rock’s heavy-music scene and combines sludge weight with progressive structures, psychedelia and quieter acoustic passages. The band uses two vocalists and an instrumental palette extending beyond guitar, bass and drums to Moog and steel-guitar textures. Relapse’s biography describes carefully layered arrangements that move between sparse atmosphere and dense, abrasive sections. The Return of Magik is the label’s current introduction to the band. It follows 2011’s Rest and reflects years of writing, with contributions from multiple members and recording work with Sanford Parker.",
+          "sourceUrls": [
+            "https://www.relapse.com/pages/rwake-the-return-of-magik"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Relapse Records band biography",
+          "url": "https://www.relapse.com/pages/rwake-the-return-of-magik"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiMjlmNzcwZDctZjgxNC00YmIxLWEzNWMtMGIzNzQ3NjkwZjAyIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Rwake & Deadbird",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.relapse.com/pages/rwake-the-return-of-magik",
+          "label": "Relapse Records band biography",
+          "checkedAt": "2026-10-06T02:50:11.089Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:fa3006dc5f1445a7895d"
+      ]
+    },
+    {
+      "id": "deadbird",
+      "name": "Deadbird",
+      "summary": "Deadbird is an Arkansas heavy band whose own profile places doom and sludge alongside blues and punk.",
+      "genres": [
+        "Doom metal",
+        "Sludge metal",
+        "Punk",
+        "Blues"
+      ],
+      "origin": "Arkansas",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Deadbird is an Arkansas heavy band whose own profile places doom and sludge alongside blues and punk. Its stated approach is to write heavy music in response to difficult times, rather than fit within a single narrow metal category. The band’s public catalog includes Sociopathic War Ballads, Holy Angell and Other Worlds Than This, giving several entry points into that blend. Deadbird and Rwake are separately billed performers at this show. The band’s Bandcamp identifies its Arkansas roots and label history with Earache, At A Loss and 20 Buck Spin; it also lists the Eastside Bowl appearance.",
+          "sourceUrls": [
+            "https://deadbirddoom.bandcamp.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official band Bandcamp",
+          "url": "https://deadbirddoom.bandcamp.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiMjlmNzcwZDctZjgxNC00YmIxLWEzNWMtMGIzNzQ3NjkwZjAyIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Rwake & Deadbird",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://deadbirddoom.bandcamp.com/",
+          "label": "Official band Bandcamp",
+          "checkedAt": "2026-10-06T02:47:04.663Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:fa3006dc5f1445a7895d"
+      ]
+    },
+    {
+      "id": "omenbringer",
+      "name": "OmenBringer",
+      "summary": "OmenBringer is a Nashville band created by vocalist Molly Marie Kent around theatrical, witch-themed heavy music.",
+      "genres": [
+        "Doom metal",
+        "Stoner metal",
+        "Hard rock"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "OmenBringer is a Nashville band created by vocalist Molly Marie Kent around theatrical, witch-themed heavy music. Its own biography points to Black Sabbath, Pentagram and Thin Lizzy, while its release tags place the sound in doom, stoner metal and hard rock. The project pairs those riff-based influences with a deliberately performative approach to the stage. TUNGS introduces the band’s 2024 album Thicc Darkness; the catalog also lists Monsterbation from 2025. The venue’s broad Goth label describes this event’s categorization, while the band’s own sources support the more precise metal genres used here.",
+          "sourceUrls": [
+            "https://omenbringer.bandcamp.com/track/tungs"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official band biography and releases",
+          "url": "https://omenbringer.bandcamp.com/track/tungs"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiYTliZGRjYzAtMmQ0My00ODZkLTk3Y2UtZjliNWZlNjM4Y2VjIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for MonsterThrash III with OmenBringer and UgaBuga",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://omenbringer.bandcamp.com/track/tungs",
+          "label": "Official band biography and releases",
+          "checkedAt": "2026-10-06T02:48:19.923Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:27f8f571d52d0418296d"
+      ]
+    },
+    {
+      "id": "uga-buga",
+      "name": "Üga Büga",
+      "summary": "Üga Büga is a Virginia trio combining heavy-metal riffs, progressive turns and a taste for fantastical stories.",
+      "genres": [
+        "Heavy metal",
+        "Progressive rock",
+        "Stoner rock"
+      ],
+      "origin": "Virginia",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Üga Büga is a Virginia trio combining heavy-metal riffs, progressive turns and a taste for fantastical stories. The band names Mastodon, Soundgarden, High on Fire and The Mars Volta as influences. Its lineup of Calloway Jones on guitar and vocals, Niko Cvetanovich on bass and Jimmy Czywczynski on drums developed the 2024 debut Year of the Hog before moving toward collaborative writing. The current site highlights Valley of the Wolf, released in June 2026. The imaginative lyrics draw on comics and cartoons, while the instrumentation stays with a guitar, bass and drums trio.",
+          "sourceUrls": [
+            "https://ugabugaband.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official band biography",
+          "url": "https://ugabugaband.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiYTliZGRjYzAtMmQ0My00ODZkLTk3Y2UtZjliNWZlNjM4Y2VjIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for MonsterThrash III with OmenBringer and UgaBuga",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ugabugaband.com/",
+          "label": "Official band biography",
+          "checkedAt": "2026-10-06T02:47:01.606Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:27f8f571d52d0418296d"
+      ]
+    },
+    {
+      "id": "bayway",
+      "name": "Bayway",
+      "summary": "Bayway is a New Jersey hardcore band formed in late 2022.",
+      "genres": [
+        "Hardcore",
+        "Rap-influenced hardcore"
+      ],
+      "origin": "New Jersey",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Bayway is a New Jersey hardcore band formed in late 2022. The label biography describes heavy guitar parts combined with hip-hop phrasing and lyrics grounded in daily struggle. E-Town Concrete, Fury of Five and NJ Bloodline are explicit reference points, connecting the group to an established New Jersey hardcore tradition rather than to a general metal category. The Recipe, released by Trustkill in 2025, is a useful starting point. Earlier releases include World of Bayway, The Newport Sessions and Bayway Takes Manhattan. Bayway is the headliner, with other separately named hardcore acts on this bill.",
+          "sourceUrls": [
+            "https://trustkill.bandcamp.com/album/the-recipe"
+          ]
+        },
+        {
+          "title": "Check the show time",
+          "body": "Timing conflict: the flyer says 6 p.m.; the official calendar lists a 5:30 p.m. show and 5 p.m. doors on October 10. Confirm the time with the official event before going.",
+          "sourceUrls": [
+            "https://shows.eastsidebowl.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Trustkill label biography and album",
+          "url": "https://trustkill.bandcamp.com/album/the-recipe"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNWQxMmE0OTktNGIyOS00NjBlLWE5YzAtNjUxYjcxY2JiNDY3IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Bayway promotional flyer. Timing conflict: the flyer says 6 p.m.; the official calendar lists a 5:30 p.m. show and 5 p.m. doors on October 10. Confirm the time with the official event before going.",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://trustkill.bandcamp.com/album/the-recipe",
+          "label": "Trustkill label biography and album",
+          "checkedAt": "2026-10-06T02:48:49.014Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:e7dc6fd3f67a351cbd47"
+      ]
+    },
+    {
+      "id": "cold-steel",
+      "name": "Cold Steel",
+      "summary": "Cold Steel is a Tampa band combining thrash riffing, hardcore breakdowns and metalcore.",
+      "genres": [
+        "Thrash metal",
+        "Hardcore",
+        "Metalcore"
+      ],
+      "origin": "Tampa, Florida",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Cold Steel is a Tampa band combining thrash riffing, hardcore breakdowns and metalcore. Its label describes a six-member lineup with three guitarists and dates the group’s formation to 2021. Early releases Will of Spiritual Cleansing and Deeper Into Greater Pain establish the sound and identify this Florida act, avoiding confusion with older bands that share the name. Spinefarm’s biography names Bad Beat, Evil Eye and Full Tilt among the early tracks. Those releases are useful listening references for the group billed alongside Bayway.",
+          "sourceUrls": [
+            "https://www.spinefarmrecords.com/564/artists/cold-steel"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Spinefarm official artist biography",
+          "url": "https://www.spinefarmrecords.com/564/artists/cold-steel"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNWQxMmE0OTktNGIyOS00NjBlLWE5YzAtNjUxYjcxY2JiNDY3IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Bayway",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.spinefarmrecords.com/564/artists/cold-steel",
+          "label": "Spinefarm official artist biography",
+          "checkedAt": "2026-10-06T02:55:09.698Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:e7dc6fd3f67a351cbd47"
+      ]
+    },
+    {
+      "id": "two-piece",
+      "name": "Two-Piece",
+      "summary": "Two-Piece is a Florida hardcore act whose artist page tags its music as hardcore and metal.",
+      "genres": [
+        "Hardcore",
+        "Metal"
+      ],
+      "origin": "Florida",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Two-Piece is a Florida hardcore act whose artist page tags its music as hardcore and metal. The catalog stretches from A Mixtape and 88 in 2017 through Dirty South Beatdown, Learn Ur Place and the self-titled 2022 release. That documented discography is the clearest introduction to the band; the name alone does not establish how many musicians perform live. The self-titled release contains eleven tracks, including Dominance, Earn Ur Stripes and Talk is Cheap. The artist page publishes little narrative biography, so personnel, formation history and a more detailed live-show description remain unverified.",
+          "sourceUrls": [
+            "https://two-piece.bandcamp.com/album/two-piece"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official self-titled release and catalog",
+          "url": "https://two-piece.bandcamp.com/album/two-piece"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNWQxMmE0OTktNGIyOS00NjBlLWE5YzAtNjUxYjcxY2JiNDY3IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Bayway",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://two-piece.bandcamp.com/album/two-piece",
+          "label": "Official self-titled release and catalog",
+          "checkedAt": "2026-10-06T02:48:48.280Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:e7dc6fd3f67a351cbd47"
+      ]
+    },
+    {
+      "id": "load-tha-nine",
+      "name": "Load Tha Nine",
+      "summary": "Load Tha Nine, also abbreviated LT9, is a Southern California hardcore band connected to the Inland Empire, Los Angeles and Orange County.",
+      "genres": [
+        "Hardcore",
+        "Rap-influenced hardcore"
+      ],
+      "origin": "Southern California",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Load Tha Nine, also abbreviated LT9, is a Southern California hardcore band connected to the Inland Empire, Los Angeles and Orange County. The promoter biography describes a hardcore base with a hip-hop influence, citing Fury of Five and E-Town Concrete. Members have also played in First Degree, Steel, Life Turned Cold and Wigsplitter, linking the project to several established regional bands. The group’s official Bandcamp provides its own recordings and identifies its California base.",
+          "sourceUrls": [
+            "https://theduckclub.com/show/big-ass-truck-i-e/",
+            "https://loadthaninehc.bandcamp.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Duck Club official promoter artist biography",
+          "url": "https://theduckclub.com/show/big-ass-truck-i-e/"
+        },
+        {
+          "label": "Official band Bandcamp",
+          "url": "https://loadthaninehc.bandcamp.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNWQxMmE0OTktNGIyOS00NjBlLWE5YzAtNjUxYjcxY2JiNDY3IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Bayway",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theduckclub.com/show/big-ass-truck-i-e/",
+          "label": "Duck Club official promoter artist biography",
+          "checkedAt": "2026-10-06T02:48:49.821Z"
+        },
+        {
+          "url": "https://loadthaninehc.bandcamp.com/",
+          "label": "Official band Bandcamp",
+          "checkedAt": "2026-10-06T02:48:20.089Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:e7dc6fd3f67a351cbd47"
+      ]
+    },
+    {
+      "id": "herbi",
+      "name": "Herbi",
+      "summary": "Herbi identifies the project as indie shoegaze on its official link page.",
+      "genres": [
+        "Indie rock",
+        "Shoegaze"
+      ],
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Herbi identifies the project as indie shoegaze on its official link page. That page connects the musician directly to the Breaking Sound show at The ’58 and to a later East Room bill, helping distinguish this artist from several unrelated streaming profiles with the same name. It also highlights the single Cut & Dry and a campaign for a debut album. Start with Cut & Dry through the artist’s own links. The checked public material supports the genre and show identity, but it does not provide a reliable long-form biography, fixed lineup or detailed description of the live arrangements.",
+          "sourceUrls": [
+            "https://linktr.ee/herbimusic"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official artist links and current show link",
+          "url": "https://linktr.ee/herbimusic"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiM2ZmMjQxZTctMDM5My00YWRmLThlZGEtZmI0YmMzZmI3MmRiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Breaking Sound",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://linktr.ee/herbimusic",
+          "label": "Official artist links and current show link",
+          "checkedAt": "2026-10-06T02:48:21.801Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:1d9d09dace4d4cc38fa9"
+      ]
+    },
+    {
+      "id": "jesse-delaurier",
+      "name": "Jesse DeLaurier",
+      "summary": "Jesse DeLaurier is a Boston singer-songwriter whose published Berklee performer biography names Townes Van Zandt and Bob Dylan as influences.",
+      "genres": [
+        "Singer-songwriter",
+        "Folk"
+      ],
+      "origin": "Boston, Massachusetts",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Jesse DeLaurier is a Boston singer-songwriter whose published Berklee performer biography names Townes Van Zandt and Bob Dylan as influences. It describes songs focused on everyday life and a quiet, reflective writing style. His documented performance history includes Club Passim’s campfire. festival and the Melrose Arts Festival, placing him in a songwriter and folk-oriented context.",
+          "sourceUrls": [
+            "https://college.berklee.edu/events/summer/jesse-delaurier"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Berklee official performer biography",
+          "url": "https://college.berklee.edu/events/summer/jesse-delaurier"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiM2ZmMjQxZTctMDM5My00YWRmLThlZGEtZmI0YmMzZmI3MmRiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Breaking Sound",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://college.berklee.edu/events/summer/jesse-delaurier",
+          "label": "Berklee official performer biography",
+          "checkedAt": "2026-10-06T02:48:20.880Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:1d9d09dace4d4cc38fa9"
+      ]
+    },
+    {
+      "id": "greasy-chicken-review",
+      "name": "Greasy Chicken Review",
+      "summary": "Greasy Chicken Review is a Nashville cover band and rotating musical project led by Matthew Szlachetka.",
+      "genres": [
+        "Rock and roll",
+        "Soul",
+        "Americana",
+        "Covers"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Greasy Chicken Review is a Nashville cover band and rotating musical project led by Matthew Szlachetka. Its stated focus is album tracks and B-sides from rock, soul and Americana artists, using session and touring musicians. A 2026 interview with bassist Rhees Williams documents a large arrangement with five vocalists, horns, guitars and drums. The rotating players and changing song selections are part of the concept. The October listing promises deeper hits; it does not identify a single tribute subject or guarantee the personnel from an earlier performance.",
+          "sourceUrls": [
+            "https://szlachetkamusic.com/profile/",
+            "https://www.electrovoice.com/articles/case-study/2026/greasy-chicken-review-from-the-basement-to-the-ballroom"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Matthew Szlachetka official project biography",
+          "url": "https://szlachetkamusic.com/profile/"
+        },
+        {
+          "label": "Electro-Voice artist interview and case study",
+          "url": "https://www.electrovoice.com/articles/case-study/2026/greasy-chicken-review-from-the-basement-to-the-ballroom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiODI5OGIxY2MtN2RjNi00OGRiLTgzZjYtN2YzOTQ4NTYwZjRiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Greasy Chicken Review Plays Deeper Hits",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://szlachetkamusic.com/profile/",
+          "label": "Matthew Szlachetka official project biography",
+          "checkedAt": "2026-10-06T02:50:13.050Z"
+        },
+        {
+          "url": "https://www.electrovoice.com/articles/case-study/2026/greasy-chicken-review-from-the-basement-to-the-ballroom",
+          "label": "Electro-Voice artist interview and case study",
+          "checkedAt": "2026-10-06T02:50:11.320Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:16317b23c0c1c18bfb1f"
+      ]
+    },
+    {
+      "id": "mary-bragg",
+      "name": "Mary Bragg",
+      "summary": "Mary Bragg is a songwriter, singer and producer whose work moves between Americana, folk-country and pop.",
+      "genres": [
+        "Americana",
+        "Folk-pop",
+        "Country"
+      ],
+      "origin": "Swainsboro, Georgia",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Mary Bragg is a songwriter, singer and producer whose work moves between Americana, folk-country and pop. Her current biography presents Secrets to Strangers as a collection about memory, self-acceptance and communication. It describes a broader sonic range than a strictly acoustic folk record, including pop grooves and bossa touches, while keeping detailed personal storytelling at the center. Secrets to Strangers was made with Ben Tanner and John Paul White in Muscle Shoals. Bragg also produces other artists and holds a songwriting and production master’s degree from Berklee NYC. Kid Flamingo and Hi-Fi introduce the newer record’s pop side.",
+          "sourceUrls": [
+            "https://www.marybragg.com/bio/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official artist biography",
+          "url": "https://www.marybragg.com/bio/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiM2NiMDE1M2ItOGVjOS00ZTc1LWIzN2QtMDQzMzcyZGYwYjZmIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Mary Bragg Album Release Show",
+          "kind": "artist",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.marybragg.com/bio/",
+          "label": "Official artist biography",
+          "checkedAt": "2026-10-06T02:47:03.772Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:c865f5eff2538e3e55f0"
+      ]
+    },
+    {
+      "id": "j-noire",
+      "name": "J Noire",
+      "summary": "J Noire is a Nashville rock project blending modern rock with pop, metal and industrial influences.",
+      "genres": [
+        "Alternative rock",
+        "Industrial-influenced rock",
+        "Metal"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "J Noire is a Nashville rock project blending modern rock with pop, metal and industrial influences. The signing interview names Nine Inch Nails, A Perfect Circle and Bad Omens as reference points, and traces the performer’s development from guitar playing to professional Broadway work and a more personal original project. The debut material was made with producer Ryan Furlott. Radiate introduces the project, and Vaux Records currently lists the EP Modern Prometheus for October 30, 2026. The October 15 show is billed as its release party; the party date and the label’s release date are separate facts.",
+          "sourceUrls": [
+            "https://v13.net/2026/05/j-noire-signs-to-vaux-records-releases-debut-single-radiate/",
+            "https://vauxrecords.com/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "V13 interview and signing report",
+          "url": "https://v13.net/2026/05/j-noire-signs-to-vaux-records-releases-debut-single-radiate/"
+        },
+        {
+          "label": "Official Vaux Records release announcement",
+          "url": "https://vauxrecords.com/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiZjFiYTBkYWEtMmYzMS00NDY5LTllM2MtOTIzMmI2MzIxYjUwIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for J Noire: Modern Prometheus EP Release Party",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://v13.net/2026/05/j-noire-signs-to-vaux-records-releases-debut-single-radiate/",
+          "label": "V13 interview and signing report",
+          "checkedAt": "2026-10-06T02:50:10.249Z"
+        },
+        {
+          "url": "https://vauxrecords.com/",
+          "label": "Official Vaux Records release announcement",
+          "checkedAt": "2026-10-06T02:48:21.657Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:68831936f0afc77c839a"
+      ]
+    },
+    {
+      "id": "robert-ellis",
+      "name": "Robert Ellis",
+      "summary": "Robert Ellis is the Texas songwriter and multi-instrumentalist associated with both country-rooted songwriting and piano-driven pop.",
+      "genres": [
+        "Americana",
+        "Country",
+        "Piano pop"
+      ],
+      "origin": "Texas",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Robert Ellis is the Texas songwriter and multi-instrumentalist associated with both country-rooted songwriting and piano-driven pop. New West’s archive documents the transition from his earlier guitar-centered work to the 2019 Texas Piano Man record, with barroom piano, melodic pop writing and pointed storytelling. That range is useful context for a musician who is not confined to one country style. Texas Piano Man and the self-titled Robert Ellis album offer contrasting introductions. The archive explains recorded eras of his work, not the setlist or instrumentation promised for this upcoming performance.",
+          "sourceUrls": [
+            "https://press.newwestrecords.com/robert-ellis",
+            "https://robertellis.website/"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "New West Records artist press archive",
+          "url": "https://press.newwestrecords.com/robert-ellis"
+        },
+        {
+          "label": "Official musician website",
+          "url": "https://robertellis.website/"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/55db3cf0e4b06db5067b85e7/1542393089618-EIVE8592Q4CMENV7HI8L/RobertEllis3byAlexandraValenti.jpg",
+          "sourceUrl": "https://press.newwestrecords.com/robert-ellis",
+          "alt": "Robert Ellis press photograph from the Texas Piano Man campaign",
+          "kind": "artist",
+          "credit": "Alexandra Valenti / New West Records",
+          "checkedAt": "2026-10-06T02:48:44.318Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://press.newwestrecords.com/robert-ellis",
+          "label": "New West Records artist press archive",
+          "checkedAt": "2026-10-06T02:48:44.318Z"
+        },
+        {
+          "url": "https://robertellis.website/",
+          "label": "Official musician website",
+          "checkedAt": "2026-10-06T02:48:21.847Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:ab41afab7767392daaa1"
+      ]
+    },
+    {
+      "id": "lamp-lawton-metzger-paczkowski",
+      "name": "LaMP",
+      "summary": "LaMP is the instrumental trio of drummer Russ Lawton, guitarist Scott Metzger and keyboardist Ray Paczkowski.",
+      "genres": [
+        "Instrumental rock",
+        "Jam"
+      ],
+      "origin": "Formed in Burlington, Vermont",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "LaMP is the instrumental trio of drummer Russ Lawton, guitarist Scott Metzger and keyboardist Ray Paczkowski. Lawton and Paczkowski bring their long-running work in Trey Anastasio Band and Soule Monde, while Metzger is also a member of Joe Russo’s Almost Dead. Organ and clavinet interact with electric guitar over a steady rhythmic base, with improvisation central to the group’s identity. The trio first played together at Nectar’s in Burlington in December 2018. Its name comes from the members’ surnames. This is distinct from the Japanese pop group Lamp; the three named players are members of LaMP, not opening acts.",
+          "sourceUrls": [
+            "https://www.ilikelamp.com/",
+            "https://lampband.bandcamp.com/album/lamp-ft-russ-lawton-scott-metzger-ray-paczkowski"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official band biography",
+          "url": "https://www.ilikelamp.com/"
+        },
+        {
+          "label": "Official debut release and genre tags",
+          "url": "https://lampband.bandcamp.com/album/lamp-ft-russ-lawton-scott-metzger-ray-paczkowski"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiODhhOGFmNDItMmYxMC00MzJmLWEzN2MtZDRkMzhjMjQyNGFjIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: LaMP ft. Russ Lawton, Scott Metzger, Ray Paczkowski",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ilikelamp.com/",
+          "label": "Official band biography",
+          "checkedAt": "2026-10-06T02:48:21.688Z"
+        },
+        {
+          "url": "https://lampband.bandcamp.com/album/lamp-ft-russ-lawton-scott-metzger-ray-paczkowski",
+          "label": "Official debut release and genre tags",
+          "checkedAt": "2026-10-06T02:54:48.020Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:c065e95b76476eca2495"
+      ]
+    },
+    {
+      "id": "rebelmatic",
+      "name": "Rebelmatic",
+      "summary": "Rebelmatic is a New York band bringing hardcore punk together with funk rhythm and hip-hop influences.",
+      "genres": [
+        "Hardcore punk",
+        "Funk",
+        "Hip-hop"
+      ],
+      "origin": "New York, New York",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Rebelmatic is a New York band bringing hardcore punk together with funk rhythm and hip-hop influences. The group’s own biography makes social consciousness and resistance part of that musical identity. Its catalog includes Eat the Monster, Mourning Dove, Black Hole Eats the Tornado and Alive on Arrival, alongside remixes that point to connections beyond a narrow punk format. The official Bandcamp is a useful place to compare the recorded blend of punk, funk and hip-hop. Rebelmatic is the named headliner of Dustin Fest Vol. 50; Dustin Fest is the event, not another artist.",
+          "sourceUrls": [
+            "https://rebelmaticnyc.bandcamp.com/music"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official band biography and recordings",
+          "url": "https://rebelmaticnyc.bandcamp.com/music"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNTgxNzgzYzAtZTIyYi00ZDZkLWI1MzItZTdlNWFjZGEwM2ZiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Dustin Fest Vol. 50 with Rebelmatic",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://rebelmaticnyc.bandcamp.com/music",
+          "label": "Official band biography and recordings",
+          "checkedAt": "2026-10-06T02:47:05.158Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5e97d26bc5f95250c346"
+      ]
+    },
+    {
+      "id": "black-market-kidney-surgeon",
+      "name": "Black Market Kidney Surgeon",
+      "summary": "Black Market Kidney Surgeon is a Murfreesboro punk band whose own release tags connect hardcore, crust, noise and crossover thrash.",
+      "genres": [
+        "Hardcore punk",
+        "Crust punk",
+        "Crossover thrash"
+      ],
+      "origin": "Murfreesboro, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Black Market Kidney Surgeon is a Murfreesboro punk band whose own release tags connect hardcore, crust, noise and crossover thrash. Its catalog includes a seven-track self-titled release from 2021 and Black Market Kidney Surgeon II from February 2026. Many of the songs are brief, with several running well under two minutes, giving a concrete sense of the recordings’ compact structure. The 2026 release was recorded in Murfreesboro, and the band credits vocals, guitar, bass and drums. The two self-released records provide firmer evidence of its sound and local roots than the intentionally provocative band name alone.",
+          "sourceUrls": [
+            "https://bmks.bandcamp.com/album/black-market-kidney-surgeon",
+            "https://bmks.bandcamp.com/album/black-market-kidney-surgeon-ii"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official debut release",
+          "url": "https://bmks.bandcamp.com/album/black-market-kidney-surgeon"
+        },
+        {
+          "label": "Official 2026 release",
+          "url": "https://bmks.bandcamp.com/album/black-market-kidney-surgeon-ii"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNTgxNzgzYzAtZTIyYi00ZDZkLWI1MzItZTdlNWFjZGEwM2ZiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Dustin Fest Vol. 50 with Rebelmatic",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://bmks.bandcamp.com/album/black-market-kidney-surgeon",
+          "label": "Official debut release",
+          "checkedAt": "2026-10-06T02:48:44.633Z"
+        },
+        {
+          "url": "https://bmks.bandcamp.com/album/black-market-kidney-surgeon-ii",
+          "label": "Official 2026 release",
+          "checkedAt": "2026-10-06T02:50:14.884Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5e97d26bc5f95250c346"
+      ]
+    },
+    {
+      "id": "scrooge-mandella",
+      "name": "Scrooge Mandella",
+      "summary": "Scrooge Mandella is a Louisville band whose artist page tags the music as punk rock, pop punk and skate punk.",
+      "genres": [
+        "Punk rock",
+        "Pop punk",
+        "Skate punk"
+      ],
+      "origin": "Louisville, Kentucky",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Scrooge Mandella is a Louisville band whose artist page tags the music as punk rock, pop punk and skate punk. The group offers an intentionally deadpan biography, so its records are a more useful introduction than career claims. The 2021 album Feceshitly Yours contains fourteen tracks that range from a half-minute fragment to songs approaching four minutes. The Bandcamp catalog also includes the self-titled release, Impotent, Take Warning and Dead, Dead, Dead. Its page currently links the October 18 Eastside Bowl appearance, supporting the match between the Louisville act and this lineup.",
+          "sourceUrls": [
+            "https://scroogemandella.bandcamp.com/album/feceshitly-yours"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Official album and artist profile",
+          "url": "https://scroogemandella.bandcamp.com/album/feceshitly-yours"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNTgxNzgzYzAtZTIyYi00ZDZkLWI1MzItZTdlNWFjZGEwM2ZiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Dustin Fest Vol. 50 with Rebelmatic",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://scroogemandella.bandcamp.com/album/feceshitly-yours",
+          "label": "Official album and artist profile",
+          "checkedAt": "2026-10-06T02:50:14.855Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5e97d26bc5f95250c346"
+      ]
+    },
+    {
+      "id": "tank-rats",
+      "name": "Tank Rats",
+      "summary": "Tank Rats is a Nashville punk act identified by its own ReverbNation artist profile and the current Eastside Bowl lineup.",
+      "genres": [
+        "Punk"
+      ],
+      "origin": "Nashville, Tennessee",
+      "sections": [
+        {
+          "title": "Sound and background",
+          "body": "Tank Rats is a Nashville punk act identified by its own ReverbNation artist profile and the current Eastside Bowl lineup. The available artist page is sparse: it establishes the name, city and broad genre, but does not publish a substantial biography, lineup or clear discography in the accessible text. A more specific description of its sound still needs an artist source. The checked profile is useful for identity, while the venue provides the dated booking. Personnel, formation date and any narrower punk subgenre remain unverified; those details are not being inferred from the other bands on the bill.",
+          "sourceUrls": [
+            "https://www.reverbnation.com/tankrats"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Artist profile on ReverbNation",
+          "url": "https://www.reverbnation.com/tankrats"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://prod-images.seetickets.us/eyJidWNrZXQiOiJwcm9kLXNpaC5zZWV0aWNrZXRzdXNhLnVzIiwia2V5IjoiNTgxNzgzYzAtZTIyYi00ZDZkLWI1MzItZTdlNWFjZGEwM2ZiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDB9LCJqcGVnIjp7InF1YWxpdHkiOjYwfSwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjksInF1YWxpdHkiOjYwfSwid2VicCI6eyJxdWFsaXR5Ijo2MH19fQ==",
+          "sourceUrl": "https://shows.eastsidebowl.com/",
+          "alt": "Event artwork for The ’58: Dustin Fest Vol. 50 with Rebelmatic",
+          "kind": "artwork",
+          "credit": "Eastside Bowl / event promoter",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.reverbnation.com/tankrats",
+          "label": "Artist profile on ReverbNation",
+          "checkedAt": "2026-10-06T02:48:49.059Z"
+        },
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "label": "Eastside Bowl official calendar and lineup",
+          "checkedAt": "2026-10-06T02:55:11.027Z"
+        }
+      ],
+      "checkedAt": "2026-10-06T02:55:11.027Z",
+      "eventTitles": [],
+      "eventIds": [
+        "eastside-bowl:5e97d26bc5f95250c346"
+      ]
+    }
+  ]
+}

@@ -30,6 +30,14 @@ Open **Search list** and add an artist, venue, event series, organizer or activi
 
 Sign into the confirmed owner account and finish syncing to send additions to the daily job. Device-only items stay on that device until explicitly merged in Settings. Every daily run reads the current private list, prioritizes additions/edits, and rechecks enabled interests. It researches official sources, adds reviewed public facts and returns a private status. It does not instantly invent dates or guarantee access to blocked sources. See `docs/SEARCH-INTERESTS.md` for the worker contract.
 
+## Photos and artist guides
+
+Open an event for official photos or flyers and **Meet the artists**. **Explore → Artist guides** contains searchable musician profiles with genres, background, listening links, scene connections and documented visual style. Sources and check dates stay attached to the details. Coverage is incomplete; missing research and broken images are visible. Crowd makeup and fan clothing are not guessed.
+
+Selected venue/organizer pages also have **Past flyers & scene photos**. Those archives never create future event dates. Images remain remote references, with attribution and original-source links; social image URLs can expire.
+
+Run `npm run refresh` followed by `npm run refresh:media` for official calendar artwork. Reviewed profiles live in `data/artist-profiles.json`, archived galleries in `data/scene-galleries.json`, and the generated app payload in `public/data/music-details.json`. `node scripts/refresh-media.mjs --profiles-only` relinks reviewed inputs without fetching sources or changing their original check dates. See `docs/SOCIAL-SCRAPING.md` for the separately bounded, private-staging Apify collector.
+
 ## Private sync
 
 Supabase Auth handles email/password sessions. PostgreSQL row-level security limits each account to its own history; the save RPC uses revisions to reject stale writes. Account-scoped local drafts preserve unsynced work, and conflicts offer both versions before any replacement. Only the client-safe publishable key is in `public/data/sync-config.json`. Database passwords, service keys, the owner email and seed are never in the public repository.

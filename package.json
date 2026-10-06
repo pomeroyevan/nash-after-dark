@@ -9,7 +9,8 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --import tsx --test tests/*.test.mjs tests/sync.test.ts",
     "test:sync": "node --import tsx --test tests/sync.test.ts",
-    "test:ui": "playwright test tests/ui.spec.ts tests/interests-ui.spec.ts --workers=1",
+    "test:ui": "playwright test tests/ui.spec.ts tests/interests-ui.spec.ts tests/music-ui.spec.ts --workers=1",
+    "refresh:media": "node scripts/refresh-media.mjs",
     "refresh": "node scripts/refresh-events.mjs"
   },
   "dependencies": {
