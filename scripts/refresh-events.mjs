@@ -9,6 +9,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
+import { extractCobraPrice } from './price-details.mjs';
 import { MTG_ADAPTERS, fetchMtg } from './mtg-sources.mjs';
 
 export const ZONE = 'America/Chicago';
@@ -101,7 +102,7 @@ export function parseCobraPage(payload, source, checkedAt) {
     return eventRecord(source,{
       key:String(e.id),title:e.title,start:e.start_date,
       end:e.end_date>e.start_date ? e.end_date:undefined, url:e.url,
-      ticketUrl:ticket,priceText:desc.match(/(?:Tickets?|TICKETS?):?\s*([^@]+?)(?=\s+(?:18|21|All)\s|Add to calendar|$)/i)?.[1]||e.cost,
+      ticketUrl:ticket,priceText:extractCobraPrice(e.description,e.cost),
       tags:tagsFor(e.title),room:/front bar/i.test(e.title)?'Front Bar':'Venue'
     },checkedAt);
   });

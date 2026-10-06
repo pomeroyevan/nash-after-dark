@@ -9,21 +9,27 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --import tsx --test tests/*.test.mjs tests/sync.test.ts",
     "test:sync": "node --import tsx --test tests/sync.test.ts",
-    "test:ui": "playwright test tests/ui.spec.ts tests/interests-ui.spec.ts tests/music-ui.spec.ts --workers=1",
+    "test:ui": "playwright test tests/ui.spec.ts tests/interests-ui.spec.ts tests/music-ui.spec.ts tests/calendar-ui.spec.ts --workers=1",
     "refresh:media": "node scripts/refresh-media.mjs",
     "refresh": "node scripts/refresh-events.mjs"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.21",
+    "@fullcalendar/luxon3": "^6.1.21",
+    "@fullcalendar/react": "^6.1.21",
+    "@fullcalendar/timegrid": "^6.1.21",
     "@ionic/react": "^9.0.6",
     "@supabase/supabase-js": "^2.117.2",
     "cheerio": "^1.1.2",
     "ionicons": "^8.0.13",
+    "luxon": "^3.7.2",
     "node-ical": "^0.27.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
+    "@types/luxon": "^3.7.6",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^6.1.2",

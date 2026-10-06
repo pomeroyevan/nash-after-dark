@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-06T01:50:19.216Z",
+  "checkedAt": "2026-10-06T03:41:23.350Z",
   "timezone": "America/Chicago",
   "window": {
     "start": "2026-10-05T00:00:00-05:00",
@@ -128,8 +128,8 @@
       "name": "Cobra Nashville",
       "url": "https://cobranashville.com/",
       "status": "ok",
-      "lastSuccessAt": "2026-10-06T01:35:01.574Z",
-      "lastAttemptAt": "2026-10-06T01:35:01.574Z",
+      "lastSuccessAt": "2026-10-06T03:41:23.350Z",
+      "lastAttemptAt": "2026-10-06T03:41:23.350Z",
       "message": "All 1 public API page(s) fetched. 39 event(s) in requested horizon."
     },
     {
@@ -620,7 +620,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-matthew-thomas-l-sydney-dixon-l-ben-lawrence-tickets-1998789857269?aff=oddtdtcreator",
       "priceText": "$15 ADV I $20 DOS",
       "room": "Venue"
@@ -779,7 +779,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-beila-i-hannah-murphy-i-adia-clark-lay-i-addison-rose-tickets-1998677864295?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -950,8 +950,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-eyehategod-blast-luicidal-evil-army-tickets-1997644020039?aff=oddtdtcreator",
+      "priceText": "Ticket special: $35 for a LIMITED TIME ONLY",
       "room": "Venue"
     },
     {
@@ -1122,7 +1123,8 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
+      "priceText": "$5 @ Door",
       "room": "Front Bar"
     },
     {
@@ -1136,7 +1138,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-liam-martin-i-william-hinson-i-atticus-roness-tickets-1997390275081?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -1368,7 +1370,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-pitre-i-ishani-i-zach-james-tickets-1998677711839?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -1697,7 +1699,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-in-theory-corvus-lore-byrd-whistle-tickets-1999815213136?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -1774,7 +1776,8 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
+      "priceText": "Free admission",
       "room": "Front Bar"
     },
     {
@@ -1964,7 +1967,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-ancestral-tongue-l-sleepaway-camp-l-dead-heavy-tickets-1993752800296?aff=oddtdtcreator",
       "priceText": "$10 ADV l $15 DOS",
       "room": "Venue"
@@ -2130,7 +2133,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-hungry-branch-l-mary-chicken-soup-and-rice-l-running-late-l-erin-cla-tickets-1996351645512?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -2289,7 +2292,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-chloe-alexander-l-audrey-claire-l-the-stray-lions-l-cavehole-tickets-1993481913065?aff=oddtdtcreator&keep_tld=true",
       "priceText": "$10 ADV l $12 DOS",
       "room": "Venue"
@@ -2497,7 +2500,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-trip-to-the-morgue-skeleton-crew-thorn-tribe-odlid-tickets-1993478065557?aff=oddtdtcreator&keep_tld=true",
       "priceText": "$10 ADV l $15 DOS",
       "room": "Venue"
@@ -2704,7 +2707,8 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
+      "priceText": "$5 @ DOOR",
       "room": "Front Bar"
     },
     {
@@ -3045,7 +3049,8 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
+      "priceText": "Free admission",
       "room": "Front Bar"
     },
     {
@@ -3434,7 +3439,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-outside-dog-i-comic-mischief-i-elijah-cortez-tickets-2001671847379?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -3802,8 +3807,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-fraxiom-crispy-kittenhouse-tickets-2001026860205?aff=oddtdtcreator",
+      "priceText": "$15 ADV | $20 DOS",
       "room": "Venue"
     },
     {
@@ -3916,8 +3922,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-nick-karcher-hot-mess-kid-pastel-tickets-1998780699879?aff=oddtdtcreator",
+      "priceText": "$10 ADV | $15 DOS",
       "room": "Venue"
     },
     {
@@ -4298,7 +4305,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-seconds-to-serenity-l-alaska-on-fire-l-denouement-unfound-l-shadows-tickets-1992267383374?aff=oddtdtcreator",
       "priceText": "$10 ADV l $15 DOS",
       "room": "Venue"
@@ -4524,7 +4531,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/front-bar-roe-xander-i-lotismusic-i-5an-i-sidney-gilliam-tickets-2000292053378?aff=oddtdtcreator",
       "priceText": "$20 ADV I $25 DOS",
       "room": "Front Bar"
@@ -4731,7 +4738,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-wraithbearer-mesifus-chunder-narrowfaith-tickets-1994374166820?aff=oddtdtcreator",
       "priceText": "$10 ADV l $15 DOS",
       "room": "Venue"
@@ -4893,7 +4900,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-sleep-club-i-life-after-youth-i-allegory-tickets-2002897385998?aff=oddtdtcreator",
       "priceText": "$15 ADV I $20 DOS",
       "room": "Venue"
@@ -5013,7 +5020,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-sage-king-i-bag-lady-i-wildfire-tickets-2001236776069?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -5029,7 +5036,8 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
+      "priceText": "$5 @ DOOR",
       "room": "Front Bar"
     },
     {
@@ -5190,7 +5198,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-sunshine-scott-sabby-sirenvale-simp-goddess-tickets-2000289471656?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -5483,8 +5491,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-slashville-returns-tickets-2001395989280?aff=oddtdtcreator",
+      "priceText": "$25 General Admission | $75 VIP",
       "room": "Venue"
     },
     {
@@ -5905,7 +5914,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-ok-goodnight-lux-terminus-eve-tickets-1993483063506?aff=oddtdtcreator&keep_tld=true",
       "priceText": "$20 ADV l $25 DOS",
       "room": "Venue"
@@ -6322,8 +6331,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-the-rumjacks-critterbrain-suburban-detour-the-okay-greats-tickets-1993566299467?aff=oddtdtcreator",
+      "priceText": "$20 ADV | $25 DOS",
       "room": "Venue"
     },
     {
@@ -7077,8 +7087,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-alex-sandra-barie-cash-honey-love-drive-tickets-2000057214970?aff=oddtdtcreator",
+      "priceText": "$10 ADV | $15 DOS",
       "room": "Venue"
     },
     {
@@ -7210,7 +7221,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-sick-fucks-i-dusty-rug-i-sol-tour-i-dryver-tickets-2001634328158?aff=oddtdtcreator",
       "priceText": "$12 ADV I $15 DOS",
       "room": "Venue"
@@ -7658,7 +7669,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-pure-xtc-i-enzi-i-rebekah-freeman-tickets-2001615452701?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -7847,7 +7858,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-jo-meier-dean-marino-liv-garland-tickets-2000283593073?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -8220,7 +8231,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "end": "2026-11-17T17:00:00-06:00",
       "ticketUrl": "https://www.eventbrite.com/e/venue-bungalow-collect-i-wrldfamous-kd-i-dj-afrosheen-tickets-2002898002843?aff=oddtdtcreator",
       "priceText": "$15 ADV I $25 DOS",
@@ -9102,8 +9113,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-flwrs-brian-staples-rawhoney-tickets-1999800116983?aff=oddtdtcreator",
+      "priceText": "$10 ADV | $15 DOS",
       "room": "Venue"
     },
     {
@@ -9433,7 +9445,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-keyze-arizona-brian-brown-tavonne-tickets-2001215038050?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -9844,8 +9856,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-whores-voltagehawk-hans-condor-tickets-2002586367734?aff=oddtdtcreator",
+      "priceText": "$20 ADV | $25 DOS",
       "room": "Venue"
     },
     {
@@ -9922,7 +9935,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-king-sickabilly-i-sebastien-bordeaux-i-kam-bugger-tickets-2001233735976?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -10153,7 +10166,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-the-dangerous-method-l-mindshaft-l-red-river-hymn-tickets-1999815072716?aff=oddtdtcreator",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"
@@ -11240,8 +11253,9 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-the-casualties-people-over-power-tour-tickets-2002182837765",
+      "priceText": "$20 ADV | $25 DOS",
       "room": "Venue"
     },
     {
@@ -11499,7 +11513,7 @@
       "tags": [],
       "status": "confirmed",
       "sourceId": "cobra",
-      "checkedAt": "2026-10-06T01:35:01.574Z",
+      "checkedAt": "2026-10-06T03:41:23.350Z",
       "ticketUrl": "https://www.eventbrite.com/e/venue-bugs-i-safehaven-i-rosemary-moses-tickets-2002898588595?aff=oddtdtcreator&keep_tld=true",
       "priceText": "$10 ADV I $15 DOS",
       "room": "Venue"

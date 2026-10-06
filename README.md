@@ -24,6 +24,16 @@ The original owner's dictated history is seeded privately on account creation. R
 
 The existing daily chat automation checks sources at 9 a.m. Nashville time and may publish verified public calendar updates to `pomeroyevan/nash-after-dark`, as authorized on October 5, 2026. It needs the local Codex host available. See `docs/DEPLOYMENT.md` for release and verification instructions.
 
+## Plan a day
+
+Calendar opens to a vertical **Day** view in Nashville time. Jump with the date field, previous/next buttons, or **Month** grid. Overlapping events sit side by side; swipe sideways on a busy phone calendar. Dashed one-hour blocks mean the real end is unknown. **Agenda** gives a compact list; **All upcoming** spans dates.
+
+Use **More filters** for budget, genre, venue, area, starting time and listing status. Budgets compare the highest known listed admission; fees or required extras may apply. Unknown prices never count as free. **List order** can prioritize time, recommendation score or the lowest listed price ceiling.
+
+Recommendations combine your private saved events, followed/favorite venues, ratings and enabled search interests with price and source freshness. Switch between **Fit + value**, **Personal fit** and **Value**, and open an event's score to see its reasons. No public popularity or crowd rating is implied. Scores are computed in your browser; this adds no private sync schema.
+
+Reviewed price checks live in `public/data/pricing.json`, with their exact source and check time, fee uncertainty, required spending and optional suggestions kept separate. Newer conflicting official prices take precedence. The Cobra collector preserves door prices, advance/door ranges, free nights and limited promotions.
+
 ## Add things to search for
 
 Open **Search list** and add an artist, venue, event series, organizer or activity. An official link and private details help resolve it. Edit or pause items there. Pending research, last-check results and links into the guide/calendar show what has actually been checked.

@@ -1,0 +1,48 @@
+.day-timeline { min-width: 0; max-width: 100%; }
+.timeline-help { display: grid; gap: 7px; margin-bottom: 14px; color: #c7c7cc; font-size: 12px; line-height: 1.45; }
+.timeline-help .timeline-swipe { color: var(--accent); }
+.timeline-end-note { color: #c8beca; display: flex; align-items: center; gap: 7px; }
+.timeline-end-note i { display: inline-block; width: 17px; height: 12px; border: 1px dashed #c8beca; border-radius: 3px; flex-shrink: 0; }
+.timeline-empty { margin: 0; background: #25252b; padding: 16px; border: 1px solid #414147; border-bottom: 0; border-radius: 14px 14px 0 0; color: #d1d1d6; font-size: 13px; }
+.timeline-horizontal-scroll { max-width: 100%; height: 640px; overflow: auto; border: 1px solid #414147; border-radius: 14px; background: #17171b; scrollbar-color: #716b78 #202025; overscroll-behavior-x: contain; }
+.timeline-calendar { width: 100%; }
+.day-timeline .fc { --fc-border-color: #36363d; --fc-page-bg-color: #17171b; --fc-neutral-bg-color: #17171b; --fc-today-bg-color: transparent; --fc-now-indicator-color: #ff8a81; font-size: 12px; }
+.day-timeline .fc-theme-standard .fc-scrollgrid { border: 0; }
+.day-timeline .fc-scrollgrid-section > td { border: 0; }
+.day-timeline .fc-timegrid-slot { height: 60px; border-bottom: 0; }
+.day-timeline .fc-timegrid-slot-minor { border-top-style: dotted; border-color: #2c2c33; }
+.day-timeline .fc-timegrid-slot-label { position: sticky; left: 0; z-index: 6; width: 57px; min-width: 57px; color: #c7c7cc; background: #17171b; }
+.day-timeline .fc-timegrid-slots { z-index: auto; }
+.day-timeline .fc-timegrid-slot-label-cushion { padding: 0 8px; font-size: 11px; font-variant-numeric: tabular-nums; }
+.day-timeline .fc-timegrid-axis { width: 57px; }
+.day-timeline .fc-timegrid-col-frame { min-width: 0; }
+.day-timeline .fc-timegrid-col-events { margin: 0 6px 0 3px; }
+.day-timeline .fc-timegrid-event-harness { margin-right: 4px; }
+.day-timeline .fc-timegrid-event { background: #34333f; border: 1px solid #75728d; border-left: 3px solid #b6afd6; border-radius: 9px; box-shadow: none; color: #f2f2f7; text-align: left; cursor: pointer; overflow: hidden; }
+.day-timeline .fc-timegrid-event:hover { filter: brightness(1.13); }
+.day-timeline .fc-timegrid-event:focus-visible { outline: 2px solid #ffb7ac; outline-offset: 2px; z-index: 10; }
+.day-timeline .fc-timegrid-event.timeline-category-music { background: #382e27; border-color: #79624b; border-left-color: #e5b079; }
+.day-timeline .fc-timegrid-event.timeline-category-dancing { background: #372835; border-color: #805b76; border-left-color: #df98c5; }
+.day-timeline .fc-timegrid-event.timeline-category-food { background: #27382f; border-color: #597665; border-left-color: #9cbba7; }
+.day-timeline .fc-timegrid-event.timeline-provisional { border-style: dashed; border-left-style: solid; }
+.timeline-event-copy { display: flex; flex-direction: column; gap: 5px; padding: 8px 8px 6px; overflow: hidden; height: 100%; min-width: 0; line-height: 1.25; }
+.timeline-event-time { font-size: 10px; color: #e0dce4; font-weight: 550; }
+.timeline-event-title { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-size: 13px; font-weight: 670; letter-spacing: -.15px; overflow-wrap: anywhere; flex-shrink: 0; }
+.timeline-event-venue, .timeline-event-price { color: #d0cbd4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; flex-shrink: 0; }
+.timeline-event-price { color: #f0d4ad; }
+.timeline-event-unknown { color: #e6c8ed; font-size: 10px; }
+.timeline-event-rank { color: #d2dfcf; font-size: 10px; font-weight: 650; margin-top: auto; }
+.timeline-continued { color: #efc8be; }
+.day-timeline .fc-timegrid-event-short .timeline-event-copy { padding: 3px 6px; gap: 2px; }
+.day-timeline .fc-timegrid-event-short .timeline-event-title { -webkit-line-clamp: 1; }
+.day-timeline .fc-timegrid-event-short .timeline-event-venue,
+.day-timeline .fc-timegrid-event-short .timeline-event-price,
+.day-timeline .fc-timegrid-event-short .timeline-event-rank { display: none; }
+.day-timeline .fc-timegrid-now-indicator-line { border-top-width: 2px; }
+.day-timeline .fc-timegrid-now-indicator-arrow { border-width: 6px 0 6px 7px; margin-top: -5px; }
+.day-timeline .fc-scroller, .day-timeline .fc-scroller-harness { overflow: visible !important; }
+@media (max-width: 700px) {
+  .timeline-help { font-size: 11px; }
+  .timeline-horizontal-scroll { border-radius: 11px; }
+  .timeline-event-copy { gap: 4px; }
+}

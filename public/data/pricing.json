@@ -1,0 +1,1517 @@
+{
+  "version": 1,
+  "events": {
+    "cobra:13974": {
+      "priceText": "$15 ADV I $20 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-matthew-thomas-l-sydney-dixon-l-ben-lawrence/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13957": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-beila-i-hannah-murphy-i-adia-clark-lay-i-addison-rose/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13918": {
+      "priceText": "Ticket special: $35 for a LIMITED TIME ONLY",
+      "sourceUrl": "https://cobranashville.com/event/venue-eyehategod-blast-luicidal-evil-army/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Limited-time promotion; confirm it is still available. Fees and ticket availability are not established."
+    },
+    "cobra:13703": {
+      "priceText": "$5 @ Door",
+      "sourceUrl": "https://cobranashville.com/event/front-bar-christine-alice-caitlin-cannon-steel-ivory/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13904": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-liam-martin-i-william-hinson-i-atticus-roness/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13954": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-pitre-i-ishani-i-zach-james/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14036": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-in-theory-corvus-lore-byrd-whistle/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14221": {
+      "priceText": "Free admission",
+      "sourceUrl": "https://cobranashville.com/event/front-bar-edm-night-featuring-dj-jnq-2/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13665": {
+      "priceText": "$10 ADV l $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-ancestral-tongue-l-sleepaway-camp-l-dead-heavy/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13842": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-hungry-branch-l-mary-chicken-soup-and-rice-l-running-late-l-erin-clare/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13604": {
+      "priceText": "$10 ADV l $12 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-chloe-alexander-l-the-stray-lions-l-audrey-claire-l-cavehole/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13585": {
+      "priceText": "$10 ADV l $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-trip-to-the-morgue-skeleton-crew-thorn-tribe-odlid/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14059": {
+      "priceText": "$5 @ DOOR",
+      "sourceUrl": "https://cobranashville.com/event/front-bar-clever-dummy-i-miss-lonely-solo-performance-i-dadfad/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14193": {
+      "priceText": "Free admission",
+      "sourceUrl": "https://cobranashville.com/event/front-bar-dj-set-from-tyler-davis-of-flipsville/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14162": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-outside-dog-i-comic-mischief-i-elijah-cortez/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14087": {
+      "priceText": "$15 ADV | $20 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-fraxiom-crispy-kittenhouse/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13963": {
+      "priceText": "$10 ADV | $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-nick-karcher-hot-mess-kid-pastel/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13495": {
+      "priceText": "$10 ADV l $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-seconds-to-serenity-l-alaska-on-fire-l-denouement-unfound-l-shadows-end/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14074": {
+      "priceText": "$20 ADV I $25 DOS",
+      "sourceUrl": "https://cobranashville.com/event/front-bar-roe-xander-i-lotismusic-i-5an-i-sidney-gilliam/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13729": {
+      "priceText": "$10 ADV l $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-wraithbearer-mesifus-chunder-narrowfaith/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14230": {
+      "priceText": "$15 ADV I $20 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-sleep-club-i-life-after-youth-i-allegory/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14113": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-sage-king-i-bag-lady-i-wildfire/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14246": {
+      "priceText": "$5 @ DOOR",
+      "sourceUrl": "https://cobranashville.com/event/front-bar-lifes-a-witch-and-then-you-fly-poetry-for-the-living-dead/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14071": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-sunshine-scott-sabby-sirenvale-simp-goddess/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14126": {
+      "priceText": "$25 General Admission | $75 VIP",
+      "sourceUrl": "https://cobranashville.com/event/venue-slashville-returns/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13608": {
+      "priceText": "$20 ADV l $25 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-ok-goodnight-lux-terminus-eve/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:13640": {
+      "priceText": "$20 ADV | $25 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-the-rumjacks-critterbrain-suburban-detour-the-okay-greats/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14039": {
+      "priceText": "$10 ADV | $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-alex-sandra-barie-cash-honey-love-drive/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14138": {
+      "priceText": "$12 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-sick-fucks-i-dusty-rug-i-sol-tour-i-dryver/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14132": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-pure-xtc-i-enzi-i-rebekah-freeman/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14062": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-jo-meier-dean-marino-liv-garland/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14233": {
+      "priceText": "$15 ADV I $25 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-bungalow-collect-i-wrldfamous-kd-i-dj-afrosheen/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14021": {
+      "priceText": "$10 ADV | $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-flwrs-brian-staples-rawhoney/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14101": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-keyze-arizona-brian-brown-tavonne/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14208": {
+      "priceText": "$20 ADV | $25 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-whores-voltagehawk-hans-condor/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14110": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-king-sickabilly-i-sebastien-bordeaux-i-kam-bugger/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14033": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-the-dangerous-method-l-mindshaft-l-red-river-hymn/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14177": {
+      "priceText": "$20 ADV | $25 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-the-casualties-bullshit-detector-stuck-lucky/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "cobra:14240": {
+      "priceText": "$10 ADV I $15 DOS",
+      "sourceUrl": "https://cobranashville.com/event/venue-bugs-i-safehaven-i-rosemary-moses/",
+      "checkedAt": "2026-10-06T03:31:14.989Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:67e9b867a2b393351fd7": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:024bc2e8dc825aa71eea": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:45ea8c3b339bd2a12ffd": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:9489eb8120c88b6349f8": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:f2b781619954a7dc486d": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:c1b99f1e4434b895ef21": {
+      "priceText": "$14 advance / $14 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6f15540f58825f953c3e": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:447e17701ec9fa7bc270": {
+      "priceText": "$21 advance / $22 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:536c668981a1d29578e3": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:f492dd92fdc636fc8016": {
+      "priceText": "$30 advance / $35 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:426a233ca37974ac17e6": {
+      "priceText": "$20 advance / $21 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d5c97e2c817540862721": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:46bcae97866558e33086": {
+      "priceText": "$12 advance / $14 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6878800876cb1fc8b6f4": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:78c9d23a2dbd72c2da42": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:617b3b1ea2063d8ba118": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:8d09050442df77ca0322": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:2808cb8378c9c4990175": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:684260b0054c76eea223": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e2eb135604cbc43b85f1": {
+      "priceText": "$15 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:eeb2eedd7987b6033187": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:30166ae36116cf07a2dc": {
+      "priceText": "$23 advance / $25 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:7e07e2674c34a3d68dbd": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:b9d2a7183f6e4d11a428": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:cf42a54aba24c1d8b71d": {
+      "priceText": "$23 advance / $25 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e5a66471bfc8c2b51d25": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:05b16dab4e8676a1061f": {
+      "priceText": "$18 advance / $18 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:7f223073da38f0f0d38f": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:608e7a20ebc8971773c3": {
+      "priceText": "$13 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:001fdd31de5d458720d0": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:18c088a43fe7a1f9d25f": {
+      "priceText": "$17 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:fb486cf9d99d1e725ac0": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:56a5a45da5886ddb16e9": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:093f6732d415db83d81d": {
+      "priceText": "$14 advance / $16 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:90199f9b0610574ac1b7": {
+      "priceText": "$15 advance / $16 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:0df74e2a2e0f3adb27c4": {
+      "priceText": "$22 advance / $24 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:cb28f46dc46791be568e": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:1ef2d4023c27533beec2": {
+      "priceText": "$15 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d1731869ee5b65de27dd": {
+      "priceText": "$22 advance / $24 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:29b193863a1757d6f23e": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:2100e1ba69eda32e9445": {
+      "priceText": "$12 advance / $14 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:85f6f7782c132ebb3958": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:cb110149446889192ab2": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:0e6e7d570094e76da911": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:2603361a9d6b5572484a": {
+      "priceText": "$20 advance / $22 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:bf445f888904a7e6fa2d": {
+      "priceText": "$15 advance / $16 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e871738554f6690b2f37": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e309df07bbf414510799": {
+      "priceText": "$14 advance / $16 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:f76f73f4896b450986e3": {
+      "priceText": "$20 advance / $22 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:0a93817981af654dd363": {
+      "priceText": "$22 advance / $24 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:5e08996ccb434d191911": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:a610581d4b7465b2a347": {
+      "priceText": "$22 advance / $24 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:4490e1a9a30fae84e945": {
+      "priceText": "$25 advance / $26 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:08adbf6462b6ced30854": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:914c8e14ad0416b457c4": {
+      "priceText": "$15 advance / $18 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:ba6d61fd824babcefeef": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:99a78bfae6ad1a302cb5": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d5e277a98e14f8b36e60": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:a705f7c10c39a790ae81": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e0472ff51523e69f47d6": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:40bcd261bc5b76f6cfe4": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:ca28f6abf3c58920cfe4": {
+      "priceText": "$15 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6865c7cfb9796a36b5c5": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:17851d480309aacfd89d": {
+      "priceText": "$21 advance / $22 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:000141a817be1e025d17": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6ba1b42453386b4ca9ae": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6a6de885a8108c5da29f": {
+      "priceText": "$20 advance / $22 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:52cb576b46556fb24667": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:b32f2bea8c72a1e4636c": {
+      "priceText": "$18 advance / $20 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:47a86431e9d72931e78c": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:ca340427fc78026c5309": {
+      "priceText": "$13 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:94d4b72568ce3bb0cfe3": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:4ce427ce08d86e13aaa8": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e966d09205807c52ed0d": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:c64b1000560e959b4d1b": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:362203d948602fc4fe9c": {
+      "priceText": "$12 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6c1a76ad7c4e1c9f60fb": {
+      "priceText": "$16 advance / $18 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:29a6ccd137d7f800a1bf": {
+      "priceText": "$23 advance / $24 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:0b43615cd52c198ce7a6": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:ca6cf0aa3dd9552305fc": {
+      "priceText": "$20 advance / $21 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:8091e075a0346b47c98e": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:3b406f4f97327cef1c9f": {
+      "priceText": "$15 advance / $18 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:f06cbe3f5dcdf53b2172": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d402c3b4be06d98854a1": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d74f65bcd8284d3ffbee": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:094d90e10c8fcc5cfc09": {
+      "priceText": "$17 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:548098f2092eeef95b04": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:52690aa013d804e1d9a5": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:b7448fa3445fd2e18d32": {
+      "priceText": "$15 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:62079e65d9f57873fffc": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:770ef91a166db2b23ad6": {
+      "priceText": "$22 advance / $23 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:abfd0b5c0c30fc6b300f": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:0f5bec2d3fc7f250c2a8": {
+      "priceText": "$23 advance / $25 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:52999aa8e9b520d8fb74": {
+      "priceText": "$21 advance / $22 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:c511e75949abd6c9b5ea": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:5166b3de4cdbdf091eae": {
+      "priceText": "$15 advance / $16 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:409f8af1ecd87030d1c8": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:f3acaa4907acad042ae7": {
+      "priceText": "$21 advance / $23 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d28ced01774f2121243b": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:6e0990b35908a7c8a1f9": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:31deb2186cf37aee6b69": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:1e84730323cee6aba81e": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:d3fda9424858fcccdcaf": {
+      "priceText": "$35 advance / $35 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:7ceac065d60cbe541ef7": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:dc427f5b9225dfd8feed": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:9ef103cc4cbbe76cccc4": {
+      "priceText": "$35 advance / $35 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:3ba3f040fddf46b1c7ed": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:119ce19847c22adc6136": {
+      "priceText": "$12 advance / $14 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:896e4c880934ebdb9ce7": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:95d4a0ed1a028a1ba5fb": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:60fa14c817254a002793": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:8f42db9fa35c840692b3": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:0ca06d2b0076a4e10581": {
+      "priceText": "$14 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:757c7b41580ca808d39d": {
+      "priceText": "$15 advance / $17 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:54928d302fd41de9da33": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:98763be9f7bb453398e5": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:f9ee0883767375ef50b2": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:313ce54344d8dfd9d552": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:cf6f63925c14a69c9622": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:cc2770ac50ab72917fe3": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:b8404f2675a19b24fc39": {
+      "priceText": "$10 advance / $10 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:2e7eaa9fc2a0a494ea84": {
+      "priceText": "$12 advance / $12 door; $10 food or beverage minimum",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food or beverage minimum",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:e771fb095df1e844bc7d": {
+      "priceText": "$12 advance / $12 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:8910f518671f02614a54": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "rudys-jazz-room:589fe56f53241f054c7c": {
+      "priceText": "$15 advance / $15 door",
+      "sourceUrl": "https://www.rudysjazzroom.com/calendar",
+      "checkedAt": "2026-10-06T03:31:24.148Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Event-specific advance/door prices. Fees and ticket availability are not established."
+    },
+    "eastside-bowl:d4731113dffa8d8a85e6": {
+      "priceText": "$20.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:5cd8ee6b67f35f174e5a": {
+      "priceText": "$10.00-$175.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:afe527fe791fa58371f3": {
+      "priceText": "$25.00-$90.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:fa3006dc5f1445a7895d": {
+      "priceText": "$15.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:27f8f571d52d0418296d": {
+      "priceText": "$20.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:e7dc6fd3f67a351cbd47": {
+      "priceText": "$22.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:42f354eb1639a4efa397": {
+      "priceText": "$12.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:7507024cb7c2f7f276bb": {
+      "priceText": "$20.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:1d9d09dace4d4cc38fa9": {
+      "priceText": "$15.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:b8b189523e4780a40beb": {
+      "priceText": "$10.00-$175.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:16317b23c0c1c18bfb1f": {
+      "priceText": "$15.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:61783bb45be8ef94d466": {
+      "priceText": "$20.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:c865f5eff2538e3e55f0": {
+      "priceText": "$20.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:68831936f0afc77c839a": {
+      "priceText": "$10.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:ab41afab7767392daaa1": {
+      "priceText": "$20.00-$125.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:3923da65177ae724038a": {
+      "priceText": "$15.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:c065e95b76476eca2495": {
+      "priceText": "$25.00-$145.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:b58ddeab2c5507e346fd": {
+      "priceText": "$18.00-$115.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:f77f4d2fae8cfb77f2c4": {
+      "priceText": "$15.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:6bd2567e5ff2ad34bcc6": {
+      "priceText": "$10.00-$175.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue lists a range; ticket tiers are not identified here. Fees and availability are not established."
+    },
+    "eastside-bowl:1f34601d5c693b9cc90a": {
+      "priceText": "$10.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:efbe1ee48dfa5c3a0dff": {
+      "priceText": "$15.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "eastside-bowl:f96ce0e617be0d014090": {
+      "priceText": "$20.00",
+      "sourceUrl": "https://shows.eastsidebowl.com/",
+      "checkedAt": "2026-10-06T03:28:59.652Z",
+      "feeStatus": "unknown",
+      "spendText": "",
+      "caveat": "Venue-listed price. Fees and availability are not established."
+    },
+    "game-point:10000746": {
+      "priceText": "$30 plus tax",
+      "sourceUrl": "https://gamepointcafe.com/event/magic-monday-draft-and-a-drink-14-3-2/2026-10-12/",
+      "checkedAt": "2026-10-06T03:29:05.076Z",
+      "feeStatus": "tax-extra",
+      "spendText": "Includes draft cards, prize packs won, and first drink.",
+      "caveat": "Six players minimum is a player count, not a spending minimum."
+    },
+    "game-point:10001009": {
+      "priceText": "No entry fee",
+      "sourceUrl": "https://gamepointcafe.com/event/magic-monday-casual-commander-night-27/2026-10-19/",
+      "checkedAt": "2026-10-06T03:30:15.452Z",
+      "feeStatus": "unknown",
+      "spendText": "$10 food/drink spend suggested, not required.",
+      "caveat": "Suggested spend is not mandatory admission."
+    }
+  }
+}

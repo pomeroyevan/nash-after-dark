@@ -9,7 +9,7 @@ const key = 'nash-after-dark.personal.v1';
 const nashDay = (v: string | Date) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(v));
 const clock = (v: string) => new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit' }).format(new Date(v));
 async function navigate(page: Page, label: string) { await page.locator('.sidebar:visible, .mobile-tabs:visible').getByText(label, { exact: true }).click(); }
-async function openApp(page: Page) { await page.goto('./'); await expect(page.getByRole('heading', { name: 'Calendar', exact: true })).toBeVisible(); await expect(page.locator('.loading-state')).toHaveCount(0); await expect(page.locator('.notice.error')).toHaveCount(0); }
+async function openApp(page: Page) { await page.goto('./'); await expect(page.getByRole('heading', { name: 'Calendar', exact: true })).toBeVisible(); await expect(page.locator('.loading-state')).toHaveCount(0); await expect(page.locator('.notice.error')).toHaveCount(0); await page.getByRole('button', { name: 'All upcoming', exact: false }).click(); }
 async function noteValue(page: Page) { return page.evaluate(k => localStorage.getItem(k), key); }
 
 test('real public data, combined search/category, candidate and incomplete-source labels', async ({ page, request }) => {
@@ -63,7 +63,7 @@ test('month and day selection, real event details, bookmark, and calendar downlo
   const targetDay = nashDay(event.start);
   const day = page.locator(`[data-day="${targetDay}"]`);
   if (!(await day.count())) await page.getByRole('button', { name: 'Next month', exact: true }).click();
-  await day.click(); await expect(day).toHaveAttribute('aria-pressed', 'true');
+  await day.click(); await expect(page.getByLabel('Jump to date')).toHaveValue(targetDay); await page.locator('ion-segment-button').filter({ hasText: 'Agenda' }).click();
   await page.getByRole('textbox', { name: 'Search events and venues' }).fill(event.title);
   const card = page.locator('.event-card').filter({ hasText: event.title }).first();
   await expect(card).toContainText(clock(event.start));
@@ -82,7 +82,7 @@ test('month and day selection, real event details, bookmark, and calendar downlo
   expect(ics).toContain(`DTSTART:${new Date(event.start).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z/, 'Z')}`);
   expect(ics).toContain('END:VCALENDAR\r\n');
   await page.getByRole('button', { name: 'Close details' }).click();
-  await page.reload(); await expect(page.locator('.loading-state')).toHaveCount(0);
+  await page.reload(); await expect(page.locator('.loading-state')).toHaveCount(0); await page.getByRole('button', { name: 'All upcoming', exact: false }).click();
   await page.getByRole('button', { name: 'Saved', exact: true }).click();
   await expect(page.locator('.event-card').filter({ hasText: event.title })).toBeVisible();
 });
@@ -216,7 +216,7 @@ for (const [device, viewport] of Object.entries({ desktop: { width: 1440, height
     await navigate(page, 'Calendar');
     await expect(page.getByRole('button', { name: 'Everything', exact: true })).toHaveAttribute('aria-pressed', 'true');
     await expect(page.locator('.event-card')).toHaveCount(4);
-    await page.reload();
+    await page.reload(); await page.getByRole('button', { name: 'All upcoming', exact: false }).click();
     await expect(page.locator('.event-card')).toHaveCount(4);
     await expect(page.getByRole('button', { name: 'Everything', exact: true })).toHaveAttribute('aria-pressed', 'true');
   });

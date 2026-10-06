@@ -21,7 +21,7 @@ for (const [device, viewport] of Object.entries({ phone: { width: 390, height: 8
   test(`photos, artist guide and event return flow on ${device}`, async ({ page }) => {
     await page.setViewportSize(viewport); await fixture(page);
     const errors: string[] = []; page.on('pageerror', e => errors.push(e.message));
-    await page.goto('./');
+    await page.goto('./'); await page.getByRole('button', { name: 'All upcoming', exact: false }).click();
     await expect(page.locator('.event-thumbnail')).toBeVisible();
     await page.locator('.event-main').click();
     await expect(page.getByRole('region', { name: 'Photos and flyers' }).getByRole('img')).toBeVisible();
@@ -48,12 +48,12 @@ for (const [device, viewport] of Object.entries({ phone: { width: 390, height: 8
 test('blocked images fall back to original source and missing enrichment never blocks calendar', async ({ page }) => {
   await fixture(page);
   await page.route(picture.url, route => route.abort());
-  await page.goto('./'); await page.locator('.event-main').click();
+  await page.goto('./'); await page.getByRole('button', { name: 'All upcoming', exact: false }).click(); await page.locator('.event-main').click();
   await expect(page.getByRole('region', { name: 'Photos and flyers' })).toContainText('Image unavailable');
   await expect(page.getByRole('link', { name: 'View original source' })).toHaveAttribute('href', source);
   await page.unroute('**/data/music-details.json');
   await page.route('**/data/music-details.json', route => route.fulfill({ status: 503, body: 'Unavailable' }));
-  await page.reload();
+  await page.reload(); await page.getByRole('button', { name: 'All upcoming', exact: false }).click();
   await expect(page.locator('.event-card')).toHaveCount(1);
   await nav(page, 'Explore'); await page.getByRole('button', { name: 'Artist guides (0)' }).click();
   await expect(page.getByRole('alert')).toContainText('Event listings still work');
@@ -65,7 +65,7 @@ test('a stalled optional media request does not delay the calendar', async ({ pa
   let release!: () => void;
   const pending = new Promise<void>(resolve => { release = resolve; });
   await page.route('**/data/music-details.json', async route => { await pending; await route.fulfill({ status: 503, body: 'Unavailable' }); });
-  await page.goto('./', { waitUntil: 'domcontentloaded' });
+  await page.goto('./', { waitUntil: 'domcontentloaded' }); await page.getByRole('button', { name: 'All upcoming', exact: false }).click();
   try { await expect(page.locator('.event-card')).toHaveCount(1, { timeout: 5000 }); }
   finally { release(); }
 });
@@ -76,7 +76,7 @@ test('archived social images open externally without attempting a blocked embed'
   await page.route('**/data/music-details.json', route => route.fulfill({ json: { version: 1, checkedAt: stamp, artists: [], sources: [], events: {}, entries: { 'test-venue': { images: [{ ...picture, sourceOnly: true }], note: 'Archived official posts, not a new event date.' } } } }));
   let requests = 0;
   page.on('request', request => { if (request.url() === picture.url) requests++; });
-  await page.goto('./'); await nav(page, 'Explore');
+  await page.goto('./'); await page.getByRole('button', { name: 'All upcoming', exact: false }).click(); await nav(page, 'Explore');
   await page.locator('.place-card').click();
   await expect(page.getByRole('heading', { name: 'Past flyers & scene photos' })).toBeVisible();
   const gallery = page.getByRole('region', { name: 'Past flyers and scene photos' });

@@ -7,6 +7,7 @@ The user authorized publication and daily calendar updates on October 5, 2026. R
 - App code and public facts about Nashville venues, artists and events.
 - `public/data/catalog.json` and `public/data/events.json`, including source verification/access status.
 - Reviewed artist profiles and archived promotional image references in `data/artist-profiles.json`, `data/scene-galleries.json`, and `public/data/music-details.json`. Source dates and attribution remain visible; raw social captions, audience data and scraper account/run metadata stay private.
+- `public/data/pricing.json` contains reviewed exact-event admission and fee/spend caveats with original verification dates. Recommendation scores and personal inputs are computed privately and never exported there.
 - Reviewed public event snapshots, collector code and general refresh instructions. Raw research and private reference guides are excluded. Review the git file list before the first push.
 - `public/data/sync-config.json` contains the Supabase project URL and client-safe publishable key. It must never contain a service key or database password.
 
@@ -19,7 +20,7 @@ The user authorized publication and daily calendar updates on October 5, 2026. R
 ## Release process
 
 1. Run `npm test`, `npm run build`, and browser checks. Inspect every staged filename and public-data diff. Do not use a forced add or force-push.
-2. Push reviewed public files to `pomeroyevan/nash-after-dark` on `main`. Routine daily research may stage only the six reviewed public calendar/catalog/media JSON files listed in `FUTURE-CHECKS.md`.
+2. Push reviewed public files to `pomeroyevan/nash-after-dark` on `main`. Routine daily research may stage only the seven reviewed public calendar/catalog/media/pricing JSON files listed in `FUTURE-CHECKS.md`.
 3. GitHub Pages uses `.github/workflows/pages.yml`; the workflow tests, builds and uploads only `dist`. Wait for its deployment result.
 4. Verify HTTPS, the `/nash-after-dark/` base path, catalog/events/manifest/config, and desktop/mobile browser flows. Run the prepared suite with `UI_BASE_URL=https://pomeroyevan.github.io/nash-after-dark/` when needed.
 5. For sync changes, test with two separate browser contexts, server revision conflicts, anonymous denial and account isolation. Use only synthetic accounts. `scripts/verify-live-sync.mjs` reads credentials from environment variables, never project files; it disables test accounts after the check.
