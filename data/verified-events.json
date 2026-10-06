@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "id": "curated-crimewave-2026-10-16",
+      "title": "CRIMEWAVE: A Goth, Post-Punk & Darkwave Party",
+      "venueId": "cannery-hall",
+      "venueName": "Cannery Hall — Row One Stage",
+      "start": "2026-10-16T21:00:00-05:00",
+      "url": "https://canneryhall.com/calendar/",
+      "ticketUrl": "https://www.axs.com/events/1605479/crimewave-a-goth-post-punk-darkwave-party-tickets",
+      "priceText": "Doors 8:30 p.m.; price and age restriction not verified.",
+      "tags": [
+        "dancing",
+        "goth",
+        "post-punk",
+        "darkwave"
+      ],
+      "status": "confirmed",
+      "sourceId": "crimewave",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-emo-night-tour-2026-12-05",
+      "title": "The Emo Night Tour",
+      "venueId": "basement-east",
+      "venueName": "The Basement East",
+      "start": "2026-12-05T20:00:00-06:00",
+      "url": "https://www.thebasementnashville.com/tm-event/the-emo-night-tour-5/",
+      "ticketUrl": "https://www.ticketweb.com/event/the-emo-night-tour-the-basement-east-tickets/14352394",
+      "priceText": "Admission price and age restriction not verified.",
+      "tags": [
+        "dancing",
+        "emo",
+        "alternative"
+      ],
+      "status": "confirmed",
+      "sourceId": "basement-east-emo-acid",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-office-esseks-2026-10-09",
+      "title": "ESSEKS",
+      "venueId": "the-office",
+      "venueName": "The Office Nashville",
+      "start": "2026-10-09T22:00:00-05:00",
+      "url": "https://www.theofficenashville.com/events/esseks",
+      "priceText": "Price and age restriction not verified; check linked event.",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "status": "confirmed",
+      "sourceId": "the-office",
+      "checkedAt": "2026-10-04"
+    },
+    {
+      "id": "curated-office-stylust-2026-10-10",
+      "title": "STYLUST",
+      "venueId": "the-office",
+      "venueName": "The Office Nashville",
+      "start": "2026-10-10T22:00:00-05:00",
+      "url": "https://www.theofficenashville.com/events/stylust",
+      "priceText": "Price and age restriction not verified; check linked event.",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "status": "confirmed",
+      "sourceId": "the-office",
+      "checkedAt": "2026-10-04"
+    },
+    {
+      "id": "curated-office-saved-by-the-bell-day-party-2026-10-17",
+      "title": "SAVED BY THE BELL DAY PARTY",
+      "venueId": "the-office",
+      "venueName": "The Office Nashville",
+      "start": "2026-10-17T16:00:00-05:00",
+      "url": "https://www.theofficenashville.com/events/saved-by-the-bell-day-party",
+      "priceText": "Price and age restriction not verified; check linked event.",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "status": "confirmed",
+      "sourceId": "the-office",
+      "checkedAt": "2026-10-04"
+    },
+    {
+      "id": "curated-office-whales-2026-10-17",
+      "title": "WHALES",
+      "venueId": "the-office",
+      "venueName": "The Office Nashville",
+      "start": "2026-10-17T22:00:00-05:00",
+      "url": "https://www.theofficenashville.com/events/whales",
+      "priceText": "Price and age restriction not verified; check linked event.",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "status": "confirmed",
+      "sourceId": "the-office",
+      "checkedAt": "2026-10-04"
+    },
+    {
+      "id": "curated-office-ivy-lab-2026-10-18",
+      "title": "IVY LAB",
+      "venueId": "the-office",
+      "venueName": "The Office Nashville",
+      "start": "2026-10-18T21:00:00-05:00",
+      "url": "https://www.theofficenashville.com/events/ivy-lab",
+      "priceText": "Price and age restriction not verified; check linked event.",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "status": "confirmed",
+      "sourceId": "the-office",
+      "checkedAt": "2026-10-04"
+    }
+  ]
+}

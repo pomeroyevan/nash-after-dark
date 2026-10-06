@@ -1,0 +1,1382 @@
+{
+  "updatedAt": "2026-10-06",
+  "entries": [
+    {
+      "id": "inglewood-lounge",
+      "name": "Inglewood Lounge",
+      "kind": "bar_and_restaurant",
+      "description": "Neighborhood lounge serving cocktails and food; Sunday-night note is strongly identified as Eastside Jam, a free improvised-music jam.",
+      "area": "Inglewood",
+      "address": "3914 Gallatin Pike, Nashville (official ordering link address)",
+      "officialUrl": "https://www.inglewoodlounge.com/",
+      "tags": [
+        "live music",
+        "bars",
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.inglewoodlounge.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/eastsidejamnashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "flamingo",
+      "name": "Flamingo Cocktail Club",
+      "kind": "cocktail_bar_and_music_dance_venue",
+      "description": "Cocktails, plant-based food, live music and dance nights at 509 Houston Street. Wednesday's published program is The Invite, a curated jam with three live sets.",
+      "area": "Wedgewood-Houston",
+      "address": "509 Houston St, Nashville, TN 37203",
+      "officialUrl": "https://www.flamingococktailclub.com/",
+      "tags": [
+        "dancing",
+        "live music"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.flamingococktailclub.com/events",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.flamingococktailclub.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/theflamingonashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "golden-unresolved",
+      "name": "Golden piano bar — unresolved",
+      "kind": "unresolved_identity",
+      "description": "A piano-bar entry whose exact business identity is still being researched. Sid Gold's Request Room is a candidate, not a confirmed match.",
+      "area": "Nashville; location varies",
+      "address": null,
+      "officialUrl": "https://sidgolds.com/nashville/",
+      "tags": [],
+      "identityStatus": "unresolved",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://sidgolds.com/nashville/nashville-events/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://sidgolds.com/wp-json/tribe/events/v1/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "adeles",
+      "name": "Adele's Nashville",
+      "kind": "restaurant",
+      "description": "Farm-to-table Southern comfort food, wood-fired cooking, cocktails, and a weekend brunch buffet. Reservations recommended.",
+      "area": "The Gulch",
+      "address": "1210 McGavock Street, Nashville, TN 37203; The Gulch",
+      "officialUrl": "https://www.adelesnashville.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.adelesnashville.com/nashville-happenings/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "pletos-unresolved",
+      "name": "Pletos / Plato's — unresolved",
+      "kind": "unresolved_identity",
+      "description": "Exact identity unresolved. Pelato, an Italian restaurant in Germantown, is a candidate requiring confirmation.",
+      "area": "Nashville; location varies",
+      "address": null,
+      "officialUrl": "https://www.pelatorestaurant.com/",
+      "tags": [],
+      "identityStatus": "unresolved",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.pelatorestaurant.com/location/pelato-nashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "rosemary-beauty-queen",
+      "name": "Rosemary & Beauty Queen",
+      "kind": "venue: cocktail bar and lounge",
+      "description": "East Nashville rooftop cocktail bar and lounge with courtyard, rooftop, cocktails, and food; official policy is strictly 21+.",
+      "area": "East Nashville",
+      "address": "1102 Forest Ave, Nashville, TN 37206",
+      "officialUrl": "https://www.rosemaryandbeautyqueen.com/",
+      "tags": [
+        "bars",
+        "dancing"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "camp-night"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rosemaryandbeautyqueen.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/rbqnashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "camp-night",
+      "name": "Camp Night / Camp Nightmare",
+      "kind": "historical_event_candidate",
+      "description": "Night Mass promoted Camp Nightmare at Rosemary & Beauty Queen on August 21, 2026. The past event is a candidate for this entry; the next edition is not confirmed.",
+      "area": "East Nashville",
+      "address": "1102 Forest Ave, Nashville, TN 37206",
+      "officialUrl": "https://www.instagram.com/nightmass615/",
+      "tags": [],
+      "identityStatus": "candidate",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "rosemary-beauty-queen",
+        "night-mass"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rosemaryandbeautyqueen.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/rbqnashville/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/nightmass615/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://posh.vip/e/night-mass-witching-hour",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://ma.to/event/night-mass-camp-nightmare-21-aug-2026",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "trap-house-wings",
+      "name": "Traphouse Wingz (likely match)",
+      "kind": "restaurant",
+      "description": "Wings and hamburgers with carryout and delivery; official ordering website uses the name Traphouse Wingz.",
+      "area": "Buchanan Arts District",
+      "address": "1204 Buchanan St, Nashville, TN 37208",
+      "officialUrl": "https://www.traphousewingztn.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "candidate",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.traphousewingztn.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "five-spot",
+      "name": "The 5 Spot",
+      "kind": "music_venue_and_bar",
+      "description": "East Nashville live-music bar hosting bands, DJs and dance nights. Check each event's lineup and admission details.",
+      "area": "East Nashville",
+      "address": "1006 Forest Ave, Nashville, TN",
+      "officialUrl": "https://the5spotnashville.com/",
+      "tags": [
+        "live music",
+        "dancing"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "five-spot-funk-night"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://the5spotnashville.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "five-spot-funk-night",
+      "name": "The 5 Spot funk night — exact intended series unresolved",
+      "kind": "event_identity_to_confirm",
+      "description": "A verified candidate is Funky Good Time, an all-vinyl funk/soul/disco/R&B party. A separate promoter named Funk Night Nashville also exists; do not merge them without confirmation.",
+      "area": "East Nashville",
+      "address": "The 5 Spot for verified Funky Good Time September 5 edition",
+      "officialUrl": "https://the5spotnashville.com/shows/27126/",
+      "tags": [
+        "live music",
+        "dancing",
+        "funk"
+      ],
+      "identityStatus": "unresolved",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "five-spot"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://the5spotnashville.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://the5spotnashville.com/shows/27126/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "rudys-jazz-room",
+      "name": "Rudy's Jazz Room",
+      "kind": "venue: jazz club, bar and restaurant",
+      "description": "Nashville jazz club with dated live jazz shows, New Orleans food and cocktails. Individual show listings specify admission and seating rules.",
+      "area": "The Gulch",
+      "address": "809 Gleaves St, Nashville, TN 37203",
+      "officialUrl": "https://www.rudysjazzroom.com/",
+      "tags": [
+        "live music",
+        "jazz",
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "rudys-sunday-jazz-jam"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rudysjazzroom.com/calendar",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/info",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://tunehatch.com/shows/rudy-s-jazz-jam-23",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "rudys-sunday-jazz-jam",
+      "name": "Rudy's Jazz Jam",
+      "kind": "recurring event series: Sunday jazz jam",
+      "description": "Official pro jazz jam combining established Nashville players and newer performers; spontaneous sit-ins are part of the format. Dated October listings run Sunday evenings.",
+      "area": "The Gulch",
+      "address": "809 Gleaves St, Nashville, TN 37203",
+      "officialUrl": "https://www.rudysjazzroom.com/calendar",
+      "tags": [
+        "live music",
+        "jazz"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "rudys-jazz-room"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.rudysjazzroom.com/calendar",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.rudysjazzroom.com/info",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://tunehatch.com/shows/rudy-s-jazz-jam-23",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "east-room",
+      "name": "The East Room",
+      "kind": "music_and_comedy_venue",
+      "description": "East Nashville music and comedy venue; official site advertises local/touring talent and a free Tuesday open mic.",
+      "area": "East Nashville",
+      "address": "2412 Gallatin Ave, Nashville, TN",
+      "officialUrl": "https://www.theeastroomnashville.com/",
+      "tags": [
+        "live music",
+        "alternative"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.theeastroomnashville.com/calendar",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://do615.com/venues/the-east-room",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "drkmttr",
+      "name": "DRKMTTR Collective",
+      "kind": "music_and_arts_venue",
+      "description": "Music and arts collective with underground/local/touring bills. Official site was blocked to direct HTTP; accessible Do615 venue page supplies a calendar and describes its all-ages community focus.",
+      "area": "East Nashville / Dickerson Pike",
+      "address": "1111 Dickerson Pike, Nashville (Do615 listing; verify venue/ticket page for each show)",
+      "officialUrl": "https://www.drkmttrcollective.com/",
+      "tags": [
+        "live music",
+        "alternative",
+        "punk"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.drkmttrcollective.com/shows",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://do615.com/venues/drkmttr",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "cobra",
+      "name": "Cobra Nashville",
+      "kind": "bar_and_music_venue",
+      "description": "East Nashville bar and music venue with a front-bar stage and separate venue stage; hosts local and touring music plus DJ/event nights.",
+      "area": "East Nashville",
+      "address": "2511 Gallatin Ave, Nashville, TN 37206 (East Nashville)",
+      "officialUrl": "https://cobranashville.com/",
+      "tags": [
+        "dancing",
+        "live music",
+        "alternative"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "cobra-slc",
+        "another-night-another-dream",
+        "blood-rave"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://cobranashville.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://cobranashville.com/wp-json/tribe/events/v1/events",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "cobra-slc",
+      "name": "She's Lost CNTRL (SLC)",
+      "kind": "event_series_and_promoter",
+      "description": "Cobra-associated DJ/event series and promoter; official profile calls it DISCO DYSTOPIA and venue listings also spell the name She's Lost Control. It is a separate entity from Cobra.",
+      "area": "East Nashville",
+      "address": "Cobra Nashville, 2511 Gallatin Ave; confirm each edition's venue",
+      "officialUrl": "https://www.instagram.com/slcnashville/",
+      "tags": [
+        "dancing",
+        "goth",
+        "darkwave"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "cobra"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.instagram.com/slcnashville/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://cobranashville.com/wp-json/tribe/events/v1/events",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "another-night-another-dream",
+      "name": "Another Night Another Dream",
+      "kind": "DJ_dance_party_series",
+      "description": "Dance party promoted by SLC, featuring eurodance, early house, trance, electronica and italo; March 2026 revival names DJ Dark Heart and Carson Greenway.",
+      "area": "East Nashville",
+      "address": "Cobra Nashville; verify each edition's venue",
+      "officialUrl": "https://cobranashville.com/event/venue-another-night-another-dream-with-dj-dark-heart-carson-greenway/",
+      "tags": [
+        "dancing",
+        "electronic"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [
+        "cobra"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://cobranashville.com/wp-json/tribe/events/v1/events",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/slcnashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "blood-rave",
+      "name": "BLOODRAVE at Cobra",
+      "kind": "named_dance_event",
+      "description": "A She's Lost Control event at Cobra. The official October 3, 2026 edition is historical; no future edition is implied.",
+      "area": "East Nashville",
+      "address": "Cobra Nashville, 2511 Gallatin Ave, Nashville, TN 37206",
+      "officialUrl": "https://cobranashville.com/event/venue-shes-lost-control-presents-bloodrave-with-dildox/",
+      "tags": [
+        "dancing",
+        "goth"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "cobra",
+        "cobra-slc"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://cobranashville.com/wp-json/tribe/events/v1/events",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/slcnashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "basement-east-emo-acid",
+      "name": "Basement East Emo Night / Acid — unresolved",
+      "kind": "unresolved_entry_with_verified_event_candidate",
+      "description": "The Emo Night Tour has an official Basement East listing. The separate Acid wording and intended exact event remain unresolved.",
+      "area": "East Nashville",
+      "address": "The Basement East, Nashville; confirm intended event before merging identities",
+      "officialUrl": "https://www.thebasementnashville.com/tm-event/the-emo-night-tour-5/",
+      "tags": [],
+      "identityStatus": "unresolved",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "basement-east"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.thebasementnashville.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/tm-event/the-emo-night-tour-5/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.ticketweb.com/event/the-emo-night-tour-the-basement-east-tickets/14352394",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "eastside-bowl",
+      "name": "Eastside Bowl",
+      "kind": "bowling_food_lounge_and_music_venue",
+      "description": "Bowling, food and lounge complex with two live-music stages, including The '58; located on Gallatin Pike South, well outside the downtown core.",
+      "area": "Madison — travel check",
+      "address": "1508A Gallatin Pike S, Nashville, TN 37115",
+      "officialUrl": "https://eastsidebowl.com/",
+      "tags": [
+        "live music",
+        "bowling",
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://shows.eastsidebowl.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://eastsidebowl.com/events/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "phat-bites",
+      "name": "Phat Bites",
+      "kind": "restaurant_bar_and_music_spot",
+      "description": "Donelson restaurant serving sandwiches, wraps, burgers, tacos and other food, with drinks and music promotions; website uses image flyers for at least some events.",
+      "area": "Donelson — travel check",
+      "address": "2730 Lebanon Pike, Nashville, TN 37214 (Donelson)",
+      "officialUrl": "https://www.phatbites.com/",
+      "tags": [
+        "live music",
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.phatbites.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/bitesphat/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "skulls-rainbow-room",
+      "name": "Skull's Rainbow Room",
+      "kind": "restaurant_jazz_and_burlesque_venue",
+      "description": "Printers Alley dining/cocktail venue with nightly jazz and Friday–Sunday burlesque.",
+      "area": "Downtown / Printers Alley",
+      "address": "222 Printers Alley, Nashville, TN (downtown)",
+      "officialUrl": "https://www.skullsrainbowroom.com/",
+      "tags": [
+        "live music",
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.skullsrainbowroom.com/jazz",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.skullsrainbowroom.com/burlesque",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.skullsrainbowroom.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "scary-posh",
+      "name": "Scary Posh",
+      "kind": "artist / DJ",
+      "description": "DJ/performer appearing on Nashville electronic-music event lineups; a person to follow across venues.",
+      "area": "Nashville event circuit",
+      "address": null,
+      "officialUrl": "https://www.instagram.com/scaryposh/",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.instagram.com/scaryposh/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://posh.vip/g/indieluna-nashville-live-music-events",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "middleman",
+      "name": "Middleman",
+      "kind": "cocktail bar and restaurant",
+      "description": "Sophisticated cocktail bar and restaurant with a large spirits program in Wedgewood-Houston; operated by Boka Restaurant Group.",
+      "area": "Wedgewood-Houston",
+      "address": "521 Houston St, Nashville, TN 37203; Wedgewood-Houston",
+      "officialUrl": "https://www.middlemannashville.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.middlemannashville.com/#happenings",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/middlemannashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "americano-lounge",
+      "name": "Americano Lounge",
+      "kind": "venue: coffee shop, cocktail lounge and music/community event space",
+      "description": "Wedgewood-Houston gathering place centered on coffee, cocktails and music. Public calendar lists Jazz Standard, Blues Standard, craft gatherings and Carbs & Coffee.",
+      "area": "Wedgewood-Houston",
+      "address": "434 Houston St Suite 120, Nashville, TN 37203",
+      "officialUrl": "https://www.americanolounge.com/",
+      "tags": [
+        "live music",
+        "hangout"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.americanolounge.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.americanolounge.com/events/jazzstandard/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.americanolounge.com/?method=ical&id=43",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "mas-tacos",
+      "name": "Mas Tacos Por Favor",
+      "kind": "restaurant and cantina",
+      "description": "Nashville taco restaurant and cantina whose official public Instagram profile provides the useful current contact and hours information.",
+      "area": "East Nashville",
+      "address": "732 McFerrin Ave, Nashville, Tennessee; East Nashville",
+      "officialUrl": "https://www.instagram.com/mastacos/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.instagram.com/mastacos/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "taco-mama",
+      "name": "Taco Mama",
+      "kind": "restaurant",
+      "description": "Casual taco and margarita restaurant; the official Nashville-area location search returned Hillsboro Village.",
+      "area": "Hillsboro Village",
+      "address": "1612 21st Avenue South, Nashville, TN 37212",
+      "officialUrl": "https://tacomamaonline.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://tacomamaonline.com/location/?zipcode=37203",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/eatattacomama/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "dark-wave",
+      "name": "Dark Wave — unresolved",
+      "kind": "unresolved_genre_event_or_venue",
+      "description": "Could refer to a music genre, a named party or another business. CRIMEWAVE is a separately verified darkwave-party listing and is not automatically the same entry.",
+      "area": "Nashville; location varies",
+      "address": null,
+      "officialUrl": null,
+      "tags": [],
+      "identityStatus": "unresolved",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://canneryhall.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "gerard-alain",
+      "name": "Gerard Alain",
+      "kind": "artist",
+      "description": "Nashville funk artist with a documented Musicians Corner appearance. Performance locations vary; follow dated artist and promoter announcements.",
+      "area": "Nashville; performances vary",
+      "address": null,
+      "officialUrl": "https://www.instagram.com/gerardalain.mp3/",
+      "tags": [
+        "live music",
+        "funk"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.instagram.com/gerardalain.mp3/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/muscornernash/reel/DcmaT63No7W/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "bourbon-street",
+      "name": "Bourbon Street Blues and Boogie Bar",
+      "kind": "blues_music_venue_and_Cajun_Creole_restaurant",
+      "description": "Downtown blues venue in Printers Alley with dated band listings. Verify the specific Friday lineup and start time before attending.",
+      "area": "Downtown / Printers Alley",
+      "address": "220 Printers Alley, Nashville, TN 37201 (downtown)",
+      "officialUrl": "https://www.bourbonstreetbluesandboogiebar.com/",
+      "tags": [
+        "live music",
+        "blues",
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/schedule",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/schedule/calendarEvents",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.bourbonstreetbluesandboogiebar.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "distrix",
+      "name": "Distrix / Disctrix — unresolved",
+      "kind": "unresolved / event-space candidate",
+      "description": "Disctrix appears in a performer's documentation of a Nashville jungle night. Official venue identity and future schedule still need verification.",
+      "area": "Nashville; exact venue address unverified",
+      "address": null,
+      "officialUrl": null,
+      "tags": [],
+      "identityStatus": "unresolved",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.instagram.com/p/DVX8LYgjv1B/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "shaokao",
+      "name": "SHAOKAO - Chinese Street Food (candidate match)",
+      "kind": "restaurant candidate",
+      "description": "Chinese street barbecue restaurant serving grilled meat, seafood, vegetable skewers and other Chinese dishes; official site advertises an outdoor patio.",
+      "area": "Midtown",
+      "address": "1812 Hayes St, Nashville, TN 37203; Midtown",
+      "officialUrl": "https://www.shaokaousa.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.shaokaousa.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "kind": "cocktail bar and restaurant",
+      "description": "Two distinct experiences at one address: a casual public Big Bar with nachos and a 24-seat restaurant requiring reservations.",
+      "area": "Wedgewood-Houston",
+      "address": "434 Houston Street, Nashville, TN 37203; Wedgewood-Houston",
+      "officialUrl": "https://www.bastionnashville.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.bastionnashville.com/bigbar",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/bastionnashville/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "the-office",
+      "name": "The Office Nashville",
+      "kind": "venue / electronic music",
+      "description": "Underground electronic-music venue with official dated event listings and ticket links.",
+      "area": "East Nashville",
+      "address": "604 Gallatin Ave Ste 117, Nashville, TN 37206",
+      "officialUrl": "https://www.theofficenashville.com/",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.theofficenashville.com/events",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/theofficenashville",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "night-we-met",
+      "name": "Night We Met",
+      "kind": "nightclub_and_cocktail_lounge",
+      "description": "Independent multi-room dance-music nightclub and cocktail lounge, including Vera Lounge and Moon Room; books local, national and international DJs.",
+      "area": "Downtown / The Gulch",
+      "address": "114 12th Ave N, Nashville, TN 37203",
+      "officialUrl": "https://nightwemetnashville.com/",
+      "tags": [
+        "electronic",
+        "dancing"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://nightwemetnashville.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://shotgun.live/en/venues/night-we-met",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "martins-bbq",
+      "name": "Martin's Bar-B-Que Joint",
+      "kind": "restaurant; downtown branch also live-music venue",
+      "description": "West Tennessee-style whole-hog barbecue. The downtown branch has a beer garden and a recurring live-music program.",
+      "area": "Downtown; other Nashville branches available",
+      "address": "410 4th Avenue South, Nashville, TN 37201 (downtown music venue)",
+      "officialUrl": "https://www.martinsbbqjoint.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.martinsbbqjoint.com/music",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "san-antonio-taco",
+      "name": "San Antonio Taco Co. (SATCO)",
+      "kind": "restaurant",
+      "description": "Tex-Mex near Vanderbilt, with tacos, fajitas, queso, and a casual group-dining setting.",
+      "area": "Midtown / Vanderbilt",
+      "address": "416 21st Avenue South, Nashville, TN 37203; Vanderbilt area",
+      "officialUrl": "https://thesatco.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://thesatco.com/events",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "wave-country",
+      "name": "Wave Country",
+      "kind": "seasonal water park",
+      "description": "Metro Nashville wave-action pool with water slides, kiddie pool, and concessions; seasonal daytime activity rather than an ordinary evening venue.",
+      "area": "Two Rivers / Donelson — seasonal",
+      "address": "2320 Two Rivers Pkwy, Nashville, TN 37214",
+      "officialUrl": "https://www.nashville.gov/departments/parks/water-activities/wave-country",
+      "tags": [
+        "outdoors",
+        "seasonal"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.nashville.gov/departments/parks/water-activities/wave-country",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "loveless-cafe",
+      "name": "The Loveless Cafe",
+      "kind": "restaurant and destination campus",
+      "description": "Long-running Southern restaurant known for biscuits, country ham, fried chicken, and smoked barbecue; shops and separate event spaces are part of the campus.",
+      "area": "Far west Nashville — outside default outing range",
+      "address": "West of central Nashville; exact address not verified in this pass",
+      "officialUrl": "https://lovelesscafe.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://lovelesscafe.com/upcoming-events/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://lovelesscafe.com/wp-json/tribe/events/v1/events?start_date=2026-10-04&per_page=20",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": false,
+      "scopeNote": "Kept for reference; farther west than the default Nashville evening range."
+    },
+    {
+      "id": "biscuit-love",
+      "name": "Biscuit Love",
+      "kind": "breakfast and brunch restaurant",
+      "description": "Scratch-made biscuits, biscuit sandwiches, and brunch. Primarily a daytime option; current regular closing time is 3 pm.",
+      "area": "The Gulch / Hillsboro Village",
+      "address": null,
+      "officialUrl": "https://www.biscuitlove.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.biscuitlove.com/locations",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/biscuitlovebrunch/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "wildhorse-saloon",
+      "name": "Wildhorse Saloon — historical venue",
+      "kind": "historical live-music and line-dancing venue",
+      "description": "The former Wildhorse Saloon site now points to Category 10. Keep historical venue identity separate from the replacement business and check Category 10 for current programming.",
+      "area": "Downtown",
+      "address": "120 2nd Avenue N, Nashville, TN 37201; downtown",
+      "officialUrl": "https://wildhorsesaloon.com/",
+      "tags": [],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://wildhorsesaloon.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.category10.com/nashville/calendar/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.category10.com/nashville/events/?ical=1",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "folk",
+      "name": "Folk",
+      "kind": "restaurant",
+      "description": "East Nashville neighborhood restaurant serving seasonal vegetable-forward dishes, naturally leavened pizza, natural wine, and cocktails.",
+      "area": "East Nashville",
+      "address": "823 Meridian St, Nashville, TN 37207; East Nashville",
+      "officialUrl": "https://www.goodasfolk.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.goodasfolk.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.goodasfolk.com/contact",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "lockeland-table",
+      "name": "Lockeland Table",
+      "kind": "restaurant and bar",
+      "description": "East Nashville community kitchen and bar with indoor/outdoor seating, seasonal specials, and a Community Hour supporting a local school PTO.",
+      "area": "East Nashville",
+      "address": "1520 Woodland St, Nashville, TN 37206; East Nashville",
+      "officialUrl": "https://www.lockelandtable.com/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.lockelandtable.com/events",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.instagram.com/lockelandtable/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "bartaco",
+      "name": "bartaco",
+      "kind": "restaurant and bar",
+      "description": "Casual tacos, other small plates, cocktails, and margaritas; official Nashville locations are East Nashville and 12 South.",
+      "area": "East Nashville / 12 South",
+      "address": null,
+      "officialUrl": "https://bartaco.com/locations/",
+      "tags": [
+        "food"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-04",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://bartaco.com/location/east-nashville-tn/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://bartaco.com/location/nashville-tn/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.facebook.com/bartacoeastnashville",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.facebook.com/bt12south",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "potluck-teahouse",
+      "name": "Potluck Teahouse",
+      "kind": "teahouse_and_pottery_studio",
+      "description": "Inglewood teahouse and pottery studio offering wheel-throwing and handbuilding classes. Check the class calendar for current dates and availability.",
+      "area": "Inglewood",
+      "address": "3210 Gallatin Pike Unit B, Nashville, TN 37216",
+      "officialUrl": "https://www.potlucktea.com/",
+      "tags": [],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.potlucktea.com/upcoming",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.potlucktea.com/classes",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://potluckteahouse.kilnfire.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "night-mass",
+      "name": "Night Mass / Night Mass 615",
+      "kind": "event_series_and_promoter",
+      "description": "Independent themed dark-dance event series associated with Rosemary & Beauty Queen. Published programming combines goth, darkwave, post-punk and related electronic music with performances and local vendors.",
+      "area": "Nashville; location varies",
+      "address": null,
+      "officialUrl": "https://www.instagram.com/nightmass615/",
+      "tags": [],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "camp-night",
+        "rosemary-beauty-queen"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.instagram.com/nightmass615/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://posh.vip/e/night-mass-witching-hour",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "crimewave",
+      "name": "CRIMEWAVE: A Goth, Post-Punk & Darkwave Party",
+      "kind": "dance_party_series",
+      "description": "A goth, post-punk and darkwave dance party with an officially listed Nashville edition at Cannery Hall's Row One Stage. Added as a researched discovery candidate; the separate Dark Wave entry remains unresolved.",
+      "area": "Cannery Hall / SoBro",
+      "address": "Cannery Hall — Row One Stage, Nashville",
+      "officialUrl": "https://canneryhall.com/calendar/",
+      "tags": [],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "cannery-hall"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://canneryhall.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.axs.com/events/1605479/crimewave-a-goth-post-punk-darkwave-party-tickets",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "basement-east",
+      "name": "The Basement East",
+      "kind": "live music venue",
+      "description": "East Nashville live-music venue hosting concerts and dance-party events; distinct from The Basement on 8th Avenue South.",
+      "area": "East Nashville",
+      "address": "917 Woodland Street, Nashville, TN",
+      "officialUrl": "https://www.thebasementnashville.com/",
+      "tags": [],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "basement-east-emo-acid"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.thebasementnashville.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "cannery-hall",
+      "name": "Cannery Hall",
+      "kind": "live music venue",
+      "description": "Nashville music complex with multiple rooms, including Row One Stage. Check the room as well as the event date.",
+      "area": "Cannery / SoBro",
+      "address": "1 Cannery Row, Nashville, TN 37203",
+      "officialUrl": "https://canneryhall.com/",
+      "tags": [],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "crimewave"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://canneryhall.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    }
+  ]
+}
