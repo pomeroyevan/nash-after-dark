@@ -9,6 +9,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
+import { MTG_ADAPTERS, fetchMtg } from './mtg-sources.mjs';
 
 export const ZONE = 'America/Chicago';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -247,6 +248,70 @@ export function parseFlamingo(html,source,checkedAt,window) {
   return batch(events,1,{complete:false,message:'Standing Wednesday schedule only; provisional dates limited to 14 days.'});
 }
 
+/** The chronological venue list is server-rendered; the calendar's sidebar is not a full schedule. */
+export function parseBasementPage(html,source,checkedAt,pageUrl=source.url) {
+  const $=load(html), cards=$('.tw-plugin-upcoming-event-list .tw-section'),events=[],removedKeys=[];
+  if(!cards.length)throw new Error('Basement East chronological event cards missing; refusing an empty snapshot');
+  cards.each((_,node)=>{
+    const el=$(node), link=el.find('.tw-name a').first(),title=text(link.text());
+    const url=cleanUrl(link.attr('href'),source.url);
+    const venue=text(el.find('.tw-venue-name').first().text());
+    if(venue!=='The Basement East')throw new Error('Basement East venue scope changed: '+venue);
+    const date=humanDate([el.find('.date-month').first().text(),el.find('.date-day').first().text(),el.find('.date-year').first().text()].join(' '));
+    const ticketLink=el.find('.tw-buy-tix-btn').first(),ticketUrl=cleanUrl(ticketLink.attr('href'),source.url);
+    const key=ticketUrl?.match(/\/tickets\/(\d+)/)?.[1]||ticketUrl?.match(/-tickets\/(\d+)/)?.[1]||digest(url+'|'+date);
+    if(!title||!url||!new URL(url).pathname.startsWith('/tm-event/'))throw new Error('Basement East event missing title/detail URL');
+    if(/\bcancel(?:led|ed)\b/i.test(title+' '+ticketLink.text())){removedKeys.push(source.id+':'+key);return;}
+    // Grouped multi-date cards need explicit handling, never silently take their first clock.
+    if(el.find('.tw-event-time').length!==1)throw new Error('Basement East grouped event clocks need manual verification');
+    const start=date+'T'+clock(el.find('.tw-event-time').text());
+    const zone=text(el.find('.tw-event-timezone').first().text());
+    const iso=localToISO(start).iso;
+    if(!['CDT','CST'].includes(zone)||(zone==='CDT'&&!iso.endsWith('-05:00'))||(zone==='CST'&&!iso.endsWith('-06:00')))
+      throw new Error('Basement East timezone disagrees with Nashville date: '+date+' '+zone);
+    const door=text(el.find('.tw-event-door-time').first().text());
+    const age=text(el.find('.tw-age-restriction').first().text());
+    const soldOut=/sold\s*out/i.test(title+' '+ticketLink.text());
+    const notes=[...(age?['Age restriction: '+age+'.']:[]),...(soldOut?['Venue lists this show as sold out; do not assume ticket availability.']:[])];
+    events.push(eventRecord(source,{key,title,start,url,ticketUrl,
+      doors:door?date+'T'+clock(door):undefined,priceText:text(el.find('.tw-price').first().text())||undefined,
+      tags:[...new Set(['music',...tagsFor(title)])],notes},checkedAt));
+  });
+  const nav=$('.tm-paginate'),currentText=nav.find('.current').text().trim();
+  const currentPage=currentText?Number(currentText):1;
+  const pageNumbers=nav.find('.page-numbers').map((_,node)=>Number($(node).text().trim())).get().filter(n=>Number.isInteger(n)&&n>0);
+  const totalPages=Math.max(currentPage,...pageNumbers);
+  const next=nav.find('a.next').attr('href'),nextUrl=next?cleanUrl(next,pageUrl):null;
+  if(!Number.isInteger(currentPage)||currentPage<1||currentPage>50||totalPages>50)throw new Error('Basement East pagination schema/limit changed');
+  if((currentPage<totalPages)!==Boolean(nextUrl))throw new Error('Basement East pagination next link missing or inconsistent');
+  return {events,removedKeys,rawCount:cards.length,currentPage,totalPages,nextUrl};
+}
+
+export async function fetchBasementEast(source,checkedAt,window,request=fetchPublic) {
+  const events=new Map(),removedKeys=[],seenPages=new Set();let nextUrl=source.url,expectedPages;
+  for(let page=1;page<=50;page++){
+    const url=new URL(nextUrl),expected=page===1?'/basement-east-events/':'/basement-east-events/page/'+page+'/';
+    if(url.origin!==new URL(source.url).origin||url.pathname!==expected||url.search||url.hash)
+      throw new Error('Basement East pagination escaped the expected public venue path');
+    const parsed=parseBasementPage(await request(url.href),source,checkedAt,url.href);
+    expectedPages??=parsed.totalPages;
+    if(parsed.currentPage!==page||parsed.totalPages!==expectedPages)throw new Error('Basement East pagination changed during fetch; retaining previous snapshot');
+    const signature=parsed.events.map(e=>e.id).join('|')+'|'+parsed.removedKeys.join('|');
+    if(seenPages.has(signature))throw new Error('Basement East pagination repeated a page');
+    seenPages.add(signature);
+    for(const event of parsed.events){
+      const prior=events.get(event.id);
+      if(prior&&(prior.start!==event.start||prior.title!==event.title))throw new Error('Basement East event changed during pagination');
+      events.set(event.id,event);
+    }
+    removedKeys.push(...parsed.removedKeys);
+    if(!parsed.nextUrl)return {events:[...events.values()].filter(e=>inWindow(e,window)),removedKeys,rawCount:events.size,complete:true,
+      message:'All '+page+' official chronological venue page(s) fetched, including sold-out shows; sidebar excluded.'};
+    nextUrl=parsed.nextUrl;
+  }
+  throw new Error('Basement East pagination exceeded bounded 50-page limit');
+}
+
 export const ADAPTERS = [
   {id:'cobra',name:'Cobra Nashville',url:'https://cobranashville.com/',type:'cobra'},
   {id:'rudys-jazz-room',name:"Rudy's Jazz Room",url:'https://www.rudysjazzroom.com/calendar',parse:parseRudys},
@@ -254,7 +319,9 @@ export const ADAPTERS = [
   {id:'eastside-bowl',name:'Eastside Bowl',url:'https://shows.eastsidebowl.com/',parse:parseEastsideBowl},
   {id:'flamingo',name:'Flamingo Cocktail Club',url:'https://www.flamingococktailclub.com/events',parse:parseFlamingo},
   {id:'americano-lounge',name:'Americano Lounge',url:'https://www.americanolounge.com/calendar/',parse:parseAmericano},
-  {id:'bourbon-street',name:'Bourbon Street Blues and Boogie Bar',url:'https://www.bourbonstreetbluesandboogiebar.com/schedule',type:'bourbon'}
+  {id:'bourbon-street',name:'Bourbon Street Blues and Boogie Bar',url:'https://www.bourbonstreetbluesandboogiebar.com/schedule',type:'bourbon'},
+  {id:'basement-east',name:'The Basement East',url:'https://www.thebasementnashville.com/basement-east-events/',type:'basement-east'},
+  ...MTG_ADAPTERS
 ];
 const COVERED = {
   'cobra-slc':'cobra','another-night-another-dream':'cobra','cobra-bloodrave':'cobra','bloodrave':'cobra','blood-rave':'cobra',
@@ -319,6 +386,8 @@ export async function fetchCobra(source, checkedAt, window, request=fetchPublic)
 }
 export async function runAdapter(source, checkedAt, window, request=fetchPublic) {
   if(source.type==='cobra') return fetchCobra(source,checkedAt,window,request);
+  if(source.type==='basement-east') return fetchBasementEast(source,checkedAt,window,request);
+  if(source.type==='mtg') return fetchMtg(source,checkedAt,window,request,eventRecord);
   if(source.type==='bourbon'){
     const body=await request('https://www.bourbonstreetbluesandboogiebar.com/schedule/calendarEvents',{
       method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},
@@ -353,6 +422,14 @@ async function readJSON(file, fallback) {
   catch(error){if(error.code==='ENOENT')return fallback;throw error;}
 }
 const VERIFIED_PROVENANCE='verified-snapshot';
+function occurrenceLinks(event) {
+  return [event.url,event.ticketUrl].filter(Boolean).map(value=>{
+    const url=cleanUrl(value);if(!url)return null;
+    // Query parameters may carry event identity (Google Calendar eid, event.php?id).
+    const parsed=new URL(url);parsed.hash='';
+    return event.venueId+'|'+(+new Date(event.start))+'|'+parsed.href.replace(/\/$/,'');
+  }).filter(Boolean);
+}
 function validCheckedAt(value) {
   // Public research may establish only the day. Keep that precision verbatim.
   if(typeof value!=='string'||!Number.isFinite(+new Date(value)))return false;
@@ -379,8 +456,16 @@ export function mergeVerifiedSnapshot(result, previous, verified, error, checked
   const retained=(previous.events||[]).filter(e=>e.provenance===VERIFIED_PROVENANCE);
   const incoming=(error?retained:verified).filter(e=>inWindow(e,window));
   const byId=new Map(result.events.filter(e=>e.provenance!==VERIFIED_PROVENANCE).map(e=>[e.id,e]));
+  const liveLinks=new Map([...byId.values()].filter(e=>!e.stale).flatMap(e=>occurrenceLinks(e).map(link=>[link,e])));
   const sourceIds=new Set([...retained,...incoming].map(e=>e.sourceId));
   for(const event of incoming){
+    const liveMatch=occurrenceLinks(event).map(link=>liveLinks.get(link)).find(Boolean);
+    if(liveMatch){
+      // Reviewed genre/activity labels remain useful; live dates, title, price,
+      // status and ticket availability must never be overwritten by old evidence.
+      liveMatch.tags=[...new Set([...(liveMatch.tags||[]),...(event.tags||[])])];
+      continue;
+    }
     if(byId.has(event.id))continue;
     byId.set(event.id,{...event,provenance:VERIFIED_PROVENANCE,
       ...(error?{status:'needs_verification',stale:true}:{}),

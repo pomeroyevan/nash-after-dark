@@ -17,6 +17,7 @@
     "@supabase/supabase-js": "^2.117.2",
     "cheerio": "^1.1.2",
     "ionicons": "^8.0.13",
+    "node-ical": "^0.27.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },

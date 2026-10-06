@@ -71,6 +71,8 @@ tags = {
     "rivergate-sunday-adult-night": ["skating", "rollerblading", "adult night"],
     "brentwood-skate-center": ["skating", "rollerblading"],
     "brentwood-thursday-adult-night": ["skating", "rollerblading", "adult night"],
+    "basement-east": ["live music"],
+    "greta-van-fleet": ["live music", "rock"],
 }
 
 # Explicit public copy for records whose research contains private matching history.
@@ -118,7 +120,8 @@ relationships = {
     "cobra":["cobra-slc", "another-night-another-dream", "blood-rave"],
     "camp-night":["rosemary-beauty-queen", "night-mass"],
     "night-mass":["camp-night", "rosemary-beauty-queen"],
-    "basement-east":["basement-east-emo-acid"],
+    "basement-east":["basement-east-emo-acid", "greta-van-fleet"],
+    "greta-van-fleet":["basement-east"],
     "basement-east-emo-acid":["basement-east"],
     "cannery-hall":["crimewave"],
     "crimewave":["cannery-hall"],
@@ -150,7 +153,7 @@ for ident in all_ids:
     if not isinstance(loc, dict):
         loc = {"address": str(loc)}
     official = latest.get("official_urls", [])
-    row_tags = tags.get(ident, [])
+    row_tags = tags.get(ident, reviewed.get("tags", []))
     if any(word in kind.lower() for word in ["restaurant", "food", "cafe", "café", "taco", "barbecue"]):
         row_tags = list(dict.fromkeys([*row_tags, "food"]))
     schedules = [item.get("schedule", {}) for item in evidence]
@@ -170,7 +173,7 @@ for ident in all_ids:
         "address": address_overrides.get(ident, loc.get("address")), "officialUrl": official[0] if official else None,
         "tags": row_tags, "identityStatus": "unresolved" if ident in unresolved_ids else "candidate" if ident in candidate_ids else reviewed.get("identityStatus", "unresolved"),
         "sourceCheckedAt": latest.get("checked_at"),
-        "relatedIds": relationships.get(ident, history.get("related_ids", [])),
+        "relatedIds": relationships.get(ident, history.get("related_ids", reviewed.get("relatedIds", []))),
         "scheduleSources": cleaned_sources,
         "inScope": ident != "loveless-cafe",
         "scopeNote": "Kept for reference; farther west than the default Nashville evening range." if ident == "loveless-cafe" else "",

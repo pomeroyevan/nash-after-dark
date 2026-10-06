@@ -1338,6 +1338,311 @@
       "scopeNote": ""
     },
     {
+      "id": "greta-van-fleet",
+      "name": "Greta Van Fleet",
+      "kind": "artist / band",
+      "description": "Rock band with official artist and dated venue concert listings. Nashville appearances vary by venue; check exact dates and ticket availability.",
+      "area": "Nashville dates; touring artist",
+      "address": "Varies by performance; verify the event venue",
+      "officialUrl": "https://gretavanfleet.com/",
+      "tags": [
+        "live music",
+        "rock"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-06T01:28:08Z",
+      "relatedIds": [
+        "basement-east"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://gretavanfleet.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/basement-east-events/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "game-point",
+      "name": "Game Point Cafe",
+      "kind": "venue",
+      "description": "Board-game cafe with dated Magic Monday Commander and booster-draft nights. Commander has no entry fee and a suggested $10 food/drink spend. Draft is $30 plus tax, requires six players, gathers at 6 p.m. and aims to start at 6:30 p.m.; it is not WPN-sanctioned.",
+      "area": "East Nashville",
+      "address": "107 S 11th Street, Nashville, TN 37206",
+      "officialUrl": "https://gamepointcafe.com/events/category/game-gathering/magic-the-gathering/",
+      "tags": [
+        "mtg",
+        "commander",
+        "draft",
+        "tabletop"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://gamepointcafe.com/events/category/game-gathering/magic-the-gathering/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://gamepointcafe.com/wp-json/tribe/events/v1/events",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "next-level-games",
+      "name": "The Next Level Games",
+      "kind": "venue",
+      "description": "Madison card-game store with Commander on its weekly schedule and a separate major-events calendar. Current major Magic listings include Halloween Draft October 31, Star Trek prerelease November 6–8, and release draft November 14. Major events override weekly play.",
+      "area": "Madison",
+      "address": "2066 Gallatin Pike N, Madison, TN 37115",
+      "officialUrl": "https://tnlgnashville.com/pages/tnlg-event-page",
+      "tags": [
+        "mtg",
+        "commander",
+        "draft",
+        "prerelease",
+        "tabletop"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://tnlgnashville.com/pages/tnlg-event-page",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://calendar.google.com/calendar/ical/6926fa9c1cc0bdcf989061a1f0286a50bfd6cf85882bbcfab65956f8100c4e65%40group.calendar.google.com/public/basic.ics",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "lets-roll-games",
+      "name": "Let's Roll Games",
+      "kind": "venue",
+      "description": "Brentwood board-game store with dated Commander, draft and prerelease announcements. October 2026 lists Commander October 6 and 20 and Reality Fracture draft October 13, each 6–10 p.m. Draft is $30 plus $2.92 sales tax.",
+      "area": "Brentwood",
+      "address": "6960 Moores Lane, Brentwood, TN 37027",
+      "officialUrl": "https://www.letsrollgames.com/lrgevents",
+      "tags": [
+        "mtg",
+        "commander",
+        "draft",
+        "prerelease",
+        "tabletop"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.letsrollgames.com/lrgevents",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "game-cave",
+      "name": "The Game Cave",
+      "kind": "venue",
+      "description": "Donelson game store with Magic drafts, prereleases and tournaments. Check ticket details for format, exact date, fee and availability. The registration list also includes other card games.",
+      "area": "Donelson",
+      "address": "2710 Old Lebanon Road, Suite 28, Nashville, TN 37214",
+      "officialUrl": "https://www.thegamecave.store/events",
+      "tags": [
+        "mtg",
+        "draft",
+        "prerelease",
+        "rcq",
+        "tournament",
+        "tabletop"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-06T01:38:21.468Z",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://www.thegamecave.store/events",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://locator.wizards.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.facebook.com/thegamecave.net",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "tabletops-hobbies-games",
+      "name": "Tabletops Hobbies & Games",
+      "kind": "venue",
+      "description": "Southeast Nashville hobby and card-game store. Check its tournaments catalog, official social posts and Wizards listings for current Magic Commander, draft, prerelease and RCQ dates. No upcoming occurrence has yet been verified from its official schedule.",
+      "area": "Southeast Nashville",
+      "address": "2645 Murfreesboro Road, Nashville, TN 37217",
+      "officialUrl": "https://tabletopshobbiesandgames.crystalcommerce.com/",
+      "tags": [
+        "mtg",
+        "commander",
+        "draft",
+        "rcq",
+        "tournament",
+        "tabletop"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [],
+      "scheduleSources": [
+        {
+          "url": "https://tabletopshobbiesandgames.crystalcommerce.com/catalog/tournaments__events/12713",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.facebook.com/TabletopsHobbiesandGames",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://locator.wizards.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "mtg-regional-tournaments",
+      "name": "Magic RCQs and major tournaments",
+      "kind": "tournament_circuit",
+      "description": "Magic RCQ and major-tournament discovery sources for the Nashville area. Officially listed RCQs include Table 1 in Hendersonville on October 10, 2026 and The Arcane Workshop in Madison on November 21, 2026. Verify each event format, fee, registration and travel distance.",
+      "area": "Nashville area; venue varies",
+      "address": null,
+      "officialUrl": "https://rcq.starcitygames.com/",
+      "tags": [
+        "mtg",
+        "rcq",
+        "tournament",
+        "draft",
+        "tabletop"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "table-1",
+        "arcane-workshop"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://locator.wizards.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://rcq.starcitygames.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://scgcon.starcitygames.com/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://musiccitymulticon.com/tabletop-events/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "arcane-workshop",
+      "name": "The Arcane Workshop",
+      "kind": "venue",
+      "description": "Madison tabletop-gaming and live-music venue. Its official calendar lists a Standard Magic RCQ on November 21, 2026, 11 a.m.–6 p.m. Central. Entry fee and registration availability need confirmation.",
+      "area": "Madison",
+      "address": "113 E Old Hickory Boulevard, Madison, TN 37115",
+      "officialUrl": "https://linktr.ee/thearcaneworkshop",
+      "tags": [
+        "mtg",
+        "rcq",
+        "tournament",
+        "tabletop",
+        "live music"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-05",
+      "relatedIds": [
+        "mtg-regional-tournaments"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://linktr.ee/thearcaneworkshop",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://calendar.google.com/calendar/ical/thearcanebooks%40gmail.com/public/basic.ics",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://locator.wizards.com/",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "table-1",
+      "name": "Table 1",
+      "kind": "game store / event venue",
+      "description": "Hendersonville trading-card game store hosting Magic organized play, including dated Regional Championship Qualifiers. Check the individual format and registration details.",
+      "area": "Hendersonville — travel check",
+      "address": "112 Saundersville Rd Unit C304, Hendersonville, TN 37075",
+      "officialUrl": "https://table1games.com/",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "rcq"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-06T01:48:08.356Z",
+      "relatedIds": [
+        "mtg-regional-tournaments"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://locator.wizards.com/search?searchType=magic-events&query=Nashville%2C+TN%2C+United+States&distance=25&unit=mi&tag=regional_championship_qualifier&page=1&eventId=11526304",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://locator.wizards.com/store/19225?distance=25&unit=mi",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.table1tradingcards.com/store-info",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
       "id": "rivergate-skate-center",
       "name": "Rivergate Skate Center",
       "kind": "venue",
@@ -1392,6 +1697,36 @@
         },
         {
           "url": "https://static.wixstatic.com/media/6b29ba_28c3431a58374a8fa5222430262267b6~mv2.jpg",
+          "role": "Public schedule or official venue reference"
+        }
+      ],
+      "inScope": true,
+      "scopeNote": ""
+    },
+    {
+      "id": "basement-east",
+      "name": "The Basement East",
+      "kind": "music venue",
+      "description": "East Nashville live-music venue hosting concerts and dance-party events; distinct from The Basement on 8th Avenue South.",
+      "area": "East Nashville",
+      "address": "917 Woodland Street, Nashville, TN 37206",
+      "officialUrl": "https://www.thebasementnashville.com/basement-east-events/",
+      "tags": [
+        "live music"
+      ],
+      "identityStatus": "identified",
+      "sourceCheckedAt": "2026-10-06T01:28:08Z",
+      "relatedIds": [
+        "basement-east-emo-acid",
+        "greta-van-fleet"
+      ],
+      "scheduleSources": [
+        {
+          "url": "https://www.thebasementnashville.com/calendar/",
+          "role": "Public schedule or official venue reference"
+        },
+        {
+          "url": "https://www.thebasementnashville.com/basement-east-events/",
           "role": "Public schedule or official venue reference"
         }
       ],
@@ -1476,29 +1811,6 @@
         },
         {
           "url": "https://www.axs.com/events/1605479/crimewave-a-goth-post-punk-darkwave-party-tickets",
-          "role": "Public schedule or official venue reference"
-        }
-      ],
-      "inScope": true,
-      "scopeNote": ""
-    },
-    {
-      "id": "basement-east",
-      "name": "The Basement East",
-      "kind": "live music venue",
-      "description": "East Nashville live-music venue hosting concerts and dance-party events; distinct from The Basement on 8th Avenue South.",
-      "area": "East Nashville",
-      "address": "917 Woodland Street, Nashville, TN",
-      "officialUrl": "https://www.thebasementnashville.com/",
-      "tags": [],
-      "identityStatus": "identified",
-      "sourceCheckedAt": "2026-10-05",
-      "relatedIds": [
-        "basement-east-emo-acid"
-      ],
-      "scheduleSources": [
-        {
-          "url": "https://www.thebasementnashville.com/calendar/",
           "role": "Public schedule or official venue reference"
         }
       ],

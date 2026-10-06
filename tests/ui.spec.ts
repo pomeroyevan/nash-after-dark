@@ -19,7 +19,7 @@ test('real public data, combined search/category, candidate and incomplete-sourc
   const eventData = await eventsResponse.json(); expect(eventData.events.length).toBeGreaterThan(0);
   const browserErrors: string[] = []; page.on('pageerror', e => browserErrors.push(e.message));
   await openApp(page);
-  await expect(page.getByRole('button', { name: 'Dancing', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.getByRole('button', { name: 'Everything', exact: true })).toHaveAttribute('aria-pressed', 'true');
   await page.screenshot({ path: 'test-results/calendar-desktop.png', fullPage: false });
   await navigate(page, 'Explore');
   await expect(page.locator('.place-card')).toHaveCount(active.length);
@@ -177,3 +177,47 @@ test('signup uses the deployed subpath for confirmation without sending email', 
   await page.getByRole('button', { name: 'Create account', exact: true }).click();
   await expect.poll(() => redirect).toBe(new URL('./', page.url()).href);
 });
+
+for (const [device, viewport] of Object.entries({ desktop: { width: 1440, height: 1000 }, phone: { width: 390, height: 844 } })) {
+  test(`concert and MTG discovery stays visible and filters deliberately on ${device}`, async ({ page }) => {
+    await page.setViewportSize(viewport);
+    // Synthetic future listings test discovery without depending on a changing live calendar.
+    const eventBase = { venueId: 'synthetic-venue', venueName: 'Synthetic Nashville venue', start: '2099-10-15T19:00:00-05:00', url: 'https://example.com/event', sourceId: 'synthetic-source', status: 'confirmed', checkedAt: '2099-10-01' };
+    const events = [
+      { ...eventBase, id: 'rock', title: 'Synthetic rock concert', tags: ['concert', 'rock'] },
+      { ...eventBase, id: 'commander', title: 'Synthetic open tables', tags: ['mtg', 'commander'] },
+      { ...eventBase, id: 'prerelease', title: 'Synthetic set launch', tags: ['mtg', 'prerelease'] },
+      { ...eventBase, id: 'sports', title: 'Synthetic sports tournament', tags: ['sports', 'tournament'] },
+    ];
+    await page.route('**/data/events.json', route => route.fulfill({ json: { events, sources: [], checkedAt: '2099-10-01' } }));
+    await page.route('**/data/catalog.json', route => route.fulfill({ json: { entries: [{ id: 'synthetic-venue', name: 'Synthetic game store', kind: 'venue', tags: ['mtg'], identityStatus: 'identified' }] } }));
+    await openApp(page);
+    await expect(page.getByRole('button', { name: 'Everything', exact: true })).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.locator('.event-card')).toHaveCount(4);
+    await page.getByRole('button', { name: 'MTG', exact: true }).click();
+    await expect(page.locator('.event-card')).toHaveCount(2);
+    await expect(page.locator('.agenda-heading')).toContainText('· MTG');
+    const search = page.getByRole('textbox', { name: 'Search events and venues' });
+    await search.fill('commander');
+    await expect(page.locator('.event-card')).toHaveCount(1);
+    await expect(page.locator('.event-card')).toContainText('Synthetic open tables');
+    await search.fill('concert');
+    await expect(page.locator('.event-card')).toHaveCount(0);
+    await expect(page.getByRole('button', { name: 'MTG', exact: true })).toHaveAttribute('aria-pressed', 'true');
+    await page.getByRole('button', { name: 'Show all upcoming', exact: true }).click();
+    await expect(search).toHaveValue('');
+    await expect(page.locator('.event-card')).toHaveCount(4);
+    await page.getByRole('button', { name: 'Live music', exact: true }).click();
+    await expect(page.locator('.event-card')).toHaveCount(1);
+    await expect(page.locator('.event-card')).toContainText('Synthetic rock concert');
+    await navigate(page, 'Explore');
+    await page.getByRole('button', { name: 'MTG', exact: true }).click();
+    await expect(page.locator('.place-card')).toHaveCount(1);
+    await navigate(page, 'Calendar');
+    await expect(page.getByRole('button', { name: 'Everything', exact: true })).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.locator('.event-card')).toHaveCount(4);
+    await page.reload();
+    await expect(page.locator('.event-card')).toHaveCount(4);
+    await expect(page.getByRole('button', { name: 'Everything', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  });
+}

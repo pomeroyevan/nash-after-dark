@@ -248,6 +248,320 @@
       "notes": [
         "Inferred from the current standing weekly schedule, not an individually confirmed dated announcement. Provisional dates limited to 14 days."
       ]
+    },
+    {
+      "id": "curated-lets-roll-commander-2026-10-06",
+      "title": "Magic: The Gathering — Commander Night",
+      "venueId": "lets-roll-games",
+      "venueName": "Let's Roll Games",
+      "sourceId": "lets-roll-games",
+      "start": "2026-10-06T18:00:00-05:00",
+      "end": "2026-10-06T22:00:00-05:00",
+      "url": "https://www.letsrollgames.com/event-details/magic-the-gathering-r-commander-night",
+      "priceText": "Entry price not published.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "commander"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-lets-roll-commander-2026-10-20",
+      "title": "Magic: The Gathering — Commander Night",
+      "venueId": "lets-roll-games",
+      "venueName": "Let's Roll Games",
+      "sourceId": "lets-roll-games",
+      "start": "2026-10-20T18:00:00-05:00",
+      "end": "2026-10-20T22:00:00-05:00",
+      "url": "https://www.letsrollgames.com/event-details/magic-the-gathering-r-commander-night-2",
+      "priceText": "Entry price not published.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "commander"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-lets-roll-draft-2026-10-13",
+      "title": "Magic: The Gathering — Reality Fracture Draft Night",
+      "venueId": "lets-roll-games",
+      "venueName": "Let's Roll Games",
+      "sourceId": "lets-roll-games",
+      "start": "2026-10-13T18:00:00-05:00",
+      "end": "2026-10-13T22:00:00-05:00",
+      "url": "https://www.letsrollgames.com/event-details/magic-the-gathering-r-reality-fracture-draft-night-2",
+      "priceText": "$30 plus $2.92 sales tax.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "draft"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-arcane-standard-rcq-2026-11-21",
+      "title": "MTG — Standard Regional Championship Qualifier (RCQ)",
+      "venueId": "arcane-workshop",
+      "venueName": "The Arcane Workshop",
+      "sourceId": "arcane-workshop",
+      "start": "2026-11-21T11:00:00-06:00",
+      "end": "2026-11-21T18:00:00-06:00",
+      "url": "https://calendar.google.com/calendar/event?eid=NHZscGw0azJsZHR2NDdvNGduNzJ0Y2s4MTNAZ29vZ2xlLmNvbSB0aGVhcmNhbmVib29rc0BnbWFpbC5jb20",
+      "priceText": "Entry fee and registration availability unverified; official calendar lists Standard format.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "rcq",
+        "tournament",
+        "standard"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-tnlg-canmander-2026-11-13",
+      "title": "TNLG Canmander — Commander Can Drive",
+      "venueId": "next-level-games",
+      "venueName": "The Next Level Games",
+      "sourceId": "next-level-games",
+      "start": "2026-11-13T19:00:00-06:00",
+      "url": "https://calendar.google.com/calendar/event?eid=Nm03dGcxaG8yczV1dTg2bDd0dTdjdTI3MmxAZ29vZ2xlLmNvbSA2OTI2ZmE5YzFjYzBiZGNmOTg5MDYxYTFmMDI4NmE1MGJmZDZjZjg1ODgyYmJjZmFiNjU5NTZmODEwMGM0ZTY1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
+      "priceText": "Entry: 5 nonperishable items. Replaces regular Friday Commander; end time not published.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "commander",
+        "tabletop"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "curated-game-cave-EJ6THYM3YST2L7XM2NUUYFQX",
+      "title": "FNM Draft - Reality Fracture - 10/9 - 7:00 PM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-10-09T19:00:00-05:00",
+      "end": "2026-10-09T23:00:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/fnm-draft-reality-fracture-10-9-7-00-pm/51",
+      "ticketUrl": "https://www.thegamecave.store/product/fnm-draft-reality-fracture-10-9-7-00-pm/51",
+      "priceText": "Venue ticket page: $23. Wizards event listing: $30; verify current price.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "draft"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Same October 9 show has conflicting official prices: direct venue product $23, Wizards locator $30."
+      ]
+    },
+    {
+      "id": "curated-game-cave-G226OFSDL5A4NA643WWYGXAO",
+      "title": "MTG Pauper Win-a-Box - 10/10 - 12:00 PM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-10-10T12:00:00-05:00",
+      "end": "2026-10-10T16:30:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/mtg-pauper-win-a-box-10-10-12-00-pm/1326",
+      "ticketUrl": "https://www.thegamecave.store/product/mtg-pauper-win-a-box-10-10-12-00-pm/1326",
+      "priceText": "Listed $18.75 entry.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "tournament",
+        "pauper",
+        "win-a-box"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Venue describes 24 seats and prize support depending on attendance; this is a Pauper Win-a-Box, not an RCQ."
+      ]
+    },
+    {
+      "id": "curated-game-cave-ZPFDMTKB47RBIZAXIL4CZA4Q",
+      "title": "Star Trek Prerelease - 11/6 - 3:00 PM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-11-06T15:00:00-06:00",
+      "end": "2026-11-06T19:00:00-06:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/star-trek-prerelease-11-6-3-00-pm/1325",
+      "ticketUrl": "https://www.thegamecave.store/product/star-trek-prerelease-11-6-3-00-pm/1325",
+      "priceText": "Listed $35 entry; check tax/fees. Venue’s November time-zone label conflicts; confirm the start time.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "prerelease"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Official named timezone is America/Chicago and event dates are explicit. UI incorrectly displays CDT/current -05:00 in November; local clocks preserved at the date-correct -06:00 offset. Verify intended clocks before attending."
+      ]
+    },
+    {
+      "id": "curated-game-cave-U5HFJXZ7WY6TFONEOP6GKL6D",
+      "title": "Star Trek FNM Prerelease - 11/6 - 7:30 PM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-11-06T19:30:00-06:00",
+      "end": "2026-11-06T22:30:00-06:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/star-trek-fnm-prerelease-11-6-7-30-pm/1321",
+      "ticketUrl": "https://www.thegamecave.store/product/star-trek-fnm-prerelease-11-6-7-30-pm/1321",
+      "priceText": "Listed $35 entry; check tax/fees. Venue’s November time-zone label conflicts; confirm the start time.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "prerelease"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Official named timezone is America/Chicago and event dates are explicit. UI incorrectly displays CDT/current -05:00 in November; local clocks preserved at the date-correct -06:00 offset. Verify intended clocks before attending."
+      ]
+    },
+    {
+      "id": "curated-game-cave-HCSBO5FRWQFE4SQOOQYKTFZ6",
+      "title": "Star Trek Prerelease - 11/7 - 11:30 AM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-11-07T11:30:00-06:00",
+      "end": "2026-11-07T15:30:00-06:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/star-trek-prerelease-11-7-11-30-am/1324",
+      "ticketUrl": "https://www.thegamecave.store/product/star-trek-prerelease-11-7-11-30-am/1324",
+      "priceText": "Listed $35 entry; check tax/fees. Venue’s November time-zone label conflicts; confirm the start time.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "prerelease"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Official named timezone is America/Chicago and event dates are explicit. UI incorrectly displays CDT/current -05:00 in November; local clocks preserved at the date-correct -06:00 offset. Verify intended clocks before attending."
+      ]
+    },
+    {
+      "id": "curated-game-cave-UPXYNVXYCJ7QBWY2Q5S4J53G",
+      "title": "Star Trek Prerelease - 11/7 - 4:00 PM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-11-07T16:00:00-06:00",
+      "end": "2026-11-07T19:30:00-06:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/star-trek-prerelease-11-7-4-00-pm/1323",
+      "ticketUrl": "https://www.thegamecave.store/product/star-trek-prerelease-11-7-4-00-pm/1323",
+      "priceText": "Listed $35 entry; check tax/fees. Venue’s November time-zone label conflicts; confirm the start time.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "prerelease"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Official named timezone is America/Chicago and event dates are explicit. UI incorrectly displays CDT/current -05:00 in November; local clocks preserved at the date-correct -06:00 offset. Verify intended clocks before attending."
+      ]
+    },
+    {
+      "id": "curated-game-cave-4SM3NVIP7LQBMQN7DELWG6M6",
+      "title": "Two-Headed Giant - Star Trek Prerelease - 11/8 - 11:30 AM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-11-08T11:30:00-06:00",
+      "end": "2026-11-08T15:30:00-06:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/two-headed-giant-star-trek-prerelease-11-8-11-30-am/1322",
+      "ticketUrl": "https://www.thegamecave.store/product/two-headed-giant-star-trek-prerelease-11-8-11-30-am/1322",
+      "priceText": "Listed $35 entry; check tax/fees. Venue’s November time-zone label conflicts; confirm the start time.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "prerelease"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Official named timezone is America/Chicago and event dates are explicit. UI incorrectly displays CDT/current -05:00 in November; local clocks preserved at the date-correct -06:00 offset. Verify intended clocks before attending."
+      ]
+    },
+    {
+      "id": "curated-game-cave-W3TAXDOUFZM7LKXRL6VKHN7D",
+      "title": "Star Trek Prerelease - 11/8 - 4:00 PM",
+      "venueId": "game-cave",
+      "venueName": "The Game Cave",
+      "sourceId": "game-cave",
+      "start": "2026-11-08T16:00:00-06:00",
+      "end": "2026-11-08T19:30:00-06:00",
+      "timezone": "America/Chicago",
+      "url": "https://www.thegamecave.store/product/star-trek-prerelease-11-8-4-00-pm/1837",
+      "ticketUrl": "https://www.thegamecave.store/product/star-trek-prerelease-11-8-4-00-pm/1837",
+      "priceText": "Listed $35 entry; check tax/fees. Venue’s November time-zone label conflicts; confirm the start time.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "prerelease"
+      ],
+      "status": "needs_verification",
+      "checkedAt": "2026-10-06T01:38:21.468Z",
+      "notes": [
+        "Official named timezone is America/Chicago and event dates are explicit. UI incorrectly displays CDT/current -05:00 in November; local clocks preserved at the date-correct -06:00 offset. Verify intended clocks before attending."
+      ]
+    },
+    {
+      "id": "curated-table-1-rcq-11526304",
+      "title": "US RCQ | 2026-27 Round 2 — Table 1",
+      "venueId": "table-1",
+      "venueName": "Table 1",
+      "sourceId": "table-1",
+      "start": "2026-10-10T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "url": "https://locator.wizards.com/search?searchType=magic-events&query=Nashville%2C+TN%2C+United+States&distance=25&unit=mi&tag=regional_championship_qualifier&page=1&eventId=11526304",
+      "priceText": "$30 entry; capacity 30. Top 8 cash prizes and additional promos/pins.",
+      "tags": [
+        "mtg",
+        "magic: the gathering",
+        "tabletop",
+        "rcq",
+        "tournament"
+      ],
+      "status": "confirmed",
+      "checkedAt": "2026-10-06T01:48:08.356Z",
+      "notes": [
+        "Wizards official event detail confirms Oct10 11am; downloadable ICS confirms 2026-10-10T16:00:00Z.",
+        "Calendar export ends two hours later; this does not establish tournament finish time, so end omitted.",
+        "Hendersonville; travel check. Registration availability and format require recheck."
+      ]
     }
   ]
 }

@@ -21,6 +21,14 @@
 8. Timeouts, HTTP 403/429, empty JavaScript shells and login walls are failures/limitations. Respect rate limits; do not bypass. Keep previous data with its original checked time and visible stale status. Do not stamp all saved events as freshly verified.
    The snapshot writer keeps incoming/recovery files in ignored `.tmp/`. On Windows folders that deny file replacement, it preserves the previous JSON there before editing the destination. Never publish scratch files; validate JSON/tests/build before pushing.
 9. Recheck event detail and ticket status before suggesting a same-day outing. The existence of an event does not prove tickets remain or that the venue's usual hours apply.
+10. A venue in the guide is not evidence of calendar coverage. Audit its actual collector and full paginated calendar, including dated sold-out shows. Do not rely on a loading shell or a short "Just Announced" sidebar. Check a known official listing against the published data and the visible calendar; category filters must not silently hide an entire requested activity by default.
+
+## Magic and artist coverage
+
+- Track Magic: The Gathering prereleases, drafts, Commander/cEDH, RCQs and major tournaments in the Nashville outing area. Use `research/mtg-events.json` for stores, official feeds and manual gaps. Keep competitive format, entry price, registration time, start time, capacity/sold-out status and qualification rules distinct. Do not turn an old prerelease or RCQ into a new one, or include another card game's events because they say "draft" or "tournament".
+- The Basement East collector uses its official paginated venue listings. Keep The Basement and The Basement East separate. Preserve sold-out labels and recheck official detail/ticket pages for availability. The missed-show audit is in `docs/BASEMENT-AUDIT.md`.
+- Private Spotify artist selection belongs in `private/spotify-artists.json`, never the public bundle. Do not infer an artist's inclusion from a concert request, confuse top artists with a Top 100 tracks playlist, or claim full artist coverage before the actual list is available. Keep source, time range, retrieved date, requested count and per-artist identities.
+- After the artist list is supplied, check every artist's official tour page and Nashville promoter/ticket listings, not just the existing venue inventory. Save a private per-artist check ledger with exact URL, actual check time, local matches and access failures. Zero local matches in collected feeds does not prove no Nashville concert. Publicly publish only reviewed concert facts, never Spotify ranks, account details or watchlist membership. Flag tribute acts and similarly named artists for identity review.
 
 ## Personal updates
 

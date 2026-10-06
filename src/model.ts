@@ -41,13 +41,21 @@ export function dayKey(value: string | Date): string { return new Intl.DateTimeF
 export function dateLabel(key: string, options: Intl.DateTimeFormatOptions = { weekday: 'long', month: 'long', day: 'numeric' }): string { return new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', ...options }).format(new Date(`${key.slice(0, 10)}T12:00:00Z`)); }
 export function localTime(value: string): string { return new Intl.DateTimeFormat('en-US', { timeZone: ZONE, hour: 'numeric', minute: '2-digit' }).format(new Date(value)); }
 export function addDays(key: string, n: number): string { const d = new Date(`${key}T12:00:00Z`); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); }
-export function kindLabel(kind: string): string { if (/series|recurring/i.test(kind)) return 'Event series'; if (/artist|dj|band|performer/i.test(kind)) return 'Artist'; if (/restaurant|food/i.test(kind)) return 'Food & drink'; if (/event/i.test(kind)) return 'Event'; return 'Venue'; }
+export function kindLabel(kind: string): string { if (/circuit|event_source/i.test(kind)) return 'Event source'; if (/series|recurring/i.test(kind)) return 'Event series'; if (/artist|dj|band|performer/i.test(kind)) return 'Artist'; if (/restaurant|food/i.test(kind)) return 'Food & drink'; if (/event/i.test(kind)) return 'Event'; return 'Venue'; }
 export function category(tags: string[], text = ''): string { const all = `${tags.join(' ')} ${text}`.toLowerCase(); if (/danc|goth|darkwave|rave|dj|disco|club night/.test(all)) return 'dancing'; if (/jazz|music|concert|live|punk|band/.test(all)) return 'music'; if (/food|restaurant|taco|bbq|dining|breakfast/.test(all)) return 'food'; return 'other'; }
+function isMtg(tags: string[], text: string): boolean {
+  const all = `${tags.join(' ')} ${text}`.toLowerCase().replace(/[_-]/g, ' ');
+  if (/\b(?:mtg|c?edh|rcq|magic\s*:?\s*the gathering|regional championship qualifier)\b/.test(all)) return true;
+  if (tags.some(tag => /^(?:commander|c?edh|rcq)$/i.test(tag.trim()))) return true;
+  // Drafts, prereleases, and tournaments also exist outside Magic.
+  return /\bmagic\b/.test(all) && /\b(?:draft|pre\s?release|commander|tournament)\b/.test(all);
+}
 export function matchesFilter(tags: string[], text: string, filter: string): boolean {
   const all = `${tags.join(' ')} ${text}`.toLowerCase();
   if (filter === 'all' || filter === 'saved') return true;
   if (filter === 'dancing') return /danc|goth|dark[ -]?wave|rave|\bdj\b|disco|club[ _-]?night/.test(all);
   if (filter === 'music') return /jazz|music|concert|live|punk|band/.test(all);
+  if (filter === 'mtg') return isMtg(tags, text);
   if (filter === 'food') return /food|restaurant|taco|bbq|dining|breakfast/.test(all);
   return false;
 }
