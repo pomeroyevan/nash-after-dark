@@ -203,7 +203,8 @@ for (const [device, viewport] of Object.entries({ desktop: { width: 1440, height
     await expect(page.locator('.event-card')).toContainText('Synthetic open tables');
     await search.fill('concert');
     await expect(page.locator('.event-card')).toHaveCount(0);
-    await expect(page.getByRole('button', { name: 'MTG', exact: true })).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.getByRole('button', { name: 'MTG', exact: true })).toHaveCount(0);
+    await expect(page.getByRole('button', { name: 'Remove MTG filter', exact: true })).toBeVisible();
     await page.getByRole('button', { name: 'Show all upcoming', exact: true }).click();
     await expect(search).toHaveValue('');
     await expect(page.locator('.event-card')).toHaveCount(4);

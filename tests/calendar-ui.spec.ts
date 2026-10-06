@@ -23,6 +23,42 @@ async function fixture(page: Page) {
 }
 
 for (const [device, viewport] of Object.entries({ phone: { width: 390, height: 844 }, desktop: { width: 1440, height: 1000 } })) {
+  test(`filter choices and counts follow the day and recover from empty selections on ${device}`, async ({ page }) => {
+    await page.setViewportSize(viewport); await fixture(page); await page.goto('./');
+    await page.getByLabel('Jump to date').fill(day);
+    const categories = page.getByLabel('Event categories', { exact: true });
+    await expect(categories.getByRole('button', { name: 'Everything', exact: true })).toContainText('6');
+    await expect(categories.getByRole('button', { name: 'Live music', exact: true })).toContainText('6');
+    await expect(categories.getByRole('button', { name: 'Saved', exact: true })).toContainText('1');
+    await expect(categories.getByRole('button', { name: 'MTG', exact: true })).toHaveCount(0);
+    await expect(categories.getByRole('button', { name: 'Food & drink', exact: true })).toHaveCount(0);
+    await page.locator('.advanced-filters summary').click();
+    await expect(page.getByLabel('Budget', { exact: true }).locator('option[value="free"]')).toHaveText('Free admission (1)');
+    await expect(page.getByLabel('Genre', { exact: true }).locator('option[value="Jazz"]')).toHaveText('Jazz (1)');
+    await expect(page.getByLabel('Genre', { exact: true }).locator('option[value="Rock"]')).toHaveText('Rock (5)');
+    await page.getByLabel('Budget', { exact: true }).selectOption('15');
+    await expect(categories.getByRole('button', { name: 'Everything', exact: true })).toContainText('2');
+    await expect(page.getByLabel('Genre', { exact: true }).locator('option[value="Rock"]')).toHaveText('Rock (1)');
+    await page.getByLabel('Genre', { exact: true }).selectOption('Jazz');
+    await expect(page.getByLabel('Venue', { exact: true }).locator('option[value="other-hall"]')).toHaveCount(0);
+    await expect(page.getByLabel('Venue', { exact: true }).locator('option[value="favorite-hall"]')).toHaveText('Favorite Hall (1)');
+    await expect(page.getByLabel('Starts', { exact: true }).locator('option[value="late"]')).toHaveCount(0);
+    await page.getByRole('button', { name: 'Previous day', exact: true }).click();
+    await expect(page.locator('.timeline-empty')).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Remove genre filter', exact: true })).toBeVisible();
+    await page.getByRole('button', { name: 'Remove genre filter', exact: true }).click();
+    await expect(page.locator('.fc-timegrid-event')).toHaveCount(1);
+    await expect(categories.getByRole('button', { name: 'Everything', exact: true })).toContainText('1');
+    await expect(page.getByLabel('Genre', { exact: true }).locator('option[value="Jazz"]')).toHaveCount(0);
+    await page.getByLabel('Jump to date').fill('2099-11-04');
+    await expect(page.getByLabel('Event categories', { exact: true })).toHaveCount(0);
+    await expect(page.locator('.advanced-filters')).toHaveCount(0);
+    await page.getByRole('button', { name: 'Reset extra filters' }).click();
+    await page.getByLabel('Jump to date').fill(day);
+    await expect(categories.getByRole('button', { name: 'Everything', exact: true })).toContainText('6');
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.screenshot({ path: `test-results/facets-${device}.png` });
+  });
   test(`hourly overlap, date jumps, ranking and budget/genre filters on ${device}`, async ({ page }) => {
     await page.setViewportSize(viewport); await fixture(page);
     const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));

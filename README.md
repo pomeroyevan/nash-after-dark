@@ -30,6 +30,8 @@ Calendar opens to a vertical **Day** view in Nashville time. Jump with the date 
 
 Use **More filters** for budget, genre, venue, area, starting time and listing status. Budgets compare the highest known listed admission; fees or required extras may apply. Unknown prices never count as free. **List order** can prioritize time, recommendation score or the lowest listed price ceiling.
 
+Filter options show matching event counts for the selected day (or the All upcoming range) and current search. Each count includes the other active filters. Zero-match choices disappear. An active selection that no longer matches stays removable, so changing dates cannot trap you in an empty result.
+
 Recommendations combine your private saved events, followed/favorite venues, ratings and enabled search interests with price and source freshness. Switch between **Fit + value**, **Personal fit** and **Value**, and open an event's score to see its reasons. No public popularity or crowd rating is implied. Scores are computed in your browser; this adds no private sync schema.
 
 Reviewed price checks live in `public/data/pricing.json`, with their exact source and check time, fee uncertainty, required spending and optional suggestions kept separate. Newer conflicting official prices take precedence. The Cobra collector preserves door prices, advance/door ranges, free nights and limited promotions.
